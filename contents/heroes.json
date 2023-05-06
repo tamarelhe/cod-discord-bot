@@ -1,0 +1,2201 @@
+{
+    "Ordo": {
+        "images": {
+            "main": "ordo.png",
+            "talent_trees": [
+                "ordo-engineering-talent-tree-1.jpg",
+                "ordo-tank-talent-tree.jpg"
+            ]
+        },
+        "rarity": "Elite",
+        "role": "Tank",
+        "buffs": "Engineering",
+        "units": "Overall",
+        "tier": "C",
+        "pairings": "",
+        "skills": [
+            {
+                "name": "Unbreakable Barrier",
+                "type": "Rage Skill",
+                "description": "Ordo\u2019s Legion gains a shield for 5s that absorbs a massive amount of damage (Shield Factor 400).",
+                "upgrade_desc": "Shield Factor 150 / 200 / 250 / 325 / 400"
+            },
+            {
+                "name": "In Full Swing",
+                "type": "Passive Skill",
+                "description": "Increases Ordo\u2019s Legion\u2019s Engineering by 20% when building Barricades and Alliance Buildings, and by 20% when destroying Barricades or Alliance Buildings.",
+                "upgrade_desc": "Engineering bonus while building: 4% / 8% / 12% / 16% / 20%<br>Bonus to Engineering when destroying: 4% / 8% / 12% / 16% / 20%"
+            },
+            {
+                "name": "Clearsighted",
+                "type": "Passive Skill",
+                "description": "Increases the Gather Speed of Ordo\u2019s Legion by 8%, its Load Capacity by 8%, and its Mana Gather Speed by an additional 8%.",
+                "upgrade_desc": "Gather Speed Bonus: 2% / 4% / 6% / 8% / 10%<br>Mana Gather Speed Bonus: 2% / 4% / 6% / 8% / 10%<br>Legion Load Capacity Bonus: 2% / 4% / 6% / 8% / 10%"
+            },
+            {
+                "name": "Seasoned",
+                "type": "Passive Skill",
+                "description": "Reduces all damage taken by Ordo\u2019s Legion by 3%. This damage reduction is doubled while the Legion is building or destroying Infrastructure or gathering resources.",
+                "upgrade_desc": "Damage Taken Reduction: 3% / 4% / 6% / 8% / 10%"
+            }
+        ],
+        "artifacts": [
+            {
+                "id": "ancient_tree_roots",
+                "name": "Ancient Tree Roots",
+                "rarity": "Legendary",
+                "role": "Gathering/Health"
+            },
+            {
+                "id": "lucias_horn",
+                "name": "Lucia's Horn",
+                "rarity": "Legendary",
+                "role": "Gathering"
+            },
+            {
+                "id": "greenfinger_sickle",
+                "name": "Greenfinger Sickle",
+                "rarity": "Epic",
+                "role": "Gathering"
+            },
+            {
+                "id": "enchanted_coins",
+                "name": "Enchanted Coins",
+                "rarity": "Elite",
+                "role": "Gathering/Attack"
+            },
+            {
+                "id": "storm_leaf",
+                "name": "Storm Leaf",
+                "rarity": "Elite",
+                "role": "Gathering/Defense"
+            },
+            {
+                "id": "joyous_fireworkds",
+                "name": "Joyous Fireworkds",
+                "rarity": "Elite",
+                "role": "Engineering/Health"
+            },
+            {
+                "id": "potion_of_vigor",
+                "name": "Potion of Vigor",
+                "rarity": "Epic",
+                "role": "Engineering/Infantry"
+            }
+        ]
+    },
+    "Kella": {
+        "images": {
+            "main": "kella.png",
+            "talent_trees": [
+                "kella-gathering-talent-tree-1.jpg"
+            ]
+        },
+        "rarity": "Elite",
+        "role": "Support",
+        "buffs": "Gathering",
+        "units": "Overall",
+        "tier": "C",
+        "pairings": "",
+        "skills": [
+            {
+                "name": "Roadblock",
+                "type": "Rage Skill",
+                "description": "Slows and inflicts Gloom on an enemy Legion, reducing their ATK by 20% and their March Speed by 30% for 4s.",
+                "upgrade_desc": "ATK Reduction: 5% / 8% / 11% / 15% / 20%<br>March Speed Reduction: 6% / 12% / 18% / 24% / 30%"
+            },
+            {
+                "name": "Midas Touch",
+                "type": "Passive Skill",
+                "description": "Increases the Gather Speed of Kella\u2019s Legion by 15% and its Gold Gather Speed by an additional 10%.",
+                "upgrade_desc": "Gather Speed bonus: 3% / 6% / 9% / 12% / 15%<br>Gold Gather Speed bonus: 2% / 4% / 6% / 8% / 10%"
+            },
+            {
+                "name": "Caravaneer",
+                "type": "Passive Skill",
+                "description": "Increases the Load Capacity of Kella\u2019s Legion by 30%.",
+                "upgrade_desc": "Legion Load Capacity Bonus: 5% / 10% / 15% / 20% / 30%"
+            },
+            {
+                "name": "Tender Care",
+                "type": "Passive Skill",
+                "description": "Reduces all damage dealt by Kella\u2019s Legion by 10% and reduces the number of severely wounded units for both her Legion and the enemy\u2019s Legion by 3%, leaving those units lightly wounded instead.",
+                "upgrade_desc": "Severely wounded reduction: 3% / 6% / 9% / 12% / 15%"
+            }
+        ],
+        "artifacts": [
+            {
+                "id": "ancient_tree_roots",
+                "name": "Ancient Tree Roots",
+                "rarity": "Legendary",
+                "role": "Gathering/Health"
+            },
+            {
+                "id": "lucias_horn",
+                "name": "Lucia's Horn",
+                "rarity": "Legendary",
+                "role": "Gathering"
+            },
+            {
+                "id": "greenfinger_sickle",
+                "name": "Greenfinger Sickle",
+                "rarity": "Epic",
+                "role": "Gathering"
+            },
+            {
+                "id": "enchanted_coins",
+                "name": "Enchanted Coins",
+                "rarity": "Elite",
+                "role": "Gathering/Attack"
+            },
+            {
+                "id": "storm_leaf",
+                "name": "Storm Leaf",
+                "rarity": "Elite",
+                "role": "Gathering/Defense"
+            }
+        ]
+    },
+    "Chakcha": {
+        "images": {
+            "main": "chakcha.png",
+            "talent_trees": [
+                "chakcha-gathering-talent-tree-1.jpg"
+            ]
+        },
+        "rarity": "Elite",
+        "role": "Skills",
+        "buffs": "Gathering",
+        "units": "Overall",
+        "tier": "C",
+        "pairings": "",
+        "skills": [
+            {
+                "name": "Hunter\u2019s Instinct",
+                "type": "Rage Skill",
+                "description": "Grants Riposte and Passion, increasing counterattack damage by 15% and increasing Rage Accumulation Speed by 15% for 5s.",
+                "upgrade_desc": "Counterattack damage bonus: 5% / 7% / 9% / 12% / 15%<br>Rage Accumulation Speed Bonus: 5% / 7% / 9% / 12% / 15%"
+            },
+            {
+                "name": "Mountain Mover",
+                "type": "Passive Skill",
+                "description": "Increases the Gather Speed of Chakcha\u2019s Legion by 10%, its Load Capacity by 10%, and its Ore Gather Speed by an additional 10%.",
+                "upgrade_desc": "Gather Speed bonus: 2% / 4% / 6% / 8% / 10%<br>Ore Gather Speed bonus: 2% / 4% / 6% / 8% / 10%<br>Legion Load Capacity bonus:  2% / 4% / 6% / 8% / 10%"
+            },
+            {
+                "name": "Hands-on Experience",
+                "type": "Passive Skill",
+                "description": "Increases the DEF of Chakcha\u2019s Legion by 7%.",
+                "upgrade_desc": "DEF bonus: 2% / 3% / 4% / 5% / 7%"
+            },
+            {
+                "name": "Comfort Food",
+                "type": "Passive Skill",
+                "description": "Increases the HP of Chakcha\u2019s Legion by 4% and automatically heals the Legion\u2019s lightly wounded units after defeating an enemy Legion (Healing Factor 600).",
+                "upgrade_desc": "HP bonus: 2% / 3% / 4% / 5% / 7%<br>Healing Factor: 200 / 450 / 600 / 800 / 1000"
+            }
+        ],
+        "artifacts": [
+            {
+                "id": "ancient_tree_roots",
+                "name": "Ancient Tree Roots",
+                "rarity": "Legendary",
+                "role": "Gathering/Health"
+            },
+            {
+                "id": "lucias_horn",
+                "name": "Lucia's Horn",
+                "rarity": "Legendary",
+                "role": "Gathering"
+            },
+            {
+                "id": "greenfinger_sickle",
+                "name": "Greenfinger Sickle",
+                "rarity": "Epic",
+                "role": "Gathering"
+            },
+            {
+                "id": "enchanted_coins",
+                "name": "Enchanted Coins",
+                "rarity": "Elite",
+                "role": "Gathering/Attack"
+            },
+            {
+                "id": "storm_leaf",
+                "name": "Storm Leaf",
+                "rarity": "Elite",
+                "role": "Gathering/Defense"
+            }
+        ]
+    },
+    "Eliana": {
+        "images": {
+            "main": "eliana.png",
+            "talent_trees": [
+                "eliana-peacekeeping-talent-tree-1.jpg",
+                "eliana-overall-talent-tree-1.jpg",
+                "eliana-support-talent-tree-1.jpg"
+            ]
+        },
+        "rarity": "Epic",
+        "role": "Support",
+        "buffs": "Peacekeeping",
+        "units": "Overall",
+        "tier": "A",
+        "pairings": "Madeline",
+        "skills": [
+            {
+                "name": "Benediction of Aurora",
+                "type": "Rage Skill",
+                "description": "Grants Eliana\u2019s Legion a Divine Shield that absorbs a large amount of damage (Shield Factor 350) for 5s, while dealing Skill damage to the target Legion (Damage Factor 140, scales with ATK).",
+                "upgrade_desc": "Shield Factor: 200 / 270 / 350 / 420 / 500<br>Physical Skill Damage Factor: 100 / 120 / 140 / 170 / 200<br>Magic Skill Damage Factor: 100 / 120 / 140 / 170 / 200"
+            },
+            {
+                "name": "Purifying Touch",
+                "type": "Passive Skill",
+                "description": "Eliana\u2019s Legion deals 7% more damage to Darklings and Dark Creatures.",
+                "upgrade_desc": "Damage dealt during Peacekeeping bonus: 7% / 11% / 16% / 16% / 20% / 25%"
+            },
+            {
+                "name": "Leosa\u2019s Brilliance",
+                "type": "Passive Skill",
+                "description": "Eliana\u2019s Legion takes 10% less normal attack damage.",
+                "upgrade_desc": "Normal attack damage reduction: 10% / 15% / 20% / 25% / 30%"
+            },
+            {
+                "name": "Holy Heart",
+                "type": "Passive Skill",
+                "description": "When casting Rage Skills, Eliana\u2019s Legion gains Shelter, increasing their DEF by for 5s.",
+                "upgrade_desc": "DEF Bonus: 10% / 15% / 20% / 25% / 30%"
+            },
+            {
+                "name": "Divine Grace",
+                "type": "Additional Skill (Passive)",
+                "description": "Grants a Divine Shield to Eliana\u2019s Legion, giving them a 70% chance to receive healing when attacked (Healing Factor 400). This effect can be triggered once every 3s.",
+                "upgrade_desc": ""
+            }
+        ],
+        "artifacts": [
+            {
+                "id": "kurratas_wrath",
+                "name": "Kurrata's Wrath",
+                "rarity": "Legendary",
+                "role": "Peacekeeping"
+            },
+            {
+                "id": "amulet_of_glory",
+                "name": "Amulet of Glory",
+                "rarity": "Epic",
+                "role": "Peacekeeping/Cavalry"
+            },
+            {
+                "id": "blade_of_reproach",
+                "name": "Blade of Reproach",
+                "rarity": "Epic",
+                "role": "Peacekeeping/Cavalry"
+            },
+            {
+                "id": "giants_bone",
+                "name": "Giant's Bone",
+                "rarity": "Epic",
+                "role": "Peacekeeping"
+            },
+            {
+                "id": "codex_of_prophecy",
+                "name": "Codex of Prophecy",
+                "rarity": "Epic",
+                "role": "Peacekeeping/Infantry"
+            }
+        ]
+    },
+    "Alistair": {
+        "images": {
+            "main": "alistair.png",
+            "talent_trees": [
+                "alistair-cavalry-talent-tree.jpg"
+            ]
+        },
+        "rarity": "Epic",
+        "role": "Tank",
+        "buffs": "Rally",
+        "units": "Cavalry",
+        "tier": "B",
+        "pairings": "",
+        "skills": [
+            {
+                "name": "Spear of Judgement",
+                "type": "Rage Skill",
+                "description": "Deals Physical Skill damage to the target Legion and 2 Legions surrounding it (Damage Factor 300, scales with Physical ATK).",
+                "upgrade_desc": "Skill Damage Factor: 200 / 300 / 400 / 500 / 600"
+            },
+            {
+                "name": "Devotion",
+                "type": "Passive Skill",
+                "description": "Alistair\u2019s Legion gains 4% HP and 4% Physical ATK.",
+                "upgrade_desc": "HP bonus: 4% / 5% / 6% / 8% / 10%<br>Physical ATK bonus: 4% / 5% / 6% / 8% / 10%"
+            },
+            {
+                "name": "Hold the Line",
+                "type": "Passive Skill",
+                "description": "20% chance to increase DEF by 10% for 2s when attacking Cities and Strongholds. This effect can be triggered once every 5s.",
+                "upgrade_desc": "DEF Bonus: 10% / 15% / 20% / 25% / 30%"
+            },
+            {
+                "name": "Light of Sorland",
+                "type": "Passive Skill",
+                "description": "When Alistair\u2019s Legion has over 50% units remaining, it has a 20% chance to gain Riposte and Passion when launching normal attacks, increasing Counterattack damage dealt by 10% and Rage Accumulation Speed by 10% for 3s. This effect can be triggered once every 5s.",
+                "upgrade_desc": "Counterattack damage bonus: 10% / 15% / 20% / 25% / 30%<br>Rage Accumulation Speed bonus: 10% / 15% / 20% / 25% / 30%"
+            },
+            {
+                "name": "Chivalric Oath",
+                "type": "Additional Skill",
+                "description": "Cavalry units led by Alistair deal 10% more normal attack damage, and take 10% less damage.",
+                "upgrade_desc": ""
+            }
+        ],
+        "artifacts": [
+            {
+                "id": "kingslayer",
+                "name": "Kingslayer",
+                "rarity": "Legendary",
+                "role": "Cavalry/PVP/Assault"
+            },
+            {
+                "id": "bloodblade_banner",
+                "name": "Bloodblade Banner",
+                "rarity": "Legendary",
+                "role": "Rally/Assault"
+            },
+            {
+                "id": "sorlands_blade",
+                "name": "Sorland's Blade",
+                "rarity": "Legendary",
+                "role": "Cavalry/PVP/Assault"
+            },
+            {
+                "id": "storm_arrows",
+                "name": "Storm Arrows",
+                "rarity": "Legendary",
+                "role": "Mobility/Cavalry"
+            },
+            {
+                "id": "amulet_of_glory",
+                "name": "Amulet of Glory",
+                "rarity": "Epic",
+                "role": "Cavalry/Peacekeeping"
+            },
+            {
+                "id": "blade_of_reproach",
+                "name": "Blade of Reproach",
+                "rarity": "Epic",
+                "role": "Cavalry/Peacekeeping"
+            },
+            {
+                "id": "centaur_bow",
+                "name": "Centaur Bow",
+                "rarity": "Epic",
+                "role": "Cavalry/PVP/Assault"
+            },
+            {
+                "id": "cloak_of_stealth",
+                "name": "Cloak of Stealth",
+                "rarity": "Epic",
+                "role": "Mobility/Cavalry"
+            },
+            {
+                "id": "codex_of_prophecy",
+                "name": "Codex of Prophecy",
+                "rarity": "Epic",
+                "role": "Peacekeeping/Infantry"
+            },
+            {
+                "id": "bone_cleaver",
+                "name": "Bone Cleaver",
+                "rarity": "Elite",
+                "role": "Cavalry/PVP/Assault"
+            },
+            {
+                "id": "crown_of_the_berserker",
+                "name": "Crown of the Berserker",
+                "rarity": "Elite",
+                "role": "Cavalry/PVP"
+            }
+        ]
+    },
+    "Nika": {
+        "images": {
+            "main": "nika.png",
+            "talent_trees": [
+                "nika-peacekeeping-talent-tree-1.jpg",
+                "nika-infantry-talent-tree-1.jpg"
+            ]
+        },
+        "rarity": "Legendary",
+        "role": "Skills",
+        "buffs": "Peacekeeping",
+        "units": "Infantry",
+        "tier": "A",
+        "pairings": "Madeline/Eliana",
+        "skills": [
+            {
+                "name": "Shimmerstrike",
+                "type": "Rage Skill",
+                "description": "Deals Physical Skill damage to the target Legion (Damage Factor 600, scales with Physical ATK), and Bruises them, reducing their HP by 10% for 3s.",
+                "upgrade_desc": "Skill Damage Factor: 600 / 800 / 1000 / 1200 / 1500<br>HP reduction: 10% / 15% / 20% / 25% / 30%"
+            },
+            {
+                "name": "Assassin\u2019s Covenant",
+                "type": "Passive Skill",
+                "description": "Nika\u2019s Legion deals 10% more damage to Darklings and Dark Creatures.",
+                "upgrade_desc": "Damage dealt during Peacekeeping bonus: 10% / 15% / 20% / 25% / 30%"
+            },
+            {
+                "name": "Night Prowler",
+                "type": "Passive Skill",
+                "description": "All infantry units in Nika\u2019s Legiongain 10% Physical ATK and 4% March Speed.",
+                "upgrade_desc": "Infantry unit Physical ATK bonus: 10% / 12% / 14% / 16% / 20%<br>Infantry unit March Speed bonus: 4% / 5% / 6% / 8% / 10%"
+            },
+            {
+                "name": "Blade Maelstrom",
+                "type": "Passive Skill",
+                "description": "Increases Hero Skill damage dealt by Nika\u2019s Legion by 4%, and counterattack damage by 10%.",
+                "upgrade_desc": "Skill damage reduction: 4% / 5% / 6% / 8% / 10%<br>Counterattack damage bonus: 10% / 12% / 14% / 16% / 20%"
+            },
+            {
+                "name": "Total Slaughter",
+                "type": "Additional Skill: Passive",
+                "description": "When Nika\u2019s Legion launches a Normal Attack, it has a 50% chance to deal Physical Skill damage (Damage Factor 500, scales with Physical ATK) if the target has less than 50% units remaining. This effect can be triggered once every 2s.",
+                "upgrade_desc": ""
+            }
+        ],
+        "artifacts": [
+            {
+                "id": "dragonscale_armor",
+                "name": "Dragonscale Armor",
+                "rarity": "Legendary",
+                "role": "Infantry/Tank"
+            },
+            {
+                "id": "kurratas_wrath",
+                "name": "Kurrata's Wrath",
+                "rarity": "Legendary",
+                "role": "Peacekeeping"
+            },
+            {
+                "id": "springs_of_silence",
+                "name": "Springs of Silence",
+                "rarity": "Legendary",
+                "role": "Infantry/PVP/Assault"
+            },
+            {
+                "id": "greymars_warhammer",
+                "name": "Greymar's Warhammer",
+                "rarity": "Legendary",
+                "role": "Infantry/Control"
+            },
+            {
+                "id": "giants_bone",
+                "name": "Giant's Bone",
+                "rarity": "Epic",
+                "role": "Peacekeeping"
+            },
+            {
+                "id": "amulet_of_glory",
+                "name": "Amulet of Glory",
+                "rarity": "Epic",
+                "role": "Peacekeeping/Cavalry"
+            },
+            {
+                "id": "codex_of_prophecy",
+                "name": "Codex of Prophecy",
+                "rarity": "Epic",
+                "role": "Peacekeeping/Infantry"
+            },
+            {
+                "id": "butchers_balde",
+                "name": "Butcher's Balde",
+                "rarity": "Epic",
+                "role": "Infantry/PVP/Assault"
+            },
+            {
+                "id": "blade_of_reproach",
+                "name": "Blade of Reproach",
+                "rarity": "Epic",
+                "role": "Peacekeeping/Cavalry"
+            },
+            {
+                "id": "harlequin_mask",
+                "name": "Harlequin Mask",
+                "rarity": "Elite",
+                "role": "Peacekeeping/Infantry"
+            }
+        ]
+    },
+    "Liliya": {
+        "images": {
+            "main": "liliya.png",
+            "talent_trees": [
+                "liliya-skill-talent-tree-1.jpg",
+                "liliya-peacekeeping-talent-tree-1-1.jpg",
+                "liliya-magic-talent-tree.jpg"
+            ]
+        },
+        "rarity": "Legendary",
+        "role": "Skills",
+        "buffs": "Peacekeeping",
+        "units": "Magic",
+        "tier": "S",
+        "pairings": "Waldyr/Atheus and Alwyn",
+        "skills": [
+            {
+                "name": "Flames of Vegeance",
+                "type": "Rage Skill",
+                "description": "Deals Magic Skill damage to the target Legion and another Legion surrounding it (Damage Factor 600, scales with Magic ATK). Has a 10% chance to Scorch them, dealing Magic Skill damage (Damage Factor 200, scales with Magic ATK) every second for 5s.",
+                "upgrade_desc": "Skill Damage Factor: 600 / 700 / 800 / 1000 / 1200<br>Probability: 10% / 20% / 30% / 40% / 50%"
+            },
+            {
+                "name": "Dazzling Inferno",
+                "type": "Passive Skill",
+                "description": "Liliya\u2019s Legion deals 10% more damgae to Darklings and Dark Creatures.",
+                "upgrade_desc": "Damage dealt during Peacekeeping bonus: 10% / 15% / 20% / 25% / 30%"
+            },
+            {
+                "name": "Deep Burn",
+                "type": "Passive Skill",
+                "description": "All Magic units in Liliya\u2019s Legion gain 10% Magic ATK and 4% HP.",
+                "upgrade_desc": "Magic unit Magic ATK bonus: 10% / 12% / 14% / 16% / 20%<br>Magic unit HP bonus: 4% / 5% / 6% / 8% / 10%"
+            },
+            {
+                "name": "Witchy Wiles",
+                "type": "Passive Skill",
+                "description": "When Liliya\u2019s Legion launches a normal attack, they have a 10% chance to Scorch up to 2 surrounding enemy Legions ifthe target Legion is Scorched.",
+                "upgrade_desc": "Probability: 10% / 15% / 20% / 25% / 30%"
+            },
+            {
+                "name": "Burning Blood",
+                "type": "Skill Enhanced: Flames of Vengeance",
+                "description": "Before Awakening: Deals Magic Skill damage to the target Legion and another Legion surrounding it (Damage Factor 1200, scales with Magic ATK). Has a 50% chance to Scorch them, dealing Magic Skill damage (Damage Factor 200, scales with Magic ATK) every second for 5s.",
+                "upgrade_desc": ""
+            }
+        ],
+        "artifacts": [
+            {
+                "id": "breath_of_jargentis",
+                "name": "Breath of Jargentis",
+                "rarity": "Legendary",
+                "role": "Magic/Support"
+            },
+            {
+                "id": "fang_of_ashkari",
+                "name": "Fang of Ashkari",
+                "rarity": "Legendary",
+                "role": "Magic/PVP/Tank"
+            },
+            {
+                "id": "kurratas_wrath",
+                "name": "Kurrata's Wrath",
+                "rarity": "Legendary",
+                "role": "Peacekeeping"
+            },
+            {
+                "id": "phoenix_eye",
+                "name": "Phoenix Eye",
+                "rarity": "Legendary",
+                "role": "Magic/Assault"
+            },
+            {
+                "id": "staff_of_the_prophet",
+                "name": "Staff of the Prophet",
+                "rarity": "Legendary",
+                "role": "Mobility/Magic"
+            },
+            {
+                "id": "tear_of_arbon",
+                "name": "Tear of Arbon",
+                "rarity": "Legendary",
+                "role": "Magic/PVP/Support"
+            },
+            {
+                "id": "amulet_of_glory",
+                "name": "Amulet of Glory",
+                "rarity": "Epic",
+                "role": "Peacekeeping/Cavalry"
+            },
+            {
+                "id": "blade_of_reproach",
+                "name": "Blade of Reproach",
+                "rarity": "Epic",
+                "role": "Peacekeeping/Cavalry"
+            },
+            {
+                "id": "codex_of_prophecy",
+                "name": "Codex of Prophecy",
+                "rarity": "Epic",
+                "role": "Peacekeeping/Infantry"
+            },
+            {
+                "id": "freezing_ring",
+                "name": "Freezing Ring",
+                "rarity": "Epic",
+                "role": "Magic/Tank"
+            },
+            {
+                "id": "magic_bomb",
+                "name": "Magic Bomb",
+                "rarity": "Epic",
+                "role": "Magic/PVP/Assault"
+            },
+            {
+                "id": "spirit_bangle",
+                "name": "Spirit Bangle",
+                "rarity": "Epic",
+                "role": "Magic/PVP/Support"
+            },
+            {
+                "id": "staff_of_spring",
+                "name": "Staff of Spring",
+                "rarity": "Epic",
+                "role": "Magic/PVP/Support"
+            },
+            {
+                "id": "ever-ice",
+                "name": "Ever-Ice",
+                "rarity": "Elite",
+                "role": "Magic/PVP/Assault"
+            }
+        ]
+    },
+    "Garwood": {
+        "images": {
+            "main": "garwood.png",
+            "talent_trees": [
+                "garwood-garrison-talent-tree-1.jpg",
+                "garwood-tank-talent-tree.jpg"
+            ]
+        },
+        "rarity": "Legendary",
+        "role": "Tank",
+        "buffs": "Garrison",
+        "units": "Infantry",
+        "tier": "A",
+        "pairings": "Madeline/Eliana",
+        "skills": [
+            {
+                "name": "Revitalizing Rune",
+                "type": "Rage Skill",
+                "description": "Heals lightly wounded units in Garwood\u2019s Legion (Healing Factor 500) and grants them Resistance, reducing all damage taken by 10% for 4s.",
+                "upgrade_desc": "Healing Factor: 500 / 650 / 1000 / 1200<br>Damage taken reduction: 10% / 12% / 14% / 16% / 20%"
+            },
+            {
+                "name": "Tempered Bark",
+                "type": "Passive Skill",
+                "description": "Increases the HP of all units in a Garrisoned Army by 2% while garrisoned in a City or Stronghold.",
+                "upgrade_desc": "HP bonus: 2% / 4% / 6% / 8% / 10%"
+            },
+            {
+                "name": "Call of the Ancient Tree",
+                "type": "Passive Skill",
+                "description": "Increases the DEF of all Infantry units in this Legion by 10%, and all healing they grant or receive by 10%.",
+                "upgrade_desc": "DEF Bonus: 10% / 12% / 14% / 16% / 20%<br>Healing received bonus: 10% / 15% / 20% / 25%  / 30%"
+            },
+            {
+                "name": "Thistles and Thorns",
+                "type": "Passive Skill",
+                "description": "Has a 75% chance to increase Physical damage dealt by 10% for 5s when healed.",
+                "upgrade_desc": "Physical Damage Dealt bonus: 10% / 15% / 20% / 25% / 30%"
+            },
+            {
+                "name": "Lifestone",
+                "type": "Skill Enhanced: Revitalizing Rune",
+                "description": "Before Awakening: Heals lightly wounded units in Garwood\u2019s Legion (Healing Factor 1200) and grants them Resistance, reducing all damage taken by 20% for 4s.",
+                "upgrade_desc": ""
+            }
+        ],
+        "artifacts": [
+            {
+                "id": "springs_of_silence",
+                "name": "Springs of Silence",
+                "rarity": "Legendary",
+                "role": "Infantry/PvP/Assault"
+            },
+            {
+                "id": "dragonscale_armor",
+                "name": "Dragonscale Armor",
+                "rarity": "Legendary",
+                "role": "Infantry/Tank"
+            },
+            {
+                "id": "greymars_warhammer",
+                "name": "Greymar's Warhammer",
+                "rarity": "Legendary",
+                "role": "Infantry/Control"
+            },
+            {
+                "id": "breath_of_the_forest",
+                "name": "Breath of the Forest",
+                "rarity": "Legendary",
+                "role": "Garrison/Support"
+            },
+            {
+                "id": "butchers_balde",
+                "name": "Butcher's Balde",
+                "rarity": "Epic",
+                "role": "Infantry/Assault/PvP"
+            },
+            {
+                "id": "harlequin_mask",
+                "name": "Harlequin Mask",
+                "rarity": "Elite",
+                "role": "Peacekeeping/Infantry"
+            }
+        ]
+    },
+    "Hosk": {
+        "images": {
+            "main": "hosk.png",
+            "talent_trees": []
+        },
+        "rarity": "Legendary",
+        "role": "Precision",
+        "buffs": "Rally",
+        "units": "Overall",
+        "tier": "S",
+        "pairings": "Nico/Madeline",
+        "skills": [
+            {
+                "name": "No Quarter",
+                "type": "Rage Skill",
+                "description": "Hosk\u2019s Legion gains Keen, Vigor, and Rampage, increasing their ATK by 10%, their HP by 10%, and their damage dealt by 3% for 5s.",
+                "upgrade_desc": "ATK Bonus: 10% / 12% / 14% / 16% / 20%<br>HP Bonus: 10% / 15% / 20% / 25% / 30%<br>Damage dealt bonus: 3% / 4% / 6% / 8% / 10%"
+            },
+            {
+                "name": "A Dream of Peace",
+                "type": "Passive Skill",
+                "description": "When launching a Rally, Hosk\u2019s normal attacks have a 50% chance to reduce the target\u2019s Physical DEF by 4% for 3s.",
+                "upgrade_desc": "DEF reduction: 4% / 6% / 8% / 11% / 15%"
+            },
+            {
+                "name": "Battle-Scarred",
+                "type": "Passive Skill",
+                "description": "Increases a Legion\u2019s DEF by 10% when Hosk is Commander, and their Normal Attack damage by 15% when Hosk is Deputy.",
+                "upgrade_desc": "DEF Bonus: 10% / 13% / 16% / 20% / 25%<br>Normal attack damage bonus: 15% / 20% / 25% / 30% / 40%"
+            },
+            {
+                "name": "Plateau Tactics",
+                "type": "Passive Skill",
+                "description": "Increases maximum Legion Capacity by 2000.",
+                "upgrade_desc": "Maximum Legion Capacity Bonus: 2000 / 4000 / 6000 / 8000 / 10000"
+            },
+            {
+                "name": "Furious Charge",
+                "type": "Additional Skill: Passive",
+                "description": "After Hosk\u2019s Legion receives a buff effect, their normal attack Crit Rate is increased by 6% and their counterattack Crit Rate is increased by 6% (up to a maximum of 30%) for 6s.",
+                "upgrade_desc": ""
+            }
+        ],
+        "artifacts": []
+    },
+    "Emrys": {
+        "images": {
+            "main": "emrys.png",
+            "talent_trees": [
+                "emrys-mobility-talent-tree.jpg",
+                "emrys-cavalry-talent-tree-1.jpg"
+            ]
+        },
+        "rarity": "Legendary",
+        "role": "Mobility",
+        "buffs": "PvP",
+        "units": "Cavalry",
+        "tier": "S",
+        "pairings": "",
+        "skills": [
+            {
+                "name": "Shattering Blow",
+                "type": "Rage Skill",
+                "description": "Deals Physical Skill damage to the target Legion (Damage Factor 800, scales with Physical ATK).",
+                "upgrade_desc": "Skill damage factor: 600 / 800 / 1000 / 1300 / 1500"
+            },
+            {
+                "name": "Watcher\u2019s Blade",
+                "type": "Passive Skill",
+                "description": "When Emrys\u2019s Legion enters battle, they gain Passion, increasing their Rage Accumulation Speed by 20% for 5s. This effect can be triggered once every 30s.",
+                "upgrade_desc": "Rage Accumulation Speed bonus: 20% / 25% / 30% / 35% / 40%"
+            },
+            {
+                "name": "Penumbra",
+                "type": "Passive Skill",
+                "description": "All Cavalry units in Emrys\u2019s Legion gain 10% Physical ATK and 3% March Speed.",
+                "upgrade_desc": "Cavalry unit Physical ATK bonus: 10% / 15% / 20% / 25% / 30%<br>Cavalry unit March Speed bonus: 3% / 4.5% / 6% / 8% / 10%"
+            },
+            {
+                "name": "Shadow Raid",
+                "type": "Passive Skill",
+                "description": "All damage dealt by Emrys\u2019s Legion is increased by 4%. Emrys also deals 5% more Skill damage when attacking targets that have been Surrounded.",
+                "upgrade_desc": "Damage dealt bonus: 4% / 5% / 6% / 8% / 10%<br>Skill damage dealt bonus: 5% / 7% / 9% / 12% / 15%"
+            },
+            {
+                "name": "Springblade",
+                "type": "Additional Skill: Passive",
+                "description": "When attacked, there is a 20% chance to gain Passion that increases the Rage Accumulation Speed by 20% for 5s. Ifthe commanded Legion already has Passion, it will directly end Passion and gain 100 Rage. This effect can be triggered once every 2s.",
+                "upgrade_desc": ""
+            }
+        ],
+        "artifacts": [
+            {
+                "id": "sorlands_blade",
+                "name": "Sorland's Blade",
+                "rarity": "Legendary",
+                "role": "Cavalry/PVP/Assault"
+            },
+            {
+                "id": "kingslayer",
+                "name": "Kingslayer",
+                "rarity": "Legendary",
+                "role": "Cavalry/PVP/Assault"
+            },
+            {
+                "id": "storm_arrows",
+                "name": "Storm Arrows",
+                "rarity": "Legendary",
+                "role": "Cavalry/Mobility"
+            },
+            {
+                "id": "amulet_of_glory",
+                "name": "Amulet of Glory",
+                "rarity": "Epic",
+                "role": "Cavalry/Peacekeeping"
+            },
+            {
+                "id": "centaur_bow",
+                "name": "Centaur Bow",
+                "rarity": "Epic",
+                "role": "Cavalry/PVP"
+            },
+            {
+                "id": "codex_of_prophecy",
+                "name": "Codex of Prophecy",
+                "rarity": "Epic",
+                "role": "Peacekeeping/Infantry"
+            },
+            {
+                "id": "blade_of_reproach",
+                "name": "Blade of Reproach",
+                "rarity": "Epic",
+                "role": "Cavalry/Peacekeeping"
+            },
+            {
+                "id": "cloak_of_stealth",
+                "name": "Cloak of Stealth",
+                "rarity": "Epic",
+                "role": "Cavalry/Mobility"
+            },
+            {
+                "id": "crown_of_the_berserker",
+                "name": "Crown of the Berserker",
+                "rarity": "Elite",
+                "role": "Cavalry/PVP"
+            },
+            {
+                "id": "bone_cleaver",
+                "name": "Bone Cleaver",
+                "rarity": "Elite",
+                "role": "Cavalry/PVP/Assault"
+            }
+        ]
+    },
+    "Madeline": {
+        "images": {
+            "main": "madeline.png",
+            "talent_trees": [
+                "madeline-tank-talent-tree-1.jpg",
+                "madeline-infantry-talent-tree-1.jpg"
+            ]
+        },
+        "rarity": "Legendary",
+        "role": "Tank",
+        "buffs": "PvP",
+        "units": "Overall",
+        "tier": "S",
+        "pairings": "Nika/Hosk/Garwood/Eliana",
+        "skills": [
+            {
+                "name": "Blessed Blade",
+                "type": "Rage Skill",
+                "description": "Grants Physical Keen, increasing Physical ATK by 5% for 4s. Also grants a shield which absorbs damage (Shield Factor 600) for 4s.",
+                "upgrade_desc": "Physical ATK bonus: 5% / 8% / 11% / 15% / 20%<br>Shield Factor: 600 / 700 / 800 / 1000 / 1200"
+            },
+            {
+                "name": "Glorious Bloodline",
+                "type": "Passive Skill",
+                "description": "Increases Madeline\u2019s Legion Capacity by 2000, and increases Physical damage dealt by her Legion in the field by 3%.",
+                "upgrade_desc": "Maximum Legion Capacity bonus 2000 / 4000 / 6000 / 8000 / 10000<br>Physical Damage Dealt bonus: 3% / 4% / 6% / 8% / 10%"
+            },
+            {
+                "name": "Steel Sentinel",
+                "type": "Passive Skill",
+                "description": "Madeline\u2019s Legion deals 5% more counterattack damage, and all Infantry units in her Legion gain 5% HP.",
+                "upgrade_desc": "Infantry unit HP bonus: 5% / 7% / 9% / 12% / 15%<br>Counterattack damage bonus: 5% / 7% / 9% / 12% / 15%"
+            },
+            {
+                "name": "Piercing Gaze",
+                "type": "Passive Skill",
+                "description": "When Blessed Blade\u2019s shield is broken, Madeline deals Physical Skill damage to up to 3 surrounding Legions (Damage Factor 100, scales with Physical ATK).",
+                "upgrade_desc": "Skill Damage Factor: 100 / 150 / 200 / 250 / 300"
+            },
+            {
+                "name": "The Sword of Sorland",
+                "type": "Skill Enhanced: Piercing Gaze",
+                "description": "Before Awakening: When Blessed Blade\u2019s shield is broken, Madeline deals Physical Skill damage to up to 3 surrounding Legions (Damage Factor 300, scales with Physical ATK).",
+                "upgrade_desc": ""
+            }
+        ],
+        "artifacts": [
+            {
+                "id": "dragonscale_armor",
+                "name": "Dragonscale Armor",
+                "rarity": "Legendary",
+                "role": "Infantry/Tank"
+            },
+            {
+                "id": "greymars_warhammer",
+                "name": "Greymar's Warhammer",
+                "rarity": "Legendary",
+                "role": "Infantry/Control"
+            },
+            {
+                "id": "springs_of_silence",
+                "name": "Springs of Silence",
+                "rarity": "Legendary",
+                "role": "Infantry/PvP/Assault"
+            },
+            {
+                "id": "butchers_balde",
+                "name": "Butcher's Balde",
+                "rarity": "Epic",
+                "role": "Infantry/PvP/Assault"
+            },
+            {
+                "id": "harlequin_mask",
+                "name": "Harlequin Mask",
+                "rarity": "Elite",
+                "role": "Infantry/Peacekeeping"
+            }
+        ]
+    },
+    "Alwyn": {
+        "images": {
+            "main": "alwyn.png",
+            "talent_trees": [
+                "alwyn-magic-talent-tree-1.jpg",
+                "alwyn-control-talent-tree-1.jpg"
+            ]
+        },
+        "rarity": "Epic",
+        "role": "Control",
+        "buffs": "PvP",
+        "units": "Magic",
+        "tier": "B",
+        "pairings": "Waldyr/Atheus",
+        "skills": [
+            {
+                "name": "Venomous Overgrowth",
+                "type": "Rage Skill",
+                "description": "Deals Magic Skill damage to the target Legion (Damage Factor 500, scales with Magic ATK), and Ensnares them, dealing Magic Skill damage (Damage Factor 100, scales with Magic ATK) every second and reducing their March Speed by for 3s.",
+                "upgrade_desc": "Skill Damage Factor: 300 / 360 / 420 / 500 / 600<br>Continuous Damage Factor:"
+            },
+            {
+                "name": "Wealdshield",
+                "type": "Passive Skill",
+                "description": "All Magic units in Alwyn\u2019s Legion gain 4% Magic ATK and 4% HP.",
+                "upgrade_desc": "Magic unit Magic ATK bonus: 4% / 5% / 6% / 8% / 10%<br>Magic unit HP bonus: 4% / 5% / 6% / 8% / 10%"
+            },
+            {
+                "name": "Oath of the Wellspring",
+                "type": "Passive Skill",
+                "description": "Alwyn\u2019s Legion takes 5% less normal attack damage in the field.",
+                "upgrade_desc": "Normal attack damage taken reduction: 5% / 7% / 9% / 12% / 15%"
+            },
+            {
+                "name": "Friend of the Hemlock",
+                "type": "Passive Skill",
+                "description": "When attacked, Alwyn has a 3% chance to Ensnare the target Legion, dealing Magic Skill damage every second (Damage Factor 100, scales with Magic ATK) and reducing their March Speed by 10% for 3s.",
+                "upgrade_desc": "Probability: 3% / 6% / 9% / 12% / 15%"
+            },
+            {
+                "name": "Miasmic Mist",
+                "type": "Skill Enhanced: Venomous Overgrowth",
+                "description": "Before Awakening: Deals Magic Skill damage to the target Legion (Damage Factor 600, scales with Magic ATK), and Ensnares them, dealing Magic Skill damage (Damage Factor 100, scales with Magic ATK) every second and reducing their March Speed by 10% for 3s.",
+                "upgrade_desc": ""
+            }
+        ],
+        "artifacts": [
+            {
+                "id": "breath_of_jargentis",
+                "name": "Breath of Jargentis",
+                "rarity": "Legendary",
+                "role": "Magic/Support"
+            },
+            {
+                "id": "phoenix_eye",
+                "name": "Phoenix Eye",
+                "rarity": "Legendary",
+                "role": "Magic/Assault"
+            },
+            {
+                "id": "tear_of_arbon",
+                "name": "Tear of Arbon",
+                "rarity": "Legendary",
+                "role": "Magic/PvP/Support"
+            },
+            {
+                "id": "fang_of_ashkari",
+                "name": "Fang of Ashkari",
+                "rarity": "Legendary",
+                "role": "Magic/PvP/Tank"
+            },
+            {
+                "id": "staff_of_the_prophet",
+                "name": "Staff of the Prophet",
+                "rarity": "Legendary",
+                "role": "Magic/Mobility"
+            },
+            {
+                "id": "freezing_ring",
+                "name": "Freezing Ring",
+                "rarity": "Epic",
+                "role": "Magic/Tank"
+            },
+            {
+                "id": "spirit_bangle",
+                "name": "Spirit Bangle",
+                "rarity": "Epic",
+                "role": "Magic/PvP/Support"
+            },
+            {
+                "id": "magic_bomb",
+                "name": "Magic Bomb",
+                "rarity": "Epic",
+                "role": "Magic/PvP/Assault"
+            },
+            {
+                "id": "staff_of_spring",
+                "name": "Staff of Spring",
+                "rarity": "Epic",
+                "role": "Magic/PvP/Support"
+            },
+            {
+                "id": "ever-ice",
+                "name": "Ever-Ice",
+                "rarity": "Elite",
+                "role": "Magic/PvP/Assault"
+            }
+        ]
+    },
+    "Bakhar": {
+        "images": {
+            "main": "bakhar.png",
+            "talent_trees": [
+                "bakhar-infantry-talent-tree-1.jpg",
+                "bakhar-skill-talent-tree-1.jpg",
+                "bakhar-garrison-talent-tree.jpg"
+            ]
+        },
+        "rarity": "Epic",
+        "role": "Skills",
+        "buffs": "Garrison",
+        "units": "Infantry",
+        "tier": "C",
+        "pairings": "",
+        "skills": [
+            {
+                "name": "Grayclaw Fury",
+                "type": "Rage Skill",
+                "description": "Deals Physical Skill damage to the target Legion (Damage Factor 370, scales with Physical ATK) and gains Rampage, increasing all damage dealt by 8% for",
+                "upgrade_desc": "Skill Damage Factor: 300 / 370 / 440 / 510 / 600<br>Damage bonus: 4% / 8% / 12% / 16% / 20%"
+            },
+            {
+                "name": "Boiling Blood",
+                "type": "Passive Skill",
+                "description": "All infantry units in this Legion gain 3% Physical ATk and 3% DEF.",
+                "upgrade_desc": "Infantry unit Physical ATK bonus 3% / 4% / 6% / 8% / 10%<br>Infantry unit DEF bonus: 3% / 4% / 6% / 8% / 10%"
+            },
+            {
+                "name": "Fearsome Roar",
+                "type": "Passive Skill",
+                "description": "When Bakhar\u2019s Legion is attacked, they have a 10% chance to inflict Gloom on the target, reducing their ATK by 5% for 4s. This effect can be triggered once every IOS.",
+                "upgrade_desc": "ATK reduction: 5% / 10% / 15% / 20% / 25%"
+            },
+            {
+                "name": "Tireless Will",
+                "type": "Passive Skill",
+                "description": "Reduces Hero Skill damage taken by the Garrisoned Army by 4% while garrisoned in a City or Stronghold and increases healing by 4%.",
+                "upgrade_desc": "Skill Damage Taken reduction: 4% / 6% / 8% / 11% / 15%<br>Healing granted bonus: 4% / 6% / 8% / 11% / 15%"
+            },
+            {
+                "name": "Last-Ditch Strike",
+                "type": "Additional Skill",
+                "description": "When Bakhar\u2019s Legion has less than 50% units remaining, it has a 50% chance to inflict Bleed on the target Legion when counterattacking, dealing Physical Skill damage (Damage Factor 200, scales with Physical ATK) every second for 3s.",
+                "upgrade_desc": ""
+            }
+        ],
+        "artifacts": [
+            {
+                "id": "breath_of_the_forest",
+                "name": "Breath of the Forest",
+                "rarity": "Legendary",
+                "role": "Garrison/Support"
+            },
+            {
+                "id": "dragonscale_armor",
+                "name": "Dragonscale Armor",
+                "rarity": "Legendary",
+                "role": "Infantry/Tank"
+            },
+            {
+                "id": "greymars_warhammer",
+                "name": "Greymar's Warhammer",
+                "rarity": "Legendary",
+                "role": "Infantry/Control"
+            },
+            {
+                "id": "springs_of_silence",
+                "name": "Springs of Silence",
+                "rarity": "Legendary",
+                "role": "Infantry/PvP/Assault"
+            },
+            {
+                "id": "butchers_balde",
+                "name": "Butcher's Balde",
+                "rarity": "Epic",
+                "role": "Infantry/PvP/Assault"
+            },
+            {
+                "id": "harlequin_mask",
+                "name": "Harlequin Mask",
+                "rarity": "Elite",
+                "role": "Infantry/Peacekeeping"
+            }
+        ]
+    },
+    "Kregg": {
+        "images": {
+            "main": "kregg.png",
+            "talent_trees": [
+                "kregg-engineering-talent-tree-1.jpg",
+                "kregg-pvp-talent-tree.jpg",
+                "kregg-mobility-talent-tree.jpg"
+            ]
+        },
+        "rarity": "Epic",
+        "role": "Mobility",
+        "buffs": "Engineering",
+        "units": "Marksman",
+        "tier": "B",
+        "pairings": "Gwanwyn/Niko",
+        "skills": [
+            {
+                "name": "Fragmentation Bolt",
+                "type": "Rage Skill",
+                "description": "Deals Physical Skill damage to the target (Damage Factor 600, scales with Physical ATK) and deals additional Physical Skill damage to up to 2 nearby Legions (Damage Factor 300, scales with Physical ATK).",
+                "upgrade_desc": "Skill Damage Factor: 200 / 300 / 400 / 500 / 600<br>Bomb Additional Damage Factor: 100 / 150 / 200 / 250 / 300"
+            },
+            {
+                "name": "Wyvern Rider",
+                "type": "Passive Skill",
+                "description": "Increases Hero Skill damage dealt by Kregg\u2019s Legion by 4%, and increases their March Speed by 10% for IOS after battle ends.",
+                "upgrade_desc": "Skill damage dealt bonus: 4% / 5% / 6% / 8% / 10%<br>March Speed bonus: 10% / 12% / 14% / 16% / 20%"
+            },
+            {
+                "name": "Aerial Formation",
+                "type": "Passive Skill",
+                "description": "Increases Kregg\u2019s Legion\u2019s ATK by 4%. Ifthe Legion is composed entirely of Flying units, units gain 4% DEF.",
+                "upgrade_desc": "ATK bonus: 4% / 5% / 6% / 8% / 10%<br>DEF bonus: 4% / 5% / 6% / 8% / 10%"
+            },
+            {
+                "name": "Building Frenzy",
+                "type": "Passive Skill",
+                "description": "Kregg\u2019s Legion\u2019s Engineering is increased by 10% when building Barricades and Alliance Buildings.",
+                "upgrade_desc": "Engineering bonus while building: 10% / 12% / 14% / 16% / 20%"
+            },
+            {
+                "name": "Biggus Bombus",
+                "type": "Skill Enhanced: Fragmentation Bolt",
+                "description": "Before Awakening: Deals Physical Skill damage to the target (Damage Factor 600, scales with Physical ATK) and deals additional Physical Skill damage to up to 2 nearby Legions (Damage Factor 300, scales with Physical ATK).",
+                "upgrade_desc": ""
+            }
+        ],
+        "artifacts": [
+            {
+                "id": "heart_of_kamasi",
+                "name": "Heart of Kamasi",
+                "rarity": "Legendary",
+                "role": "Marksman/PvP/Support"
+            },
+            {
+                "id": "violas_bow",
+                "name": "Viola's Bow",
+                "rarity": "Legendary",
+                "role": "Marksman/Assault"
+            },
+            {
+                "id": "shadowblade",
+                "name": "Shadowblade",
+                "rarity": "Legendary",
+                "role": "Marksman/PvP/Assault"
+            },
+            {
+                "id": "heartpiercer",
+                "name": "Heartpiercer",
+                "rarity": "Epic",
+                "role": "Marksman/PvP/Assault"
+            },
+            {
+                "id": "archery_masters_manuel",
+                "name": "Archery Master's Manuel",
+                "rarity": "Epic",
+                "role": "Marksman/PvP"
+            },
+            {
+                "id": "potion_of_vigor",
+                "name": "Potion of Vigor",
+                "rarity": "Epic",
+                "role": "Infantry/Engineering"
+            },
+            {
+                "id": "rapid_crossbow",
+                "name": "Rapid Crossbow",
+                "rarity": "Elite",
+                "role": "Marksman/PvP/Assault"
+            },
+            {
+                "id": "joyous_fireworkds",
+                "name": "Joyous Fireworkds",
+                "rarity": "Advanced",
+                "role": "Engineering/Health"
+            }
+        ]
+    },
+    "Waldyr": {
+        "images": {
+            "main": "waldyr.png",
+            "talent_trees": [
+                "waldyr-magic-talent-tree.jpg",
+                "waldyr-skill-talent-tree-1-1.jpg",
+                "waldyr-behemoths-talent-tree.jpg"
+            ]
+        },
+        "rarity": "Epic",
+        "role": "Skills",
+        "buffs": "PvP",
+        "units": "Magic",
+        "tier": "A",
+        "pairings": "Liliya/Atheus/Alwyn",
+        "skills": [
+            {
+                "name": "Ice Breath",
+                "type": "Rage Skill",
+                "description": "Deals Magic Skill damage to the target Legion and 2 Legions surrounding it (Damage Factor 370, scales with Magic ATK) and inflicts Gloom on them, reducing their ATK by 8% for 2s.",
+                "upgrade_desc": "Skill Damage Factor: 300 / 370 / 440 / 510 / 600<br>ATK Reduction: 4% / 8% / 12% / 16% / 20%"
+            },
+            {
+                "name": "Royal Court Mage",
+                "type": "Passive Skill",
+                "description": "All Magic units in Waldyr\u2019s Legion gain 3% Magic ATK and 3% HP.",
+                "upgrade_desc": "Magic ATK bonus: 3% / 4% / 6% / 8% / 10%<br>HP bonus: 3% / 4% / 6% / 8% / 10%"
+            },
+            {
+                "name": "Forstbite",
+                "type": "Passive Skill",
+                "description": "Waldyr\u2019s Legion deals 4% more Hero Skill damage.",
+                "upgrade_desc": "Skill damage dealt bonus: 4% / 6% / 8% / 11% / 15%"
+            },
+            {
+                "name": "Icy Veins",
+                "type": "Passive Skill",
+                "description": "When Skill damage is taken, grants a Shield that can absorb a large amount of damage for the Legion (Shield Factor 200). This effect can be triggered once per 20s.",
+                "upgrade_desc": "Shield Factor: 200 / 300 / 400 / 500 / 600"
+            },
+            {
+                "name": "Tide of Winter",
+                "type": "Skill Enhanced: Ice Breath",
+                "description": "Before Awakening: Deals Magic Skill damage to the target Legion and 2 Legions surrounding it (Damage Factor 600, scales with Magic ATK) and inflicts Gloom on them, reducing their ATK by 20% for 2s.",
+                "upgrade_desc": ""
+            }
+        ],
+        "artifacts": [
+            {
+                "id": "breath_of_jargentis",
+                "name": "Breath of Jargentis",
+                "rarity": "Legendary",
+                "role": "Magic/Support"
+            },
+            {
+                "id": "fang_of_ashkari",
+                "name": "Fang of Ashkari",
+                "rarity": "Legendary",
+                "role": "Magic/PvP/Tank"
+            },
+            {
+                "id": "phoenix_eye",
+                "name": "Phoenix Eye",
+                "rarity": "Legendary",
+                "role": "Magic/Assault"
+            },
+            {
+                "id": "staff_of_the_prophet",
+                "name": "Staff of the Prophet",
+                "rarity": "Legendary",
+                "role": "Magic/Mobility"
+            },
+            {
+                "id": "tear_of_arbon",
+                "name": "Tear of Arbon",
+                "rarity": "Legendary",
+                "role": "Magic/PvP/Support"
+            },
+            {
+                "id": "freezing_ring",
+                "name": "Freezing Ring",
+                "rarity": "Epic",
+                "role": "Magic/Tank"
+            },
+            {
+                "id": "magic_bomb",
+                "name": "Magic Bomb",
+                "rarity": "Epic",
+                "role": "Magic/PvP/Assault"
+            },
+            {
+                "id": "spirit_bangle",
+                "name": "Spirit Bangle",
+                "rarity": "Epic",
+                "role": "Magic/PvP/Support"
+            },
+            {
+                "id": "staff_of_spring",
+                "name": "Staff of Spring",
+                "rarity": "Epic",
+                "role": "Magic/PvP/Support"
+            },
+            {
+                "id": "ever-ice",
+                "name": "Ever-Ice",
+                "rarity": "Elite",
+                "role": "Magic/PvP/Assault"
+            }
+        ]
+    },
+    "Atheus": {
+        "images": {
+            "main": "atheus.png",
+            "talent_trees": [
+                "atheus-mobility-talent-tree-1.jpg",
+                "atheus-magic-talent-tree-1.jpg"
+            ]
+        },
+        "rarity": "Epic",
+        "role": "Mobility",
+        "buffs": "PvP",
+        "units": "Magic",
+        "tier": "B",
+        "pairings": "Waldyr/Alwyn",
+        "skills": [
+            {
+                "name": "Smite",
+                "type": "Rage Skill",
+                "description": "Deals Magic Skill damage to the target Legion (Damage Factor 300, scales with Magic ATK).",
+                "upgrade_desc": "Skill Damage Factor: 300 / 400 / 500 / 650 / 800"
+            },
+            {
+                "name": "Eye of Insight",
+                "type": "Passive Skill",
+                "description": "Launching a normal attack has a 30% chance to grant Atheus\u2019s Legion 20 Rage.",
+                "upgrade_desc": "Extra Rage gained: 20 / 30 / 40 / 50 / 60"
+            },
+            {
+                "name": "Sanctified Wings",
+                "type": "Passive Skill",
+                "description": "Atheus\u2019s Legion gains 3% HP. Ifthe Legion is composed entirely of Flying units, all healing they receive is increased by 4%.",
+                "upgrade_desc": "HP Bonus: 3% / 4% / 6% / 8% / 10%<br>Healing received bonus: 4% / 6% / 8% / 11% / 15%"
+            },
+            {
+                "name": "Winged Embrace",
+                "type": "Passive Skill",
+                "description": "Legion March Speed is increased by 5% and all damage taken is reduced by 3%.",
+                "upgrade_desc": "March Speed Bonus: 5% / 8% / 11% / 15% / 20%<br>Damage taken reduction: 3% / 4% / 6% / 8% / 10%"
+            },
+            {
+                "name": "Redemptive Healer",
+                "type": "Additional Skill: Passive",
+                "description": "30% chance to grant healing when attacked (Healing Factor 400). This effect can be triggered once every IOS.",
+                "upgrade_desc": ""
+            }
+        ],
+        "artifacts": [
+            {
+                "id": "phoenix_eye",
+                "name": "Phoenix Eye",
+                "rarity": "Legendary",
+                "role": "Magic/Assault"
+            },
+            {
+                "id": "fang_of_ashkari",
+                "name": "Fang of Ashkari",
+                "rarity": "Legendary",
+                "role": "Magic/PvP/Tank"
+            },
+            {
+                "id": "staff_of_the_prophet",
+                "name": "Staff of the Prophet",
+                "rarity": "Legendary",
+                "role": "Magic/Mobility"
+            },
+            {
+                "id": "tear_of_arbon",
+                "name": "Tear of Arbon",
+                "rarity": "Legendary",
+                "role": "Magic/PvP/Support"
+            },
+            {
+                "id": "breath_of_jargentis",
+                "name": "Breath of Jargentis",
+                "rarity": "Legendary",
+                "role": "Magic/Support"
+            },
+            {
+                "id": "spirit_bangle",
+                "name": "Spirit Bangle",
+                "rarity": "Epic",
+                "role": "Magic/PvP/Support"
+            },
+            {
+                "id": "freezing_ring",
+                "name": "Freezing Ring",
+                "rarity": "Epic",
+                "role": "Magic/Tank"
+            },
+            {
+                "id": "magic_bomb",
+                "name": "Magic Bomb",
+                "rarity": "Epic",
+                "role": "Magic/PvP/Assault"
+            },
+            {
+                "id": "staff_of_spring",
+                "name": "Staff of Spring",
+                "rarity": "Epic",
+                "role": "Magic | PvP | Support"
+            },
+            {
+                "id": "ever-ice",
+                "name": "Ever-Ice",
+                "rarity": "Elite",
+                "role": "Magic/PvP/Assault"
+            }
+        ]
+    },
+    "Gwanwyn": {
+        "images": {
+            "main": "gwanwyn.png",
+            "talent_trees": [
+                "gwanwyn-peacekeeping-talent-tree-1-1.jpg",
+                "gwanwyn-pvp-precision-talent-tree-2.jpg",
+                "gwanwyn-pvp-marksman-talent-tree.jpg",
+                "gwanwyn-behemoths-talent-tree.jpg"
+            ]
+        },
+        "rarity": "Epic",
+        "role": "Precision",
+        "buffs": "Peacekeeping",
+        "units": "Marksman",
+        "tier": "A",
+        "pairings": "Kregg/Nico",
+        "skills": [
+            {
+                "name": "Chaotic Arrows",
+                "type": "Attack Range: Medium",
+                "description": "Deals Physical Skill damage to the target Legion 3 times in succession (Damage Factor 200, 200, 400, scales with Physical ATK).",
+                "upgrade_desc": "Skill Damage Factor 100/ 120/ 140/ 160 / 200<br>Final Attack Damage Factor 200/250/300/ 350/400"
+            },
+            {
+                "name": "Aspiring Queensguard",
+                "type": "Passive Skill",
+                "description": "Gwanwyn\u2019s Legion deals 15% more damage to Darklings and Dark Creatures.",
+                "upgrade_desc": "Damage dealt during Peacekeeping bonus: 4% / 6% / 8% / 11% / 15%"
+            },
+            {
+                "name": "Green Boats Master",
+                "type": "Passive Skill",
+                "description": "All Marksman units in this Legion gain 8% Physical ATK and 6% March Speed.",
+                "upgrade_desc": "Marksman unit Physical ATK bonus: 4% / 6% / 8% / 11% / 15%<br>Marksman unit March Speed bonus: 3% / 4% / 6% / 8% / 10%"
+            },
+            {
+                "name": "Preemptive Strike",
+                "type": "Passive Skill",
+                "description": "When Gwanwyn\u2019s Legion has 50% Unit Count or higher, her units deal 3% extra damage.",
+                "upgrade_desc": "Damage dealt bonus: 3% / 4% / 6% / 8% / 10%"
+            },
+            {
+                "name": "Fervent Wind",
+                "type": "Additional Skill (Passive)",
+                "description": "When Gwanwyn\u2019s Legion launches a Normal Attack, it has a 50% chance to Poison the target, dealing Physical Skill damage every second (Damage Factor 100, scales with Physical ATK) for 3s.",
+                "upgrade_desc": ""
+            }
+        ],
+        "artifacts": [
+            {
+                "id": "violas_bow",
+                "name": "Viola's Bow",
+                "rarity": "Legendary",
+                "role": "Marksman/Assault"
+            },
+            {
+                "id": "kurratas_wrath",
+                "name": "Kurrata's Wrath",
+                "rarity": "Legendary",
+                "role": "Peacekeeping"
+            },
+            {
+                "id": "heart_of_kamasi",
+                "name": "Heart of Kamasi",
+                "rarity": "Legendary",
+                "role": "Marksman/PvP/Support"
+            },
+            {
+                "id": "shadowblade",
+                "name": "Shadowblade",
+                "rarity": "Legendary",
+                "role": "Marksman/PvP/Assault"
+            },
+            {
+                "id": "amulet_of_glory",
+                "name": "Amulet of Glory",
+                "rarity": "Epic",
+                "role": "Cavalry/Peacekeeping"
+            },
+            {
+                "id": "blade_of_reproach",
+                "name": "Blade of Reproach",
+                "rarity": "Epic",
+                "role": "Cavalry/Peacekeeping"
+            },
+            {
+                "id": "archery_masters_manuel",
+                "name": "Archery Master's Manuel",
+                "rarity": "Epic",
+                "role": "Marksman/PvP"
+            },
+            {
+                "id": "giants_bone",
+                "name": "Giant's Bone",
+                "rarity": "Epic",
+                "role": "Peackeeping"
+            },
+            {
+                "id": "codex_of_prophecy",
+                "name": "Codex of Prophecy",
+                "rarity": "Epic",
+                "role": "Infantry/Peacekeeping"
+            },
+            {
+                "id": "heartpiercer",
+                "name": "Heartpiercer",
+                "rarity": "Epic",
+                "role": "Marksman/PvP/Assault"
+            },
+            {
+                "id": "rapid_crossbow",
+                "name": "Rapid Crossbow",
+                "rarity": "Elite",
+                "role": "Marksman/PvP/Assault"
+            }
+        ]
+    },
+    "Nico": {
+        "images": {
+            "main": "nico.png",
+            "talent_trees": [
+                "nico-precision-talent-tree-1.jpg",
+                "nico-engineering-talent-tree.jpg",
+                "nico-marksman-talent-tree.jpg",
+                "nico-behemoths-talent-tree.jpg"
+            ]
+        },
+        "rarity": "Legendary",
+        "role": "Precision",
+        "buffs": "Engineering",
+        "units": "Marksman",
+        "tier": "S",
+        "pairings": "Gwanwyn/Hosk",
+        "skills": [
+            {
+                "name": "Piercing Shot",
+                "type": "Rage Skill",
+                "description": "Deals Physical Skill damage to the target Legion (Damage Factor 800, scales with Physical ATK), and inflicts DEF Break, reducing their DEF by for 3s.",
+                "upgrade_desc": "Skill Damage Factor: 700 / 800 / 1000 / 1200 / 1400<br>DEF reduction: 5% / 7% / 9% / 12% / 15%"
+            },
+            {
+                "name": "Expert Mechanic",
+                "type": "Passive Skill",
+                "description": "Increases Nico\u2019s Legion\u2019s Engineering by 5% when building Barricades and Alliance Buildings, and by 5% when destroying Barricades or Alliance Buildings.",
+                "upgrade_desc": "Engineering bonus while building: 5% / 7% / 9% / 12% / 15%<br>Bonus to Engineering when destroying: 5% / 7% / 9% / 12% / 15%"
+            },
+            {
+                "name": "Agile Deployment",
+                "type": "Passive Skill",
+                "description": "All Marksman units in Nico\u2019s Legion gain 10% ATK and 4% DEF.",
+                "upgrade_desc": "Cavalry unit Physical ATK bonus: 10% / 15% / 20% / 25% / 30%<br>Marksman unit DEF bonus: 4% / 5% / 6% / 8% / 10%"
+            },
+            {
+                "name": "Greymar\u2019s Crossbow",
+                "type": "Passive Skill",
+                "description": "When casting Rage Skills, Nico\u2019s Legion gains Onslaught and Riposte, increasing normal attack and counterattack damage dealt by 10% for 5s. This effect can be triggered once every 7s.",
+                "upgrade_desc": "Normal attack damage bonus: 10% / 12% / 14% / 16% / 20%<br>Counterattack damage bonus: 10% / 12% / 14% / 16% / 20%"
+            },
+            {
+                "name": "Bullseye Barrage",
+                "type": "Additional Skill: Passive",
+                "description": "When Nico\u2019s Legion launches a normal attack on a target Legion that already has DEF Break, they have a 80% chance to deal additional Physical Skill damage (Damage Factor 200, scales with Physical ATK).",
+                "upgrade_desc": ""
+            }
+        ],
+        "artifacts": [
+            {
+                "id": "heart_of_kamasi",
+                "name": "Heart of Kamasi",
+                "rarity": "Legendary",
+                "role": "Marksman/PvP/Support"
+            },
+            {
+                "id": "shadowblade",
+                "name": "Shadowblade",
+                "rarity": "Legendary",
+                "role": "Marksman/PvP/Assault"
+            },
+            {
+                "id": "violas_bow",
+                "name": "Viola's Bow",
+                "rarity": "Legendary",
+                "role": "Marksman/Assault"
+            },
+            {
+                "id": "archery_masters_manuel",
+                "name": "Archery Master's Manuel",
+                "rarity": "Epic",
+                "role": "Marksman/PvP"
+            },
+            {
+                "id": "heartpiercer",
+                "name": "Heartpiercer",
+                "rarity": "Epic",
+                "role": "Marksman/PvP/Assault"
+            },
+            {
+                "id": "potion_of_vigor",
+                "name": "Potion of Vigor",
+                "rarity": "Epic",
+                "role": "Infantry/Engineering"
+            },
+            {
+                "id": "rapid_crossbow",
+                "name": "Rapid Crossbow",
+                "rarity": "Elite",
+                "role": "Marksman/PvP/Assault"
+            },
+            {
+                "id": "joyous_fireworkds",
+                "name": "Joyous Fireworkds",
+                "rarity": "Advanced",
+                "role": "Engineering/Health"
+            }
+        ]
+    },
+    "Theia": {
+        "images": {
+            "main": "theia.png",
+            "talent_trees": [
+                "theia-pvp-talent-tree.jpg",
+                "theia-support-talent-tree.jpg",
+                "theia-overall-talent-tree.jpg"
+            ]
+        },
+        "rarity": "Legendary",
+        "role": "Support",
+        "buffs": "PvP",
+        "units": "Overall",
+        "tier": "S",
+        "pairings": "",
+        "skills": [
+            {
+                "name": "Arbiter\u2019s Ward",
+                "type": "Rage Skill",
+                "description": "Theia\u2019s Legion gains a shield that absorbs a large amount of damage (Shield Factor 600) for 5s, while also gaining Synergy, increasing Hero Skill damage dealt by 7% (ends when a Rage Skill is cast).",
+                "upgrade_desc": "Shield Factor: 500 / 600 / 700 / 850 / 1000<br>Skill damage dealt bonus: 5% / 7% / 9% / 12% / 15%"
+            },
+            {
+                "name": "Oracle\u2019s Grace",
+                "type": "Passive Skill",
+                "description": "While in the field, Theia\u2019s Legion\u2019s ATK is increased by 5%, and they take 5% less Hero Skill damage.",
+                "upgrade_desc": "ATK bonus: 5% / 7% / 9% / 12% / 15%<br>Skill Damage Taken reduction: 5% / 7% / 9% / 12% / 15%"
+            },
+            {
+                "name": "Sanctified Wings",
+                "type": "Passive Skill",
+                "description": "Theia\u2019s Legion\u2019s DEF is increased by 10%. When her Legion is composed entirely of Flying units, their March Speed is increased by 10%.",
+                "upgrade_desc": "DEF Bonus: 10% / 12% / 14% / 16% / 20%<br>March speed bonus: 10% / 12% / 14% / 16% / 20%"
+            },
+            {
+                "name": "Lex Lucis",
+                "type": "Passive Skill",
+                "description": "When Theia\u2019s Legion gains a shield, their ATK is increased by 4%, up to a maximum of 12%.",
+                "upgrade_desc": "ATK Bonus: 4% / 5% / 6% / 8% / 10%<br>Max ATK bonus: 12% / 15% / 18% / 24% / 30%"
+            },
+            {
+                "name": "Redemption",
+                "type": "Skill Enhanced: Arbiter\u2019s Ward",
+                "description": "Before Awakening: Theia\u2019s Legion gains a shield that absorbs a large amount of damage (Shield Factor 1000) for 5s, while also gaining Synergy, increasing Hero Skill damage dealt by 15% (ends when a Rage Skill is cast).",
+                "upgrade_desc": ""
+            }
+        ],
+        "artifacts": [
+            {
+                "id": "breath_of_jargentis",
+                "name": "Breath of Jargentis",
+                "rarity": "Legendary",
+                "role": "Magic/Support"
+            },
+            {
+                "id": "fang_of_ashkari",
+                "name": "Fang of Ashkari",
+                "rarity": "Legendary",
+                "role": "Magic/PvP/Tank"
+            },
+            {
+                "id": "phoenix_eye",
+                "name": "Phoenix Eye",
+                "rarity": "Legendary",
+                "role": "Magic/Assault"
+            },
+            {
+                "id": "staff_of_the_prophet",
+                "name": "Staff of the Prophet",
+                "rarity": "Legendary",
+                "role": "Magic/Mobility"
+            },
+            {
+                "id": "tear_of_arbon",
+                "name": "Tear of Arbon",
+                "rarity": "Legendary",
+                "role": "Magic/PvP/Support"
+            },
+            {
+                "id": "freezing_ring",
+                "name": "Freezing Ring",
+                "rarity": "Epic",
+                "role": "Magic/Tank"
+            },
+            {
+                "id": "magic_bomb",
+                "name": "Magic Bomb",
+                "rarity": "Epic",
+                "role": "Magic/PvP/Assault"
+            },
+            {
+                "id": "spirit_bangle",
+                "name": "Spirit Bangle",
+                "rarity": "Epic",
+                "role": "Magic/PvP/Support"
+            },
+            {
+                "id": "staff_of_spring",
+                "name": "Staff of Spring",
+                "rarity": "Epic",
+                "role": "Magic/PvP/Support"
+            },
+            {
+                "id": "ever-ice",
+                "name": "Ever-Ice",
+                "rarity": "Elite",
+                "role": "Magic/PvP/Assault"
+            }
+        ]
+    },
+    "Pan": {
+        "images": {
+            "main": "pan.png",
+            "talent_trees": [
+                "pan-gathering-talent-tree.jpg"
+            ]
+        },
+        "rarity": "Epic",
+        "role": "Support",
+        "buffs": "Gathering",
+        "units": "Overall",
+        "tier": "B",
+        "pairings": "",
+        "skills": [
+            {
+                "name": "Foremother\u2019s Blessing",
+                "type": "Rage Skill",
+                "description": "Heals lightly wounded units in a nearby friendly Legion with the lowest Unit Count (Healing Factor 200) and grants the Legion Onslaught, increasing normal attack damage dealt by 8% for 5s.",
+                "upgrade_desc": "Healing Factor: 200/250/300/350/400<br>Normal attack damage bonus: 8%/11%/14%/17%/20%"
+            },
+            {
+                "name": "Secret of the Trees",
+                "type": "Passive Skill",
+                "description": "Increases the Gather Speed of Pan\u2019s Legion by 8% and its Wood Gather Speed by an additional 8%.",
+                "upgrade_desc": "Gather Speed bonus 8%/11%/14%/17%/20%<br>Wood Gather Speed bonus 8%/11%/14%/17%/20%"
+            },
+            {
+                "name": "Song of Protection",
+                "type": "Passive Skill",
+                "description": "Increases the DEF of Pan\u2019s Legion by 5%, while reducing Hero Skill damage taken by 4%.",
+                "upgrade_desc": "DEF Bonus: 5% / 7% / 9% / 12% / 15%<br>Skill Damage Taken Reduction: 4% / 5% / 6% / 8% / 10%"
+            },
+            {
+                "name": "Dream Omen",
+                "type": "Passive Skill",
+                "description": "Pan\u2019s Legion has a 8% to remove a debuffeffect when attacked. This effect can be triggered once every 5s.",
+                "upgrade_desc": "Probability: 8% / 11% / 14% / 17% / 20%"
+            },
+            {
+                "name": "Prayer of Life",
+                "type": "Skill Enhanced: Foremother\u2019s Blessing",
+                "description": "Before Awakening: Heals lightly wounded units in a nearby friendly Legion with the lowest Unit Count (Healing Factor 400) and grants the Legion Onslaught, increasing normal attack damage dealt by 20% for 5s.",
+                "upgrade_desc": ""
+            }
+        ],
+        "artifacts": [
+            {
+                "id": "ancient_tree_roots",
+                "name": "Ancient Tree Roots",
+                "rarity": "Legendary",
+                "role": "Gathering/Health"
+            },
+            {
+                "id": "lucia\u2019s_horn",
+                "name": "Lucia\u2019s Horn",
+                "rarity": "Legendary",
+                "role": "Gathering"
+            },
+            {
+                "id": "greenfinger_sickle",
+                "name": "Greenfinger Sickle",
+                "rarity": "Epic",
+                "role": "Gathering"
+            },
+            {
+                "id": "enchanted_coins",
+                "name": "Enchanted Coins",
+                "rarity": "Elite",
+                "role": "Gathering/Attack"
+            },
+            {
+                "id": "storm_leaf",
+                "name": "Storm Leaf",
+                "rarity": "Elite",
+                "role": "Gathering/Defense"
+            }
+        ]
+    },
+    "Kinnara": {
+        "images": {
+            "main": "kinnara.png",
+            "talent_trees": [
+                "kinnara-pvp-talent-tree.jpg",
+                "kinnara-behemoths-talent-tree.jpg",
+                "kinnara-control-talent-tree.jpg"
+            ]
+        },
+        "rarity": "Legendary",
+        "role": "Control",
+        "buffs": "PvP",
+        "units": "Marksman",
+        "tier": "S",
+        "pairings": "Nico/Gwanwyn",
+        "skills": [
+            {
+                "name": "Rattlesnake Strike",
+                "type": "Rage Skill",
+                "description": "Kinnara deals Hero Skill damage to an enemy Legion (Physical Damage Factor 700) and inflicts Feeble, decreasing all damage they deal by 4% for 5s.",
+                "upgrade_desc": "Skill Damage Factor: 700 / 800 / 1000 / 1200 / 1400<br>HP bonus: 4% / 6% / 8% / 11% / 15%"
+            },
+            {
+                "name": "Provocation",
+                "type": "Passive Skill",
+                "description": "While in the field, Kinnara\u2019s Legion deals 10% more normal attack damage, and takes 4% less Hero Skill damage.",
+                "upgrade_desc": "Normal attack damage bonus: 10% / 12% / 14% / 16% / 20%<br><br>Hero Skill damage taken reduction: 10% / 12% / 14% / 16% / 20%"
+            },
+            {
+                "name": "Hunter\u2019s Pace",
+                "type": "Passive Skill",
+                "description": "All Marksman units in Kinnara\u2019s Legion gain 10% Physical ATK.",
+                "upgrade_desc": "Marksman uni Physical ATK bonus: 10% / 15% / 20% / 25% / 30%"
+            },
+            {
+                "name": "Gratuitous Violence",
+                "type": "Passive Skill",
+                "description": "When Kinnara\u2019s Legion is attacked, she has a 20% chance to gain Physical Riposte and inflict Slow upon the target, increasing her Legion\u2019s Physical counterattack damage dealt by 10% and reducing the target\u2019s March Speed by for 5s.",
+                "upgrade_desc": "Physical Counterattack Damage Dealt bonus: 10% / 15% / 20% / 25% / 30%<br>March Speed reduction: 10% / 12% / 14% / 16% / 20%"
+            },
+            {
+                "name": "Jawbreaker",
+                "type": "Additional Skill: Passive",
+                "description": "When Kinnara\u2019s Legion launches a normal attack, they have a 20% chance to inflict DEF Break on the target Legion, reducing their DEF by 20% for 3s.",
+                "upgrade_desc": ""
+            }
+        ],
+        "artifacts": []
+    },
+    "Velyn": {
+        "images": {
+            "main": "velyn.png",
+            "talent_trees": [
+                "velyn-magic-talent-tree.jpg",
+                "velyn-control-talent-tree.jpg",
+                "velyn-pvp-talent-tree.jpg"
+            ]
+        },
+        "rarity": "Legendary",
+        "role": "Control",
+        "buffs": "PvP",
+        "units": "Magic",
+        "tier": "S",
+        "pairings": "Liliya/Waldyr",
+        "skills": [
+            {
+                "name": "Frozen Star",
+                "type": "Rage Skill",
+                "description": "Deals Hero Skill damage to the target and 2 surrounding Legions (Magic Damage Factor 600) and inflicts Freeze, reducing their March Speed by 10% for 3s. Each additional target reduces the damage dealt to each target.",
+                "upgrade_desc": "Skill Damage Factor: 600 / 700 / 800 / 1000 / 1200<br>HP bonus: 10% / 12% / 14% / 16% / 20%"
+            },
+            {
+                "name": "Perfection of Form",
+                "type": "Passive Skill",
+                "description": "While in the field, Velyn\u2019s Legion deals 5% more Hero Skill damage and gains 10% March Speed.",
+                "upgrade_desc": "Hero Skill damage dealt bonus: 5% / 7% / 9% / 12% / 15%<br>March Speed bonus: 10% / 12% / 14% / 16% / 20%"
+            },
+            {
+                "name": "Bitter Cold",
+                "type": "Passive Skill",
+                "description": "All Magic units in Velyn\u2019s Legion gain 4% Hero Skill Crit Rate and 5% DEF.",
+                "upgrade_desc": "Magic unit Hero Skill Crit Rate bonus: 4% / 5% / 6% / 8% / 10%<br>Magic unit DEF bonus: 5% / 7% / 9% / 12% / 15%"
+            },
+            {
+                "name": "Icy Interdiction",
+                "type": "Passive Skill",
+                "description": "When in battle, Velyn has a 20% chance to inflict Magic DEF Break and Freeze on the target, reducing their Magic DEF by 10% and their March Speed by 10% for 3s.",
+                "upgrade_desc": "Magic DEF reduction: 10% / 12% / 14% / 16% / 20%<br>March Speed reduction: 10% / 12% / 14% / 16% / 20%"
+            },
+            {
+                "name": "Snowblind",
+                "type": "Additional Skill: Passive",
+                "description": "When casting a Rage Skill on a target that is Frozen, Velyn deals additional Hero Skill damage (Magic Damage Factor 400) and removes the target\u2019s Frozen effect.",
+                "upgrade_desc": ""
+            }
+        ],
+        "artifacts": []
+    },
+    "Bakshi": {
+        "images": {
+            "main": "bakshi.png",
+            "talent_trees": [
+                "bakshi-cavalry-talent-tree.jpg",
+                "bakshi-skill-talent-tree.jpg",
+                "bakshi-peacekeeping-talent-tree.jpg"
+            ]
+        },
+        "rarity": "Legendary",
+        "role": "Skills",
+        "buffs": "Peacekeeping",
+        "units": "Cavalry",
+        "tier": "S",
+        "pairings": "Emrys/Alistair/Nika",
+        "skills": [
+            {
+                "name": "Wolf-Spirit Binds",
+                "type": "Rage Skill",
+                "description": "Deals Physical Skill damage to the target Legion (Damage Factor 700, scales with Physical ATK) while granting Bakshi\u2019s Legion Vigor, increasing their HP by for 5s.",
+                "upgrade_desc": "Skill Damage Factor 700 / 800 / 1000 / 1200 / 1400<br>HP bonus 10% / 12% / 14% / 16% / 20%"
+            },
+            {
+                "name": "Sense Weakness",
+                "type": "Passive Skill",
+                "description": "Bakshi\u2019s Legion deals 10% more damage to Darklings and Dark Creatures.",
+                "upgrade_desc": "Damage dealt during Peacekeeping bonus: 10% / 15% / 20% / 25% / 30%"
+            },
+            {
+                "name": "Quickened Blood",
+                "type": "Passive Skill",
+                "description": "All Cavalry units in Bakshi\u2019s Legion gain 4% HP and 10% Physical ATK.",
+                "upgrade_desc": "Cavalry unit HP bonus: 4% / 5% / 6% / 8% / 10%<br>Cavalry unit Physical ATK bonus: 10% / 12% / 14% / 16%"
+            },
+            {
+                "name": "Shaman\u2019s Call",
+                "type": "Passive Skill",
+                "description": "While in battle, Bakshi\u2019s Legion randomly gains either Ascension (increases ATK and DEF by 10%), Passion (increases Rage Accumulation Speed by 10%), or Spirit Siphon (launching normal attacks grants healing, Healing Factor 100) every IOS, lasting for 5s.",
+                "upgrade_desc": "ATK and DEF bonus: 10% / 15% / 20% / 25% / 30%<br>Rage Accumulation Speed bonus: 10% / 15% / 20% / 25% / 30%<br>Healing Factor: 100 / 120 / 140 / 170 / 200"
+            },
+            {
+                "name": "Howl of the Wolf-Spirit",
+                "type": "Skill Enhanced: Wolf-Spirit Binds",
+                "description": "Before Awakening: Deals Physical Skill damage to the target Legion (Damage Factor 1400, scales with Physical ATK) while granting Bakshi\u2019s Legion Vigor, increasing their HP by 20% for 5s.",
+                "upgrade_desc": ""
+            }
+        ],
+        "artifacts": [
+            {
+                "id": "kingslayer",
+                "name": "Kingslayer",
+                "rarity": "Legendary",
+                "role": "Cavalry/PvP/Assault"
+            },
+            {
+                "id": "kurratas_wrath",
+                "name": "Kurrata's Wrath",
+                "rarity": "Legendary",
+                "role": "Peacekeeping"
+            },
+            {
+                "id": "sorlands_blade",
+                "name": "Sorland's Blade",
+                "rarity": "Legendary",
+                "role": "Cavalry/PvP/Assault"
+            },
+            {
+                "id": "storm_arrows",
+                "name": "Storm Arrows",
+                "rarity": "Legendary",
+                "role": "Cavalary/Mobility"
+            },
+            {
+                "id": "amulet_of_glory",
+                "name": "Amulet of Glory",
+                "rarity": "Epic",
+                "role": "Cavalary/Peacekeeping"
+            },
+            {
+                "id": "blade_of_reproach",
+                "name": "Blade of Reproach",
+                "rarity": "Epic",
+                "role": "Cavalary/Peacekeeping"
+            },
+            {
+                "id": "centaur_bow",
+                "name": "Centaur Bow",
+                "rarity": "Epic",
+                "role": "Cavalry/PvP/Assault"
+            },
+            {
+                "id": "cloak_of_stealth",
+                "name": "Cloak of Stealth",
+                "rarity": "Epic",
+                "role": "Cavalary/Mobility"
+            },
+            {
+                "id": "codex_of_prophecy",
+                "name": "Codex of Prophecy",
+                "rarity": "Epic",
+                "role": "Infantry/Peacekeeping"
+            },
+            {
+                "id": "giants_bone",
+                "name": "Giant's Bone",
+                "rarity": "Epic",
+                "role": "Peackeeping"
+            },
+            {
+                "id": "bone_cleaver",
+                "name": "Bone Cleaver",
+                "rarity": "Elite",
+                "role": "Cavalry/PvP/Assault"
+            },
+            {
+                "id": "crown_of_the_berserker",
+                "name": "Crown of the Berserker",
+                "rarity": "Elite",
+                "role": "Cavalry/PvP"
+            }
+        ]
+    },
+    "Indis": {
+        "images": {
+            "main": "indis.png",
+            "talent_trees": [
+                "indis-gathering-talent-tree-1.jpg",
+                "indis-overall-talent-tree.jpg"
+            ]
+        },
+        "rarity": "Legendary",
+        "role": "Support",
+        "buffs": "Gathering",
+        "units": "Overall",
+        "tier": "A",
+        "pairings": "",
+        "skills": [
+            {
+                "name": "Axiom of Glory",
+                "type": "Rage Skill",
+                "description": "Inflicts Infirm on 3 Legions in a designated circle, increasing all damage taken by 10% for 2s, while also healing lightly wounded units in up to 2 friendly Legions surrounding the target (Healing Factor 150).",
+                "upgrade_desc": "Target damage taken bonus 10% / 12% / 14% / 16% / 20%<br>Healing Factor 150 / 200 / 250 / 300 / 350"
+            },
+            {
+                "name": "Earthen Balance",
+                "type": "Passive Skill",
+                "description": "Increases the Gather Speed of Indis\u2019s Legion by 10% and its Wood Gather Speed by an additional 4%.",
+                "upgrade_desc": "Gather Speed Bonus: 10% / 12% / 14% / 16% / 20%<br>Wood Gather Speed bonus: 4% / 5% / 6% / 8% / 10%"
+            },
+            {
+                "name": "Rejuvenating Blessing",
+                "type": "Passive Skill",
+                "description": "Increases Indis\u2019s Legion\u2019s HP by 10% and maximum Legion Capacity by 1000.",
+                "upgrade_desc": "HP bonus: 10% / 12% / 14% / 16% / 20%<br>Maximum Legion Capacity bonus: 1000 / 2000 / 3000 / 4000 / 5000"
+            },
+            {
+                "name": "Purge",
+                "type": "Passive Skill",
+                "description": "When in battle, Indis\u2019s Legion gains Unyielding every 8s, reducing counterattack damage taken by 20% for 5s, and removing one debuff effect.",
+                "upgrade_desc": "Counterattack damage taken reduction: 20% / 25% / 30% / 40% / 50%"
+            },
+            {
+                "name": "Oaken Order",
+                "type": "Skill Enhanced: Axiom of Glory",
+                "description": "Before Awakening: Inflicts Infirm on 3 Legions in a designated circle, increasing all damage taken by 20% for 2s, while also healing lightly wounded units in up to 2 friendly Legions surrounding the target (Healing Factor 350).",
+                "upgrade_desc": ""
+            }
+        ],
+        "artifacts": [
+            {
+                "id": "ancient_tree_roots",
+                "name": "Ancient Tree Roots",
+                "rarity": "Legendary",
+                "role": "Gathering/Health"
+            },
+            {
+                "id": "lucias_horn",
+                "name": "Lucia's Horn",
+                "rarity": "Legendary",
+                "role": "Gathering"
+            },
+            {
+                "id": "greenfinger_sickle",
+                "name": "Greenfinger Sickle",
+                "rarity": "Epic",
+                "role": "Gathering"
+            },
+            {
+                "id": "enchanted_coins",
+                "name": "Enchanted Coins",
+                "rarity": "Elite",
+                "role": "Gathering/Attack"
+            },
+            {
+                "id": "storm_leaf",
+                "name": "Storm Leaf",
+                "rarity": "Elite",
+                "role": "Gathering/Defense"
+            }
+        ]
+    }
+}
