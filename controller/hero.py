@@ -4,7 +4,7 @@ from constants import *
 from disputils import BotEmbedPaginator
         
 async def execute_hero_command(ctx, *args):
-    if len(args) == 0:
+    if len(args) == 0 or len(args) > 2:
         await ctx.send('Invalid parameter number.')
         return
     

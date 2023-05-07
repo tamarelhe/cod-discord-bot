@@ -2,9 +2,13 @@ import discord
 from discord.ext import commands
 
 from apikeys import *
-from controller.hero import execute_hero_command
+from controller.help import execute_help_command
+from controller.hero import execute_hero_command 
+from controller.behemoth import execute_behemoth_command 
+from constants import *
 
-client = commands.Bot(command_prefix = '$', intents=discord.Intents.all())
+client = commands.Bot(command_prefix = BOT_PREFIX, intents=discord.Intents.all())
+client.remove_command('help')
 
 heroes_data = None
 
@@ -15,7 +19,15 @@ async def on_ready():
     print('--------------------------')
 
 @client.command()
+async def help(ctx, *args):
+    await execute_help_command(ctx, *args)
+
+@client.command()
 async def hero(ctx, *args):
     await execute_hero_command(ctx, *args)
+
+@client.command()
+async def behemoth(ctx, *args):
+    await execute_behemoth_command(ctx, *args)
 
 client.run(BOTTOKEN)

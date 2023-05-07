@@ -1,0 +1,14 @@
+{
+    "GiantBear": {
+        "image": "giant_bear.png",
+        "attack": "400",
+        "hp": "300,000",
+        "power": "300,000",
+        "defense": "2,250",
+        "movement_speed": "Very Fast",
+        "battle_duration": "300s",
+        "urls": [
+            "https://www.youtube.com/watch?v=bDUTisht5p0"
+        ]
+    }
+}
