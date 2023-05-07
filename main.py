@@ -7,7 +7,8 @@ from controller.hero import execute_hero_command
 from controller.behemoth import execute_behemoth_command 
 from constants import *
 
-client = commands.Bot(command_prefix = BOT_PREFIX, intents=discord.Intents.all())
+activity = discord.Game(name=BOT_PREFIX+"help")
+client = commands.Bot(command_prefix = BOT_PREFIX, activity=activity, intents=discord.Intents.all())
 client.remove_command('help')
 
 heroes_data = None

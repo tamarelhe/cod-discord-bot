@@ -8,7 +8,6 @@ def load_heroes_json():
     f = open(HERO_CONTENTS)
     heroes_data = json.load(f)
 
-
 def list_all_heroes():
     heroes = heroes_data.keys()
     return heroes

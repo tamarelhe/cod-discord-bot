@@ -8,7 +8,6 @@ def load_behemoths_json():
     f = open(BEHEMOTHS_CONTENTS)
     behemoths_data = json.load(f)
 
-
 def list_all_behemoths():
     behemoths = behemoths_data.keys()
     return behemoths

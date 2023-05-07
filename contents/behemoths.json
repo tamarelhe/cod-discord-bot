@@ -10,5 +10,90 @@
         "urls": [
             "https://www.youtube.com/watch?v=bDUTisht5p0"
         ]
+    },
+    "Giant": {
+        "image": "giant.png",
+        "attack": "400",
+        "hp": "300,000",
+        "power": "310,000",
+        "defense": "2,250",
+        "movement_speed": "Very Fast",
+        "battle_duration": "300s",
+        "urls": [
+            "https://www.youtube.com/watch?v=EfjwEXxdfJI"
+        ]
+    },
+    "ThunderRoc": {
+        "image": "thunder_roc.png",
+        "attack": "280",
+        "hp": "300,000",
+        "power": "320,000",
+        "defense": "2,250",
+        "movement_speed": "Very Fast",
+        "battle_duration": "300s",
+        "urls": [
+            "https://www.youtube.com/watch?v=mEYf6MwBElg"
+        ]
+    },
+    "Hydra": {
+        "image": "hydra.png",
+        "attack": "280",
+        "hp": "300,000",
+        "power": "330,000",
+        "defense": "2,250",
+        "movement_speed": "Very Fast",
+        "battle_duration": "300s",
+        "urls": [
+            "https://www.youtube.com/watch?v=gllTPoNL5hg"
+        ]
+    },
+    "DireBear": {
+        "image": "dire_hear.png",
+        "attack": "280",
+        "hp": "300,000",
+        "power": "350,000",
+        "defense": "2,250",
+        "movement_speed": "Very Fast",
+        "battle_duration": "300s",
+        "urls": [
+            "https://www.youtube.com/watch?v=1EYRfUPl0ZA"
+        ]
+    },
+    "Necrogiant": {
+        "image": "Necrogiant.png",
+        "attack": "280",
+        "hp": "300,000",
+        "power": "360,000",
+        "defense": "2,250",
+        "movement_speed": "Very Fast",
+        "battle_duration": "300s",
+        "urls": [
+            "https://www.youtube.com/watch?v=AsxTDsTsa74",
+            "https://www.youtube.com/watch?v=ix36y_5EuTs"
+        ]
+    },
+    "Magma": {
+        "image": "magma.png",
+        "attack": "280",
+        "hp": "300,000",
+        "power": "380,000",
+        "defense": "2,250",
+        "movement_speed": "Very Fast",
+        "battle_duration": "300s",
+        "urls": [
+            "https://www.youtube.com/watch?v=--j5njc6Fb4"
+        ]
+    },
+    "FlameDragon": {
+        "image": "flame_dragon.png",
+        "attack": "280",
+        "hp": "300,000",
+        "power": "400,000",
+        "defense": "2,250",
+        "movement_speed": "Very Fast",
+        "battle_duration": "300s",
+        "urls": [
+            "https://www.youtube.com/watch?v=fCJjivo0sNU"
+        ]
     }
 }
