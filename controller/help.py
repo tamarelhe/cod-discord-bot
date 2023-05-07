@@ -38,6 +38,15 @@ async def present_help(ctx):
     For retrieve behemoth information
     '''
 
+    commands_guides = '''
+    '''+BOT_PREFIX+'''guide city_hall
+    '''+BOT_PREFIX+'''guide media
+    '''
+    descriptions_guides = '''
+    For retrieve city hall requirements
+    For retrieve some guides about COD
+    '''
+
     f = discord.File(BOT_ASSETS+'cod.jpg', filename='cod.jpg')
     embed=discord.Embed(title=TITLE_FRAME_L+"Help Menu"+TITLE_FRAME_R, description="\u200B", color=0xFF5733) 
     embed.set_image(url="attachment://"+'cod.jpg') 
@@ -52,6 +61,10 @@ async def present_help(ctx):
     embed.add_field(name=TITLE_FRAME_L+"Behemoth", value='', inline=False)
     embed.add_field(name="Commands", value=commands_behemoth, inline=True)
     embed.add_field(name="Description", value=descriptions_behemoth, inline=True)
+    #embed.add_field(name="\u200B", value="\u200B", inline=False)
+    embed.add_field(name=TITLE_FRAME_L+"Guides", value='', inline=False)
+    embed.add_field(name="Commands", value=commands_guides, inline=True)
+    embed.add_field(name="Description", value=descriptions_guides, inline=True)
 
     #embed.add_field(name="\u200B", value="\u200B", inline=False)
     embed.set_footer(text=FOOTER)

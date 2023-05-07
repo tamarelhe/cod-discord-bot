@@ -1,5 +1,6 @@
 import json
 from constants import *
+from utils.utils import normalize_key
 
 heroes_data = {}
 
@@ -13,18 +14,21 @@ def list_all_heroes():
     return heroes
 
 def get_hero(name):
-    if not name in heroes_data:
+    normalized_name = normalize_key(name)
+    if not normalized_name in heroes_data:
         return None
-    return heroes_data[name]
+    return heroes_data[normalized_name]
 
 def get_hero_talent_trees(name):
-    if not name in heroes_data:
+    normalized_name = normalize_key(name)
+    if not normalized_name in heroes_data:
         return None
-    return heroes_data[name]['images']['talent_trees']
+    return heroes_data[normalized_name]['images']['talent_trees']
 
 def get_hero_artifacts(name):
-    if not name in heroes_data:
+    normalized_name = normalize_key(name)
+    if not normalized_name in heroes_data:
         return None
-    return heroes_data[name]['artifacts']
+    return heroes_data[normalized_name]['artifacts']
 
 load_heroes_json()
