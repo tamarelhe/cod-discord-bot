@@ -24,13 +24,13 @@
                 "name": "In Full Swing",
                 "type": "Passive Skill",
                 "description": "Increases Ordo\u2019s Legion\u2019s Engineering by 20% when building Barricades and Alliance Buildings, and by 20% when destroying Barricades or Alliance Buildings.",
-                "upgrade_desc": "Engineering bonus while building: 4% / 8% / 12% / 16% / 20%<br>Bonus to Engineering when destroying: 4% / 8% / 12% / 16% / 20%"
+                "upgrade_desc": "Engineering bonus while building: 4% / 8% / 12% / 16% / 20%\nBonus to Engineering when destroying: 4% / 8% / 12% / 16% / 20%"
             },
             {
                 "name": "Clearsighted",
                 "type": "Passive Skill",
                 "description": "Increases the Gather Speed of Ordo\u2019s Legion by 8%, its Load Capacity by 8%, and its Mana Gather Speed by an additional 8%.",
-                "upgrade_desc": "Gather Speed Bonus: 2% / 4% / 6% / 8% / 10%<br>Mana Gather Speed Bonus: 2% / 4% / 6% / 8% / 10%<br>Legion Load Capacity Bonus: 2% / 4% / 6% / 8% / 10%"
+                "upgrade_desc": "Gather Speed Bonus: 2% / 4% / 6% / 8% / 10%\nMana Gather Speed Bonus: 2% / 4% / 6% / 8% / 10%\nLegion Load Capacity Bonus: 2% / 4% / 6% / 8% / 10%"
             },
             {
                 "name": "Seasoned",
@@ -102,13 +102,13 @@
                 "name": "Roadblock",
                 "type": "Rage Skill",
                 "description": "Slows and inflicts Gloom on an enemy Legion, reducing their ATK by 20% and their March Speed by 30% for 4s.",
-                "upgrade_desc": "ATK Reduction: 5% / 8% / 11% / 15% / 20%<br>March Speed Reduction: 6% / 12% / 18% / 24% / 30%"
+                "upgrade_desc": "ATK Reduction: 5% / 8% / 11% / 15% / 20%\nMarch Speed Reduction: 6% / 12% / 18% / 24% / 30%"
             },
             {
                 "name": "Midas Touch",
                 "type": "Passive Skill",
                 "description": "Increases the Gather Speed of Kella\u2019s Legion by 15% and its Gold Gather Speed by an additional 10%.",
-                "upgrade_desc": "Gather Speed bonus: 3% / 6% / 9% / 12% / 15%<br>Gold Gather Speed bonus: 2% / 4% / 6% / 8% / 10%"
+                "upgrade_desc": "Gather Speed bonus: 3% / 6% / 9% / 12% / 15%\nGold Gather Speed bonus: 2% / 4% / 6% / 8% / 10%"
             },
             {
                 "name": "Caravaneer",
@@ -174,13 +174,13 @@
                 "name": "Hunter\u2019s Instinct",
                 "type": "Rage Skill",
                 "description": "Grants Riposte and Passion, increasing counterattack damage by 15% and increasing Rage Accumulation Speed by 15% for 5s.",
-                "upgrade_desc": "Counterattack damage bonus: 5% / 7% / 9% / 12% / 15%<br>Rage Accumulation Speed Bonus: 5% / 7% / 9% / 12% / 15%"
+                "upgrade_desc": "Counterattack damage bonus: 5% / 7% / 9% / 12% / 15%\nRage Accumulation Speed Bonus: 5% / 7% / 9% / 12% / 15%"
             },
             {
                 "name": "Mountain Mover",
                 "type": "Passive Skill",
                 "description": "Increases the Gather Speed of Chakcha\u2019s Legion by 10%, its Load Capacity by 10%, and its Ore Gather Speed by an additional 10%.",
-                "upgrade_desc": "Gather Speed bonus: 2% / 4% / 6% / 8% / 10%<br>Ore Gather Speed bonus: 2% / 4% / 6% / 8% / 10%<br>Legion Load Capacity bonus:  2% / 4% / 6% / 8% / 10%"
+                "upgrade_desc": "Gather Speed bonus: 2% / 4% / 6% / 8% / 10%\nOre Gather Speed bonus: 2% / 4% / 6% / 8% / 10%\nLegion Load Capacity bonus:  2% / 4% / 6% / 8% / 10%"
             },
             {
                 "name": "Hands-on Experience",
@@ -192,7 +192,7 @@
                 "name": "Comfort Food",
                 "type": "Passive Skill",
                 "description": "Increases the HP of Chakcha\u2019s Legion by 4% and automatically heals the Legion\u2019s lightly wounded units after defeating an enemy Legion (Healing Factor 600).",
-                "upgrade_desc": "HP bonus: 2% / 3% / 4% / 5% / 7%<br>Healing Factor: 200 / 450 / 600 / 800 / 1000"
+                "upgrade_desc": "HP bonus: 2% / 3% / 4% / 5% / 7%\nHealing Factor: 200 / 450 / 600 / 800 / 1000"
             }
         ],
         "artifacts": [
@@ -248,7 +248,7 @@
                 "name": "Benediction of Aurora",
                 "type": "Rage Skill",
                 "description": "Grants Eliana\u2019s Legion a Divine Shield that absorbs a large amount of damage (Shield Factor 350) for 5s, while dealing Skill damage to the target Legion (Damage Factor 140, scales with ATK).",
-                "upgrade_desc": "Shield Factor: 200 / 270 / 350 / 420 / 500<br>Physical Skill Damage Factor: 100 / 120 / 140 / 170 / 200<br>Magic Skill Damage Factor: 100 / 120 / 140 / 170 / 200"
+                "upgrade_desc": "Shield Factor: 200 / 270 / 350 / 420 / 500\nPhysical Skill Damage Factor: 100 / 120 / 140 / 170 / 200\nMagic Skill Damage Factor: 100 / 120 / 140 / 170 / 200"
             },
             {
                 "name": "Purifying Touch",
@@ -332,7 +332,7 @@
                 "name": "Devotion",
                 "type": "Passive Skill",
                 "description": "Alistair\u2019s Legion gains 4% HP and 4% Physical ATK.",
-                "upgrade_desc": "HP bonus: 4% / 5% / 6% / 8% / 10%<br>Physical ATK bonus: 4% / 5% / 6% / 8% / 10%"
+                "upgrade_desc": "HP bonus: 4% / 5% / 6% / 8% / 10%\nPhysical ATK bonus: 4% / 5% / 6% / 8% / 10%"
             },
             {
                 "name": "Hold the Line",
@@ -344,7 +344,7 @@
                 "name": "Light of Sorland",
                 "type": "Passive Skill",
                 "description": "When Alistair\u2019s Legion has over 50% units remaining, it has a 20% chance to gain Riposte and Passion when launching normal attacks, increasing Counterattack damage dealt by 10% and Rage Accumulation Speed by 10% for 3s. This effect can be triggered once every 5s.",
-                "upgrade_desc": "Counterattack damage bonus: 10% / 15% / 20% / 25% / 30%<br>Rage Accumulation Speed bonus: 10% / 15% / 20% / 25% / 30%"
+                "upgrade_desc": "Counterattack damage bonus: 10% / 15% / 20% / 25% / 30%\nRage Accumulation Speed bonus: 10% / 15% / 20% / 25% / 30%"
             },
             {
                 "name": "Chivalric Oath",
@@ -441,7 +441,7 @@
                 "name": "Shimmerstrike",
                 "type": "Rage Skill",
                 "description": "Deals Physical Skill damage to the target Legion (Damage Factor 600, scales with Physical ATK), and Bruises them, reducing their HP by 10% for 3s.",
-                "upgrade_desc": "Skill Damage Factor: 600 / 800 / 1000 / 1200 / 1500<br>HP reduction: 10% / 15% / 20% / 25% / 30%"
+                "upgrade_desc": "Skill Damage Factor: 600 / 800 / 1000 / 1200 / 1500\nHP reduction: 10% / 15% / 20% / 25% / 30%"
             },
             {
                 "name": "Assassin\u2019s Covenant",
@@ -453,13 +453,13 @@
                 "name": "Night Prowler",
                 "type": "Passive Skill",
                 "description": "All infantry units in Nika\u2019s Legiongain 10% Physical ATK and 4% March Speed.",
-                "upgrade_desc": "Infantry unit Physical ATK bonus: 10% / 12% / 14% / 16% / 20%<br>Infantry unit March Speed bonus: 4% / 5% / 6% / 8% / 10%"
+                "upgrade_desc": "Infantry unit Physical ATK bonus: 10% / 12% / 14% / 16% / 20%\nInfantry unit March Speed bonus: 4% / 5% / 6% / 8% / 10%"
             },
             {
                 "name": "Blade Maelstrom",
                 "type": "Passive Skill",
                 "description": "Increases Hero Skill damage dealt by Nika\u2019s Legion by 4%, and counterattack damage by 10%.",
-                "upgrade_desc": "Skill damage reduction: 4% / 5% / 6% / 8% / 10%<br>Counterattack damage bonus: 10% / 12% / 14% / 16% / 20%"
+                "upgrade_desc": "Skill damage reduction: 4% / 5% / 6% / 8% / 10%\nCounterattack damage bonus: 10% / 12% / 14% / 16% / 20%"
             },
             {
                 "name": "Total Slaughter",
@@ -551,7 +551,7 @@
                 "name": "Flames of Vegeance",
                 "type": "Rage Skill",
                 "description": "Deals Magic Skill damage to the target Legion and another Legion surrounding it (Damage Factor 600, scales with Magic ATK). Has a 10% chance to Scorch them, dealing Magic Skill damage (Damage Factor 200, scales with Magic ATK) every second for 5s.",
-                "upgrade_desc": "Skill Damage Factor: 600 / 700 / 800 / 1000 / 1200<br>Probability: 10% / 20% / 30% / 40% / 50%"
+                "upgrade_desc": "Skill Damage Factor: 600 / 700 / 800 / 1000 / 1200\nProbability: 10% / 20% / 30% / 40% / 50%"
             },
             {
                 "name": "Dazzling Inferno",
@@ -563,7 +563,7 @@
                 "name": "Deep Burn",
                 "type": "Passive Skill",
                 "description": "All Magic units in Liliya\u2019s Legion gain 10% Magic ATK and 4% HP.",
-                "upgrade_desc": "Magic unit Magic ATK bonus: 10% / 12% / 14% / 16% / 20%<br>Magic unit HP bonus: 4% / 5% / 6% / 8% / 10%"
+                "upgrade_desc": "Magic unit Magic ATK bonus: 10% / 12% / 14% / 16% / 20%\nMagic unit HP bonus: 4% / 5% / 6% / 8% / 10%"
             },
             {
                 "name": "Witchy Wiles",
@@ -684,7 +684,7 @@
                 "name": "Revitalizing Rune",
                 "type": "Rage Skill",
                 "description": "Heals lightly wounded units in Garwood\u2019s Legion (Healing Factor 500) and grants them Resistance, reducing all damage taken by 10% for 4s.",
-                "upgrade_desc": "Healing Factor: 500 / 650 / 1000 / 1200<br>Damage taken reduction: 10% / 12% / 14% / 16% / 20%"
+                "upgrade_desc": "Healing Factor: 500 / 650 / 1000 / 1200\nDamage taken reduction: 10% / 12% / 14% / 16% / 20%"
             },
             {
                 "name": "Tempered Bark",
@@ -696,7 +696,7 @@
                 "name": "Call of the Ancient Tree",
                 "type": "Passive Skill",
                 "description": "Increases the DEF of all Infantry units in this Legion by 10%, and all healing they grant or receive by 10%.",
-                "upgrade_desc": "DEF Bonus: 10% / 12% / 14% / 16% / 20%<br>Healing received bonus: 10% / 15% / 20% / 25%  / 30%"
+                "upgrade_desc": "DEF Bonus: 10% / 12% / 14% / 16% / 20%\nHealing received bonus: 10% / 15% / 20% / 25%  / 30%"
             },
             {
                 "name": "Thistles and Thorns",
@@ -766,7 +766,7 @@
                 "name": "No Quarter",
                 "type": "Rage Skill",
                 "description": "Hosk\u2019s Legion gains Keen, Vigor, and Rampage, increasing their ATK by 10%, their HP by 10%, and their damage dealt by 3% for 5s.",
-                "upgrade_desc": "ATK Bonus: 10% / 12% / 14% / 16% / 20%<br>HP Bonus: 10% / 15% / 20% / 25% / 30%<br>Damage dealt bonus: 3% / 4% / 6% / 8% / 10%"
+                "upgrade_desc": "ATK Bonus: 10% / 12% / 14% / 16% / 20%\nHP Bonus: 10% / 15% / 20% / 25% / 30%\nDamage dealt bonus: 3% / 4% / 6% / 8% / 10%"
             },
             {
                 "name": "A Dream of Peace",
@@ -778,7 +778,7 @@
                 "name": "Battle-Scarred",
                 "type": "Passive Skill",
                 "description": "Increases a Legion\u2019s DEF by 10% when Hosk is Commander, and their Normal Attack damage by 15% when Hosk is Deputy.",
-                "upgrade_desc": "DEF Bonus: 10% / 13% / 16% / 20% / 25%<br>Normal attack damage bonus: 15% / 20% / 25% / 30% / 40%"
+                "upgrade_desc": "DEF Bonus: 10% / 13% / 16% / 20% / 25%\nNormal attack damage bonus: 15% / 20% / 25% / 30% / 40%"
             },
             {
                 "name": "Plateau Tactics",
@@ -826,13 +826,13 @@
                 "name": "Penumbra",
                 "type": "Passive Skill",
                 "description": "All Cavalry units in Emrys\u2019s Legion gain 10% Physical ATK and 3% March Speed.",
-                "upgrade_desc": "Cavalry unit Physical ATK bonus: 10% / 15% / 20% / 25% / 30%<br>Cavalry unit March Speed bonus: 3% / 4.5% / 6% / 8% / 10%"
+                "upgrade_desc": "Cavalry unit Physical ATK bonus: 10% / 15% / 20% / 25% / 30%\nCavalry unit March Speed bonus: 3% / 4.5% / 6% / 8% / 10%"
             },
             {
                 "name": "Shadow Raid",
                 "type": "Passive Skill",
                 "description": "All damage dealt by Emrys\u2019s Legion is increased by 4%. Emrys also deals 5% more Skill damage when attacking targets that have been Surrounded.",
-                "upgrade_desc": "Damage dealt bonus: 4% / 5% / 6% / 8% / 10%<br>Skill damage dealt bonus: 5% / 7% / 9% / 12% / 15%"
+                "upgrade_desc": "Damage dealt bonus: 4% / 5% / 6% / 8% / 10%\nSkill damage dealt bonus: 5% / 7% / 9% / 12% / 15%"
             },
             {
                 "name": "Springblade",
@@ -923,19 +923,19 @@
                 "name": "Blessed Blade",
                 "type": "Rage Skill",
                 "description": "Grants Physical Keen, increasing Physical ATK by 5% for 4s. Also grants a shield which absorbs damage (Shield Factor 600) for 4s.",
-                "upgrade_desc": "Physical ATK bonus: 5% / 8% / 11% / 15% / 20%<br>Shield Factor: 600 / 700 / 800 / 1000 / 1200"
+                "upgrade_desc": "Physical ATK bonus: 5% / 8% / 11% / 15% / 20%\nShield Factor: 600 / 700 / 800 / 1000 / 1200"
             },
             {
                 "name": "Glorious Bloodline",
                 "type": "Passive Skill",
                 "description": "Increases Madeline\u2019s Legion Capacity by 2000, and increases Physical damage dealt by her Legion in the field by 3%.",
-                "upgrade_desc": "Maximum Legion Capacity bonus 2000 / 4000 / 6000 / 8000 / 10000<br>Physical Damage Dealt bonus: 3% / 4% / 6% / 8% / 10%"
+                "upgrade_desc": "Maximum Legion Capacity bonus 2000 / 4000 / 6000 / 8000 / 10000\nPhysical Damage Dealt bonus: 3% / 4% / 6% / 8% / 10%"
             },
             {
                 "name": "Steel Sentinel",
                 "type": "Passive Skill",
                 "description": "Madeline\u2019s Legion deals 5% more counterattack damage, and all Infantry units in her Legion gain 5% HP.",
-                "upgrade_desc": "Infantry unit HP bonus: 5% / 7% / 9% / 12% / 15%<br>Counterattack damage bonus: 5% / 7% / 9% / 12% / 15%"
+                "upgrade_desc": "Infantry unit HP bonus: 5% / 7% / 9% / 12% / 15%\nCounterattack damage bonus: 5% / 7% / 9% / 12% / 15%"
             },
             {
                 "name": "Piercing Gaze",
@@ -1002,13 +1002,13 @@
                 "name": "Venomous Overgrowth",
                 "type": "Rage Skill",
                 "description": "Deals Magic Skill damage to the target Legion (Damage Factor 500, scales with Magic ATK), and Ensnares them, dealing Magic Skill damage (Damage Factor 100, scales with Magic ATK) every second and reducing their March Speed by for 3s.",
-                "upgrade_desc": "Skill Damage Factor: 300 / 360 / 420 / 500 / 600<br>Continuous Damage Factor:"
+                "upgrade_desc": "Skill Damage Factor: 300 / 360 / 420 / 500 / 600\nContinuous Damage Factor:"
             },
             {
                 "name": "Wealdshield",
                 "type": "Passive Skill",
                 "description": "All Magic units in Alwyn\u2019s Legion gain 4% Magic ATK and 4% HP.",
-                "upgrade_desc": "Magic unit Magic ATK bonus: 4% / 5% / 6% / 8% / 10%<br>Magic unit HP bonus: 4% / 5% / 6% / 8% / 10%"
+                "upgrade_desc": "Magic unit Magic ATK bonus: 4% / 5% / 6% / 8% / 10%\nMagic unit HP bonus: 4% / 5% / 6% / 8% / 10%"
             },
             {
                 "name": "Oath of the Wellspring",
@@ -1112,13 +1112,13 @@
                 "name": "Grayclaw Fury",
                 "type": "Rage Skill",
                 "description": "Deals Physical Skill damage to the target Legion (Damage Factor 370, scales with Physical ATK) and gains Rampage, increasing all damage dealt by 8% for",
-                "upgrade_desc": "Skill Damage Factor: 300 / 370 / 440 / 510 / 600<br>Damage bonus: 4% / 8% / 12% / 16% / 20%"
+                "upgrade_desc": "Skill Damage Factor: 300 / 370 / 440 / 510 / 600\nDamage bonus: 4% / 8% / 12% / 16% / 20%"
             },
             {
                 "name": "Boiling Blood",
                 "type": "Passive Skill",
                 "description": "All infantry units in this Legion gain 3% Physical ATk and 3% DEF.",
-                "upgrade_desc": "Infantry unit Physical ATK bonus 3% / 4% / 6% / 8% / 10%<br>Infantry unit DEF bonus: 3% / 4% / 6% / 8% / 10%"
+                "upgrade_desc": "Infantry unit Physical ATK bonus 3% / 4% / 6% / 8% / 10%\nInfantry unit DEF bonus: 3% / 4% / 6% / 8% / 10%"
             },
             {
                 "name": "Fearsome Roar",
@@ -1130,7 +1130,7 @@
                 "name": "Tireless Will",
                 "type": "Passive Skill",
                 "description": "Reduces Hero Skill damage taken by the Garrisoned Army by 4% while garrisoned in a City or Stronghold and increases healing by 4%.",
-                "upgrade_desc": "Skill Damage Taken reduction: 4% / 6% / 8% / 11% / 15%<br>Healing granted bonus: 4% / 6% / 8% / 11% / 15%"
+                "upgrade_desc": "Skill Damage Taken reduction: 4% / 6% / 8% / 11% / 15%\nHealing granted bonus: 4% / 6% / 8% / 11% / 15%"
             },
             {
                 "name": "Last-Ditch Strike",
@@ -1198,19 +1198,19 @@
                 "name": "Fragmentation Bolt",
                 "type": "Rage Skill",
                 "description": "Deals Physical Skill damage to the target (Damage Factor 600, scales with Physical ATK) and deals additional Physical Skill damage to up to 2 nearby Legions (Damage Factor 300, scales with Physical ATK).",
-                "upgrade_desc": "Skill Damage Factor: 200 / 300 / 400 / 500 / 600<br>Bomb Additional Damage Factor: 100 / 150 / 200 / 250 / 300"
+                "upgrade_desc": "Skill Damage Factor: 200 / 300 / 400 / 500 / 600\nBomb Additional Damage Factor: 100 / 150 / 200 / 250 / 300"
             },
             {
                 "name": "Wyvern Rider",
                 "type": "Passive Skill",
                 "description": "Increases Hero Skill damage dealt by Kregg\u2019s Legion by 4%, and increases their March Speed by 10% for IOS after battle ends.",
-                "upgrade_desc": "Skill damage dealt bonus: 4% / 5% / 6% / 8% / 10%<br>March Speed bonus: 10% / 12% / 14% / 16% / 20%"
+                "upgrade_desc": "Skill damage dealt bonus: 4% / 5% / 6% / 8% / 10%\nMarch Speed bonus: 10% / 12% / 14% / 16% / 20%"
             },
             {
                 "name": "Aerial Formation",
                 "type": "Passive Skill",
                 "description": "Increases Kregg\u2019s Legion\u2019s ATK by 4%. Ifthe Legion is composed entirely of Flying units, units gain 4% DEF.",
-                "upgrade_desc": "ATK bonus: 4% / 5% / 6% / 8% / 10%<br>DEF bonus: 4% / 5% / 6% / 8% / 10%"
+                "upgrade_desc": "ATK bonus: 4% / 5% / 6% / 8% / 10%\nDEF bonus: 4% / 5% / 6% / 8% / 10%"
             },
             {
                 "name": "Building Frenzy",
@@ -1296,13 +1296,13 @@
                 "name": "Ice Breath",
                 "type": "Rage Skill",
                 "description": "Deals Magic Skill damage to the target Legion and 2 Legions surrounding it (Damage Factor 370, scales with Magic ATK) and inflicts Gloom on them, reducing their ATK by 8% for 2s.",
-                "upgrade_desc": "Skill Damage Factor: 300 / 370 / 440 / 510 / 600<br>ATK Reduction: 4% / 8% / 12% / 16% / 20%"
+                "upgrade_desc": "Skill Damage Factor: 300 / 370 / 440 / 510 / 600\nATK Reduction: 4% / 8% / 12% / 16% / 20%"
             },
             {
                 "name": "Royal Court Mage",
                 "type": "Passive Skill",
                 "description": "All Magic units in Waldyr\u2019s Legion gain 3% Magic ATK and 3% HP.",
-                "upgrade_desc": "Magic ATK bonus: 3% / 4% / 6% / 8% / 10%<br>HP bonus: 3% / 4% / 6% / 8% / 10%"
+                "upgrade_desc": "Magic ATK bonus: 3% / 4% / 6% / 8% / 10%\nHP bonus: 3% / 4% / 6% / 8% / 10%"
             },
             {
                 "name": "Forstbite",
@@ -1417,13 +1417,13 @@
                 "name": "Sanctified Wings",
                 "type": "Passive Skill",
                 "description": "Atheus\u2019s Legion gains 3% HP. Ifthe Legion is composed entirely of Flying units, all healing they receive is increased by 4%.",
-                "upgrade_desc": "HP Bonus: 3% / 4% / 6% / 8% / 10%<br>Healing received bonus: 4% / 6% / 8% / 11% / 15%"
+                "upgrade_desc": "HP Bonus: 3% / 4% / 6% / 8% / 10%\nHealing received bonus: 4% / 6% / 8% / 11% / 15%"
             },
             {
                 "name": "Winged Embrace",
                 "type": "Passive Skill",
                 "description": "Legion March Speed is increased by 5% and all damage taken is reduced by 3%.",
-                "upgrade_desc": "March Speed Bonus: 5% / 8% / 11% / 15% / 20%<br>Damage taken reduction: 3% / 4% / 6% / 8% / 10%"
+                "upgrade_desc": "March Speed Bonus: 5% / 8% / 11% / 15% / 20%\nDamage taken reduction: 3% / 4% / 6% / 8% / 10%"
             },
             {
                 "name": "Redemptive Healer",
@@ -1516,7 +1516,7 @@
                 "name": "Chaotic Arrows",
                 "type": "Attack Range: Medium",
                 "description": "Deals Physical Skill damage to the target Legion 3 times in succession (Damage Factor 200, 200, 400, scales with Physical ATK).",
-                "upgrade_desc": "Skill Damage Factor 100/ 120/ 140/ 160 / 200<br>Final Attack Damage Factor 200/250/300/ 350/400"
+                "upgrade_desc": "Skill Damage Factor 100/ 120/ 140/ 160 / 200\nFinal Attack Damage Factor 200/250/300/ 350/400"
             },
             {
                 "name": "Aspiring Queensguard",
@@ -1528,7 +1528,7 @@
                 "name": "Green Boats Master",
                 "type": "Passive Skill",
                 "description": "All Marksman units in this Legion gain 8% Physical ATK and 6% March Speed.",
-                "upgrade_desc": "Marksman unit Physical ATK bonus: 4% / 6% / 8% / 11% / 15%<br>Marksman unit March Speed bonus: 3% / 4% / 6% / 8% / 10%"
+                "upgrade_desc": "Marksman unit Physical ATK bonus: 4% / 6% / 8% / 11% / 15%\nMarksman unit March Speed bonus: 3% / 4% / 6% / 8% / 10%"
             },
             {
                 "name": "Preemptive Strike",
@@ -1633,25 +1633,25 @@
                 "name": "Piercing Shot",
                 "type": "Rage Skill",
                 "description": "Deals Physical Skill damage to the target Legion (Damage Factor 800, scales with Physical ATK), and inflicts DEF Break, reducing their DEF by for 3s.",
-                "upgrade_desc": "Skill Damage Factor: 700 / 800 / 1000 / 1200 / 1400<br>DEF reduction: 5% / 7% / 9% / 12% / 15%"
+                "upgrade_desc": "Skill Damage Factor: 700 / 800 / 1000 / 1200 / 1400\nDEF reduction: 5% / 7% / 9% / 12% / 15%"
             },
             {
                 "name": "Expert Mechanic",
                 "type": "Passive Skill",
                 "description": "Increases Nico\u2019s Legion\u2019s Engineering by 5% when building Barricades and Alliance Buildings, and by 5% when destroying Barricades or Alliance Buildings.",
-                "upgrade_desc": "Engineering bonus while building: 5% / 7% / 9% / 12% / 15%<br>Bonus to Engineering when destroying: 5% / 7% / 9% / 12% / 15%"
+                "upgrade_desc": "Engineering bonus while building: 5% / 7% / 9% / 12% / 15%\nBonus to Engineering when destroying: 5% / 7% / 9% / 12% / 15%"
             },
             {
                 "name": "Agile Deployment",
                 "type": "Passive Skill",
                 "description": "All Marksman units in Nico\u2019s Legion gain 10% ATK and 4% DEF.",
-                "upgrade_desc": "Cavalry unit Physical ATK bonus: 10% / 15% / 20% / 25% / 30%<br>Marksman unit DEF bonus: 4% / 5% / 6% / 8% / 10%"
+                "upgrade_desc": "Cavalry unit Physical ATK bonus: 10% / 15% / 20% / 25% / 30%\nMarksman unit DEF bonus: 4% / 5% / 6% / 8% / 10%"
             },
             {
                 "name": "Greymar\u2019s Crossbow",
                 "type": "Passive Skill",
                 "description": "When casting Rage Skills, Nico\u2019s Legion gains Onslaught and Riposte, increasing normal attack and counterattack damage dealt by 10% for 5s. This effect can be triggered once every 7s.",
-                "upgrade_desc": "Normal attack damage bonus: 10% / 12% / 14% / 16% / 20%<br>Counterattack damage bonus: 10% / 12% / 14% / 16% / 20%"
+                "upgrade_desc": "Normal attack damage bonus: 10% / 12% / 14% / 16% / 20%\nCounterattack damage bonus: 10% / 12% / 14% / 16% / 20%"
             },
             {
                 "name": "Bullseye Barrage",
@@ -1731,25 +1731,25 @@
                 "name": "Arbiter\u2019s Ward",
                 "type": "Rage Skill",
                 "description": "Theia\u2019s Legion gains a shield that absorbs a large amount of damage (Shield Factor 600) for 5s, while also gaining Synergy, increasing Hero Skill damage dealt by 7% (ends when a Rage Skill is cast).",
-                "upgrade_desc": "Shield Factor: 500 / 600 / 700 / 850 / 1000<br>Skill damage dealt bonus: 5% / 7% / 9% / 12% / 15%"
+                "upgrade_desc": "Shield Factor: 500 / 600 / 700 / 850 / 1000\nSkill damage dealt bonus: 5% / 7% / 9% / 12% / 15%"
             },
             {
                 "name": "Oracle\u2019s Grace",
                 "type": "Passive Skill",
                 "description": "While in the field, Theia\u2019s Legion\u2019s ATK is increased by 5%, and they take 5% less Hero Skill damage.",
-                "upgrade_desc": "ATK bonus: 5% / 7% / 9% / 12% / 15%<br>Skill Damage Taken reduction: 5% / 7% / 9% / 12% / 15%"
+                "upgrade_desc": "ATK bonus: 5% / 7% / 9% / 12% / 15%\nSkill Damage Taken reduction: 5% / 7% / 9% / 12% / 15%"
             },
             {
                 "name": "Sanctified Wings",
                 "type": "Passive Skill",
                 "description": "Theia\u2019s Legion\u2019s DEF is increased by 10%. When her Legion is composed entirely of Flying units, their March Speed is increased by 10%.",
-                "upgrade_desc": "DEF Bonus: 10% / 12% / 14% / 16% / 20%<br>March speed bonus: 10% / 12% / 14% / 16% / 20%"
+                "upgrade_desc": "DEF Bonus: 10% / 12% / 14% / 16% / 20%\nMarch speed bonus: 10% / 12% / 14% / 16% / 20%"
             },
             {
                 "name": "Lex Lucis",
                 "type": "Passive Skill",
                 "description": "When Theia\u2019s Legion gains a shield, their ATK is increased by 4%, up to a maximum of 12%.",
-                "upgrade_desc": "ATK Bonus: 4% / 5% / 6% / 8% / 10%<br>Max ATK bonus: 12% / 15% / 18% / 24% / 30%"
+                "upgrade_desc": "ATK Bonus: 4% / 5% / 6% / 8% / 10%\nMax ATK bonus: 12% / 15% / 18% / 24% / 30%"
             },
             {
                 "name": "Redemption",
@@ -1839,19 +1839,19 @@
                 "name": "Foremother\u2019s Blessing",
                 "type": "Rage Skill",
                 "description": "Heals lightly wounded units in a nearby friendly Legion with the lowest Unit Count (Healing Factor 200) and grants the Legion Onslaught, increasing normal attack damage dealt by 8% for 5s.",
-                "upgrade_desc": "Healing Factor: 200/250/300/350/400<br>Normal attack damage bonus: 8%/11%/14%/17%/20%"
+                "upgrade_desc": "Healing Factor: 200/250/300/350/400\nNormal attack damage bonus: 8%/11%/14%/17%/20%"
             },
             {
                 "name": "Secret of the Trees",
                 "type": "Passive Skill",
                 "description": "Increases the Gather Speed of Pan\u2019s Legion by 8% and its Wood Gather Speed by an additional 8%.",
-                "upgrade_desc": "Gather Speed bonus 8%/11%/14%/17%/20%<br>Wood Gather Speed bonus 8%/11%/14%/17%/20%"
+                "upgrade_desc": "Gather Speed bonus 8%/11%/14%/17%/20%\nWood Gather Speed bonus 8%/11%/14%/17%/20%"
             },
             {
                 "name": "Song of Protection",
                 "type": "Passive Skill",
                 "description": "Increases the DEF of Pan\u2019s Legion by 5%, while reducing Hero Skill damage taken by 4%.",
-                "upgrade_desc": "DEF Bonus: 5% / 7% / 9% / 12% / 15%<br>Skill Damage Taken Reduction: 4% / 5% / 6% / 8% / 10%"
+                "upgrade_desc": "DEF Bonus: 5% / 7% / 9% / 12% / 15%\nSkill Damage Taken Reduction: 4% / 5% / 6% / 8% / 10%"
             },
             {
                 "name": "Dream Omen",
@@ -1919,13 +1919,13 @@
                 "name": "Rattlesnake Strike",
                 "type": "Rage Skill",
                 "description": "Kinnara deals Hero Skill damage to an enemy Legion (Physical Damage Factor 700) and inflicts Feeble, decreasing all damage they deal by 4% for 5s.",
-                "upgrade_desc": "Skill Damage Factor: 700 / 800 / 1000 / 1200 / 1400<br>HP bonus: 4% / 6% / 8% / 11% / 15%"
+                "upgrade_desc": "Skill Damage Factor: 700 / 800 / 1000 / 1200 / 1400\nHP bonus: 4% / 6% / 8% / 11% / 15%"
             },
             {
                 "name": "Provocation",
                 "type": "Passive Skill",
                 "description": "While in the field, Kinnara\u2019s Legion deals 10% more normal attack damage, and takes 4% less Hero Skill damage.",
-                "upgrade_desc": "Normal attack damage bonus: 10% / 12% / 14% / 16% / 20%<br><br>Hero Skill damage taken reduction: 10% / 12% / 14% / 16% / 20%"
+                "upgrade_desc": "Normal attack damage bonus: 10% / 12% / 14% / 16% / 20%\n\nHero Skill damage taken reduction: 10% / 12% / 14% / 16% / 20%"
             },
             {
                 "name": "Hunter\u2019s Pace",
@@ -1937,7 +1937,7 @@
                 "name": "Gratuitous Violence",
                 "type": "Passive Skill",
                 "description": "When Kinnara\u2019s Legion is attacked, she has a 20% chance to gain Physical Riposte and inflict Slow upon the target, increasing her Legion\u2019s Physical counterattack damage dealt by 10% and reducing the target\u2019s March Speed by for 5s.",
-                "upgrade_desc": "Physical Counterattack Damage Dealt bonus: 10% / 15% / 20% / 25% / 30%<br>March Speed reduction: 10% / 12% / 14% / 16% / 20%"
+                "upgrade_desc": "Physical Counterattack Damage Dealt bonus: 10% / 15% / 20% / 25% / 30%\nMarch Speed reduction: 10% / 12% / 14% / 16% / 20%"
             },
             {
                 "name": "Jawbreaker",
@@ -1968,25 +1968,25 @@
                 "name": "Frozen Star",
                 "type": "Rage Skill",
                 "description": "Deals Hero Skill damage to the target and 2 surrounding Legions (Magic Damage Factor 600) and inflicts Freeze, reducing their March Speed by 10% for 3s. Each additional target reduces the damage dealt to each target.",
-                "upgrade_desc": "Skill Damage Factor: 600 / 700 / 800 / 1000 / 1200<br>HP bonus: 10% / 12% / 14% / 16% / 20%"
+                "upgrade_desc": "Skill Damage Factor: 600 / 700 / 800 / 1000 / 1200\nHP bonus: 10% / 12% / 14% / 16% / 20%"
             },
             {
                 "name": "Perfection of Form",
                 "type": "Passive Skill",
                 "description": "While in the field, Velyn\u2019s Legion deals 5% more Hero Skill damage and gains 10% March Speed.",
-                "upgrade_desc": "Hero Skill damage dealt bonus: 5% / 7% / 9% / 12% / 15%<br>March Speed bonus: 10% / 12% / 14% / 16% / 20%"
+                "upgrade_desc": "Hero Skill damage dealt bonus: 5% / 7% / 9% / 12% / 15%\nMarch Speed bonus: 10% / 12% / 14% / 16% / 20%"
             },
             {
                 "name": "Bitter Cold",
                 "type": "Passive Skill",
                 "description": "All Magic units in Velyn\u2019s Legion gain 4% Hero Skill Crit Rate and 5% DEF.",
-                "upgrade_desc": "Magic unit Hero Skill Crit Rate bonus: 4% / 5% / 6% / 8% / 10%<br>Magic unit DEF bonus: 5% / 7% / 9% / 12% / 15%"
+                "upgrade_desc": "Magic unit Hero Skill Crit Rate bonus: 4% / 5% / 6% / 8% / 10%\nMagic unit DEF bonus: 5% / 7% / 9% / 12% / 15%"
             },
             {
                 "name": "Icy Interdiction",
                 "type": "Passive Skill",
                 "description": "When in battle, Velyn has a 20% chance to inflict Magic DEF Break and Freeze on the target, reducing their Magic DEF by 10% and their March Speed by 10% for 3s.",
-                "upgrade_desc": "Magic DEF reduction: 10% / 12% / 14% / 16% / 20%<br>March Speed reduction: 10% / 12% / 14% / 16% / 20%"
+                "upgrade_desc": "Magic DEF reduction: 10% / 12% / 14% / 16% / 20%\nMarch Speed reduction: 10% / 12% / 14% / 16% / 20%"
             },
             {
                 "name": "Snowblind",
@@ -2017,7 +2017,7 @@
                 "name": "Wolf-Spirit Binds",
                 "type": "Rage Skill",
                 "description": "Deals Physical Skill damage to the target Legion (Damage Factor 700, scales with Physical ATK) while granting Bakshi\u2019s Legion Vigor, increasing their HP by for 5s.",
-                "upgrade_desc": "Skill Damage Factor 700 / 800 / 1000 / 1200 / 1400<br>HP bonus 10% / 12% / 14% / 16% / 20%"
+                "upgrade_desc": "Skill Damage Factor 700 / 800 / 1000 / 1200 / 1400\nHP bonus 10% / 12% / 14% / 16% / 20%"
             },
             {
                 "name": "Sense Weakness",
@@ -2029,13 +2029,13 @@
                 "name": "Quickened Blood",
                 "type": "Passive Skill",
                 "description": "All Cavalry units in Bakshi\u2019s Legion gain 4% HP and 10% Physical ATK.",
-                "upgrade_desc": "Cavalry unit HP bonus: 4% / 5% / 6% / 8% / 10%<br>Cavalry unit Physical ATK bonus: 10% / 12% / 14% / 16%"
+                "upgrade_desc": "Cavalry unit HP bonus: 4% / 5% / 6% / 8% / 10%\nCavalry unit Physical ATK bonus: 10% / 12% / 14% / 16%"
             },
             {
                 "name": "Shaman\u2019s Call",
                 "type": "Passive Skill",
                 "description": "While in battle, Bakshi\u2019s Legion randomly gains either Ascension (increases ATK and DEF by 10%), Passion (increases Rage Accumulation Speed by 10%), or Spirit Siphon (launching normal attacks grants healing, Healing Factor 100) every IOS, lasting for 5s.",
-                "upgrade_desc": "ATK and DEF bonus: 10% / 15% / 20% / 25% / 30%<br>Rage Accumulation Speed bonus: 10% / 15% / 20% / 25% / 30%<br>Healing Factor: 100 / 120 / 140 / 170 / 200"
+                "upgrade_desc": "ATK and DEF bonus: 10% / 15% / 20% / 25% / 30%\nRage Accumulation Speed bonus: 10% / 15% / 20% / 25% / 30%\nHealing Factor: 100 / 120 / 140 / 170 / 200"
             },
             {
                 "name": "Howl of the Wolf-Spirit",
@@ -2138,19 +2138,19 @@
                 "name": "Axiom of Glory",
                 "type": "Rage Skill",
                 "description": "Inflicts Infirm on 3 Legions in a designated circle, increasing all damage taken by 10% for 2s, while also healing lightly wounded units in up to 2 friendly Legions surrounding the target (Healing Factor 150).",
-                "upgrade_desc": "Target damage taken bonus 10% / 12% / 14% / 16% / 20%<br>Healing Factor 150 / 200 / 250 / 300 / 350"
+                "upgrade_desc": "Target damage taken bonus 10% / 12% / 14% / 16% / 20%\nHealing Factor 150 / 200 / 250 / 300 / 350"
             },
             {
                 "name": "Earthen Balance",
                 "type": "Passive Skill",
                 "description": "Increases the Gather Speed of Indis\u2019s Legion by 10% and its Wood Gather Speed by an additional 4%.",
-                "upgrade_desc": "Gather Speed Bonus: 10% / 12% / 14% / 16% / 20%<br>Wood Gather Speed bonus: 4% / 5% / 6% / 8% / 10%"
+                "upgrade_desc": "Gather Speed Bonus: 10% / 12% / 14% / 16% / 20%\nWood Gather Speed bonus: 4% / 5% / 6% / 8% / 10%"
             },
             {
                 "name": "Rejuvenating Blessing",
                 "type": "Passive Skill",
                 "description": "Increases Indis\u2019s Legion\u2019s HP by 10% and maximum Legion Capacity by 1000.",
-                "upgrade_desc": "HP bonus: 10% / 12% / 14% / 16% / 20%<br>Maximum Legion Capacity bonus: 1000 / 2000 / 3000 / 4000 / 5000"
+                "upgrade_desc": "HP bonus: 10% / 12% / 14% / 16% / 20%\nMaximum Legion Capacity bonus: 1000 / 2000 / 3000 / 4000 / 5000"
             },
             {
                 "name": "Purge",
