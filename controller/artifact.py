@@ -14,7 +14,7 @@ async def execute_artifact_command(ctx, *args):
         case _:
             check = model.get_artifact(args[0])
             if check is None:
-                await ctx.send('Behemoth '+args[0]+' does not exists.')
+                await ctx.send('Artifact '+args[0]+' does not exists.')
                 return
             await present_artifact(ctx, args[0])
 

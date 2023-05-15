@@ -7,6 +7,7 @@ from controller.hero import execute_hero_command
 from controller.behemoth import execute_behemoth_command 
 from controller.guide import execute_guide_command 
 from controller.artifact import execute_artifact_command
+from controller.credits import execute_credits_command
 from constants import *
 
 activity = discord.Game(name=BOT_PREFIX+"help")
@@ -40,5 +41,9 @@ async def guide(ctx, *args):
 @client.command()
 async def artifact(ctx, *args):
     await execute_artifact_command(ctx, *args)
+
+@client.command()
+async def credits(ctx, *args):
+    await execute_credits_command(ctx, *args)
 
 client.run(BOTTOKEN)

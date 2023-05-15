@@ -1,7 +1,9 @@
 import discord
 import model.hero as model
+import model.artifact as model_a
 from constants import *
 from disputils import BotEmbedPaginator
+import controller.artifact as arti
         
 async def execute_hero_command(ctx, *args):
     if len(args) == 0 or len(args) > 2:
@@ -105,14 +107,4 @@ async def present_hero_artifacts(ctx, name):
     roles = ''
 
     for i, artifact in enumerate(artifacts):
-        names = names + artifact['name'] + '\n'
-        rarities = rarities + artifact['rarity'] + '\n'
-        roles = roles + artifact['role'] + '\n'
-
-    embed=discord.Embed(title=TITLE_FRAME_L+name+" Artifacts"+TITLE_FRAME_R, description="\u200B", color=0xFF5733)        
-    embed.add_field(name='Name', value=names, inline=True)
-    embed.add_field(name='Rarity', value=rarities, inline=True)
-    embed.add_field(name='Role', value=roles, inline=True)
-    embed.add_field(name="\u200B", value="\u200B", inline=True)
-    embed.set_footer(text=FOOTER)
-    await ctx.send(embed=embed)
+        await arti.present_artifact(ctx, artifact['id'])

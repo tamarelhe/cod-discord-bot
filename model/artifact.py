@@ -1,6 +1,6 @@
 import json
 from constants import *
-from utils.utils import normalize_key
+from utils.utils import normalize_key_v2
 
 artifacts_data = {}
 
@@ -14,8 +14,7 @@ def list_all_artifacts():
     return artifacts
 
 def get_artifact(id):
-    normalized_id = id
-    #normalized_id = normalize_key(id)    
+    normalized_id = normalize_key_v2(id)    
     if not normalized_id in artifacts_data:
         return None
     return artifacts_data[normalized_id]
