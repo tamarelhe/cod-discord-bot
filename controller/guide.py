@@ -22,7 +22,6 @@ async def present_city_hall_requirements(ctx):
     f = discord.File(GUIDE_ASSETS+'city_hall_requirements.jpg', filename='city_hall_requirements.jpg')
     embed=discord.Embed(title=TITLE_FRAME_L+"City Hall"+TITLE_FRAME_R, description="\u200B", color=0xFF5733) 
     embed.set_image(url="attachment://"+'city_hall_requirements.jpg') 
-    #embed.add_field(name="\u200B", value="\u200B", inline=False)
     embed.set_footer(text=FOOTER)
     await ctx.send(embed=embed, file=f)
 

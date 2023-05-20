@@ -101,10 +101,6 @@ async def present_hero_talent_trees(ctx, name):
 
 async def present_hero_artifacts(ctx, name):
     artifacts = model.get_hero_artifacts(name)
-    
-    names = ''
-    rarities = ''
-    roles = ''
 
     for i, artifact in enumerate(artifacts):
         await arti.present_artifact(ctx, artifact['id'])
