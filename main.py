@@ -16,11 +16,15 @@ client.remove_command('help')
 
 heroes_data = None
 
+    
+
 @client.event
 async def on_ready():
     global heroes_data
     print("COD Bot is up and running!")
-    print('--------------------------')
+    print('\n------ Server List ------\n')
+    async for guild in client.fetch_guilds(limit=150):
+        print(guild.name)
 
 @client.command()
 async def help(ctx, *args):
