@@ -1,5 +1,6 @@
 {
-    "GiantBear": {
+    "giantbear": {
+        "name": "Giant Bear",
         "image": "giant_bear.png",
         "attack": "400",
         "hp": "300,000",
@@ -11,7 +12,8 @@
             "https://www.youtube.com/watch?v=bDUTisht5p0"
         ]
     },
-    "Giant": {
+    "giant": {
+        "name": "Giant",
         "image": "giant.png",
         "attack": "400",
         "hp": "300,000",
@@ -23,7 +25,8 @@
             "https://www.youtube.com/watch?v=EfjwEXxdfJI"
         ]
     },
-    "ThunderRoc": {
+    "thunderroc": {
+        "name": "Thunder Roc",
         "image": "thunder_roc.png",
         "attack": "280",
         "hp": "300,000",
@@ -35,7 +38,8 @@
             "https://www.youtube.com/watch?v=mEYf6MwBElg"
         ]
     },
-    "Hydra": {
+    "hydra": {
+        "name": "Hydra",
         "image": "hydra.png",
         "attack": "280",
         "hp": "300,000",
@@ -47,7 +51,8 @@
             "https://www.youtube.com/watch?v=gllTPoNL5hg"
         ]
     },
-    "DireBear": {
+    "direbear": {
+        "name": "Dire Bear",
         "image": "dire_hear.png",
         "attack": "280",
         "hp": "300,000",
@@ -59,7 +64,8 @@
             "https://www.youtube.com/watch?v=1EYRfUPl0ZA"
         ]
     },
-    "Necrogiant": {
+    "necrogiant": {
+        "name": "Necro Giant",
         "image": "Necrogiant.png",
         "attack": "280",
         "hp": "300,000",
@@ -72,7 +78,8 @@
             "https://www.youtube.com/watch?v=ix36y_5EuTs"
         ]
     },
-    "Magma": {
+    "magma": {
+        "name": "Magma",
         "image": "magma.png",
         "attack": "280",
         "hp": "300,000",
@@ -84,7 +91,8 @@
             "https://www.youtube.com/watch?v=--j5njc6Fb4"
         ]
     },
-    "FlameDragon": {
+    "flamedragon": {
+        "name": "Flame Dragon",
         "image": "flame_dragon.png",
         "attack": "280",
         "hp": "300,000",

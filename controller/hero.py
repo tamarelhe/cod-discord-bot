@@ -52,8 +52,8 @@ async def present_all_heroes(ctx):
 
     for i, name in enumerate(heroes):
         hero = model.get_hero(name)
-
-        fields.append(es.Field(name+' ['+hero['rarity']+']', hero['role']+' | '+hero['buffs']+' | '+hero['units'], True))
+        
+        fields.append(es.Field(hero['name']+' ['+hero['rarity']+']', hero['role']+' | '+hero['buffs']+' | '+hero['units'], True))
 
     await send_multiple_embeds(ctx, es.EStruct('Heroes List', '', None, fields), 14)
 
@@ -66,7 +66,7 @@ async def present_heroes_by_role(ctx, role):
     for i, name in enumerate(heroes):
         hero = model.get_hero(name)
 
-        fields.append(es.Field(name+' ['+hero['rarity']+']', hero['role']+' | '+hero['buffs']+' | '+hero['units'], True))
+        fields.append(es.Field(hero['name']+' ['+hero['rarity']+']', hero['role']+' | '+hero['buffs']+' | '+hero['units'], True))
 
     await send_multiple_embeds(ctx, es.EStruct('Heroes List', '', None, fields), 14)
 
@@ -79,7 +79,7 @@ async def present_heroes_by_units(ctx, unit):
     for i, name in enumerate(heroes):
         hero = model.get_hero(name)
 
-        fields.append(es.Field(name+' ['+hero['rarity']+']', hero['role']+' | '+hero['buffs']+' | '+hero['units'], True))
+        fields.append(es.Field(hero['name']+' ['+hero['rarity']+']', hero['role']+' | '+hero['buffs']+' | '+hero['units'], True))
 
     await send_multiple_embeds(ctx, es.EStruct('Heroes List', '', None, fields), 14)
 
@@ -103,11 +103,13 @@ async def present_hero(ctx, name):
         fields.append(es.Field(skill['name']+' ['+skill['type']+']', skill['description']+'\n'+skill['upgrade_desc'], False))
     fields.append(es.Field("\u200B", "\u200B", False))
 
-    await send_base_embed(ctx, es.EStruct(name, '', es.Attach(HERO_ASSETS, hero['images']['main']), fields))
+    await send_base_embed(ctx, es.EStruct(hero['name'], '', es.Attach(HERO_ASSETS, hero['images']['main']), fields))
 
 
 async def present_hero_talent_trees(ctx, name):
     talent_trees = model.get_hero_talent_trees(name)
+    if talent_trees is None or not talent_trees:
+        await ctx.send('There are no talent trees configured for hero '+name+'.') 
 
     for talent_tree in talent_trees:
         await send_base_embed(ctx, es.EStruct('', '', es.Attach(TALENT_TREES_ASSETS, talent_tree), []))
@@ -115,6 +117,8 @@ async def present_hero_talent_trees(ctx, name):
 
 async def present_hero_artifacts(ctx, name):
     artifacts = model.get_hero_artifacts(name)
+    if artifacts is None or not artifacts:
+        await ctx.send('There are no artifacts configured for hero '+name+'.') 
 
     for i, artifact in enumerate(artifacts):
         await arti.present_artifact(ctx, artifact['id'])

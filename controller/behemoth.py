@@ -26,15 +26,17 @@ async def present_all_behemoths(ctx):
     fields = []
 
     for i, name in enumerate(behemoths):
-        #behemoth = model.get_behemoth(name)
+        behemoth = model.get_behemoth(name)
 
-        fields.append(es.Field(name, '', False))
+        fields.append(es.Field(behemoth['name'], '', False))
 
     await send_multiple_embeds(ctx, es.EStruct('Behemoths List', '', None, fields), 14)
 
 
-async def present_behemoth(ctx, name):
+async def present_behemoth(ctx, name):    
     behemoth = model.get_behemoth(name)
+    if behemoth is None or not behemoth:
+        await ctx.send('There is no behemoth '+name+'.')
 
     fields = []
     
@@ -50,7 +52,7 @@ async def present_behemoth(ctx, name):
     for i, url in enumerate(behemoth['urls']):
         fields.append(es.Field('', "["+name+" Guide "+str(i+1)+"]("+url+")", True))
 
-    await send_base_embed(ctx, es.EStruct(name, '', es.Attach(BEHEMOTHS_ASSETS, behemoth['image']), fields))
+    await send_base_embed(ctx, es.EStruct(behemoth['name'], '', es.Attach(BEHEMOTHS_ASSETS, behemoth['image']), fields))
 
         
 
