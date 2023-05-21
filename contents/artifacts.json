@@ -1,378 +1,532 @@
 {
-    "Springs of Silence": {
-      "image": "Springs-of-Silence.png",
-      "rarity": "Legendary",
-      "role": "Assault",
-      "buffs": "PvP",
-      "units": "Infantry",
-      "tier": "S"
+    "amulet_of_glory": {
+        "name": "Amulet of Glory",
+        "info": "Casts immediately. Grants a Buff once per 2s to Legions and up to 4 nearby Allied Legions, reducing the damage they take from Darklings and Dark Creatures by 12% for 15s.",
+        "tier": "C",
+        "rarity": "Epic",
+        "role": "Cavalry",
+        "stats": "Cavalry Unit HP +3%",
+        "cooldown": "1m 30s",
+        "image": "amulet_of_glory.png"
     },
-    "Bloodblade Banner": {
-      "image": "Bloodblade-Banner.png",
-      "rarity": "Legendary",
-      "role": "Assault",
-      "buffs": "Rally",
-      "units": "Overall",
-      "tier": "S"
+    "ancient_tree_roots": {
+        "name": "Ancient Tree Roots",
+        "info": "Casts immediately. After a short charge-up, teleports your Legion to a random unmanned high-level Resource Point within a certain range. Moving, being attacked, or gaining control effects can interrupt charging.",
+        "tier": "C",
+        "rarity": "Legendary",
+        "role": "Gathering",
+        "stats": "Legion Load Capacity +8%\nLegion HP +2%",
+        "cooldown": "2m",
+        "image": "ancient_tree_roots.png"
     },
-    "Shadowblades": {
-      "image": "Shadowblades.png",
-      "rarity": "Legendary",
-      "role": "Assault",
-      "buffs": "PvP",
-      "units": "Marksman",
-      "tier": "S"
+    "blade_of_reproach": {
+        "name": "Blade of Reproach",
+        "info": "Casts on the target Legion (Darklings, Dark Creatures, and Behemoths only), dealing Physical Skill damage once (Damage Factor 1000, affected by Legion\u2019s Physical ATK). If this Skill successfully kills the target Legion, 1 Buff will be granted. For each Buff gained, Reproach\u2019s damage is increased by 20%, stacking up to 5 times. This Buff effect lasts until the Legion returns to the City, or enters a Stronghold or a Resource Point.",
+        "tier": "A",
+        "rarity": "Epic",
+        "role": "Cavalry",
+        "stats": "Cavalry Unit ATK +3%",
+        "cooldown": "45s",
+        "image": "blade_of_reproach.png"
     },
-    "Sorland’s Blade": {
-      "image": "Sorlands-Blade.png",
-      "rarity": "Legendary",
-      "role": "Assault",
-      "buffs": "PvP",
-      "units": "Cavalry",
-      "tier": "S"
+    "boots_of_swiftness": {
+        "name": "Boots of Swiftness",
+        "info": "Casts immediately. Grants Haste to your Legion and up to 9 surrounding friendly Legions, increasing their March Speed by 26% for 10s. Afterward, the Legion is Fatigued and gains Slow, reducing their March Speed by 26% for 5s.",
+        "tier": "C",
+        "rarity": "Elite",
+        "role": "Mobility",
+        "stats": "Legion March Speed +3%",
+        "cooldown": "45s",
+        "image": "boots_of_swiftness.png"
     },
-    "Heart of Kamasi": {
-      "image": "Heart-of-Kamasi.png",
-      "rarity": "Legendary",
-      "role": "Support",
-      "buffs": "PvP",
-      "units": "Marksman",
-      "tier": "S"
+    "breath_of_jargentis": {
+        "name": "Breath of Jargentis",
+        "info": "Inflicts DEF Break on up to 10 enemy Legions in a chosen circular area, reducing their DEF by 16% for 20s. If cast again, DEF Break does not stack, but its duration is reset.",
+        "tier": "A",
+        "rarity": "Legendary",
+        "role": "Magic",
+        "stats": "Magic Unit  ATK +6%\nLegion ATK +2%",
+        "cooldown": "1m 30s",
+        "image": "breath_of_jargentis.png"
     },
-    "Dragonrift": {
-      "image": "Dragonrift.png",
-      "rarity": "Legendary",
-      "role": "Assault",
-      "buffs": "PvP",
-      "units": "Infantry",
-      "tier": "S"
+    "cloak_of_stealth": {
+        "name": "Cloak of Stealth",
+        "info": "Casts immediately. Grants Legions Stealth for 300s, reducing their March Speed by 25%. While in Stealth, Legions cannot be normally detected, and can only be seen if they move too close to the enemy. Actively attacking, taking damage, or opening Chests will cause Stealth to expire.",
+        "tier": "C",
+        "rarity": "Epic",
+        "role": "Cavalary",
+        "stats": "Cavalry Unit ATK +3%",
+        "cooldown": "1h",
+        "image": "cloak_of_stealth.png"
     },
-    "Phoenix Eye": {
-      "image": "Phoenix-Eye.png",
-      "rarity": "Legendary",
-      "role": "Assault",
-      "buffs": "PvP",
-      "units": "Magic",
-      "tier": "S"
+    "codex_of_prophecy": {
+        "name": "Codex of Prophecy",
+        "info": "Casts immediately. Grants a Shield to Legions and up to 3 nearby Allied Legions, which can absorb a certain amount of damage from Darklings, Dark Creatures, and Behemoths only (Shield Factor 1200) for 15s. Shields do not stack.",
+        "tier": "B",
+        "rarity": "Epic",
+        "role": "Infantry",
+        "stats": "Infantry unit DEF +3%",
+        "cooldown": "1m 30s",
+        "image": "codex_of_prophecy.png"
     },
-    "Breath of Jargentis": {
-      "image": "Breath-of-Jargentis.png",
-      "rarity": "Legendary",
-      "role": "Support",
-      "buffs": "PvP",
-      "units": "Magic",
-      "tier": "S"
+    "crown_of_the_berserker": {
+        "name": "Crown of the Berserker",
+        "info": "Casts immediately. Grants Legions Keen and Haste, increasing their ATK by 10% and March Speed by 20%, while also inflicting DEF Break, reducing their DEF by 10%, for 10s.",
+        "tier": "C",
+        "rarity": "Elite",
+        "role": "Cavalry",
+        "stats": "Cavalry Unit ATK +2%",
+        "cooldown": "45s",
+        "image": "crown_of_the_berserker.png"
     },
-    "Kingslayer": {
-      "image": "Kingslayer.png",
-      "rarity": "Legendary",
-      "role": "Assault",
-      "buffs": "PvP",
-      "units": "Cavalry",
-      "tier": "S"
+    "dragonscale_armor": {
+        "name": "Dragonscale Armor",
+        "info": "Grants a shield that blocks lots of damage (Shield Factor 1600) for 10s to up to 5 allied Legions in a circle. Also grants Physical Keen to them, which increases their Physical ATK by 10% for 5s.",
+        "tier": "S+",
+        "rarity": "Legendary",
+        "role": "Infantry",
+        "stats": "Infantry unit HP +4%\nLegion HP +2%",
+        "cooldown": "1m 30s",
+        "image": "dragonscale_armor.png"
     },
-    "Tear of Arbon": {
-      "image": "Tear-of-Arbon.png",
-      "rarity": "Legendary",
-      "role": "Support",
-      "buffs": "PvP",
-      "units": "Magic",
-      "tier": "A"
+    "freezing_ring": {
+        "name": "Freezing Ring",
+        "info": "Casts immediately. Grants Ice Defense to your Legion, making it immune to all damage, but unable to carry out actions. Effective for up to 15s. After Ice Defense ends, up to 10 surrounding enemy Legions are Slowed, reducing their March Speed by 30% for 8s. Casting again while Ice Defense is still active will cancel Ice Defense prematurely.",
+        "tier": "B",
+        "rarity": "Epic",
+        "role": "Magic",
+        "stats": "Magic Unit DEF +3%",
+        "cooldown": "4m",
+        "image": "freezing_ring.png"
     },
-    "Fang of Ashkari": {
-      "image": "Fang-of-Ashkari.png",
-      "rarity": "Legendary",
-      "role": "Tank",
-      "buffs": "PvP",
-      "units": "Overall",
-      "tier": "A"
+    "giants_bone": {
+        "name": "Giant's Bone",
+        "info": "Deals Skill damage once to up to 3 enemy Legions in a forward arc (Damage Factor 1200, affected by Legion\u2019s ATK). Each additional target reduces the damage dealt to each target by 15%. In addition, there is a 45% chance of knocking the targets airborne and making them in the air for 3s.",
+        "tier": "C",
+        "rarity": "Epic",
+        "role": "Peackeeping",
+        "stats": "Peacekeeping Damage +5%",
+        "cooldown": "1m 30s",
+        "image": "giants_bone.png"
     },
-    "Breath of the Forest": {
-      "image": "Breath-of-the-Forest.png",
-      "rarity": "Legendary",
-      "role": "Support",
-      "buffs": "Garrison",
-      "units": "Overall",
-      "tier": "A"
+    "greenfinger_sickle": {
+        "name": "Greenfinger Sickle",
+        "info": "Casts while gathering Gold, Wood, Ore, and Mana. Immediately gathers 100k of the current resource from a Resource Point. Resources gathered cannot exceed the Legion\u2019s resource Load Capacity or the remaining amount of resources at the Resource Point.",
+        "tier": "C",
+        "rarity": "Epic",
+        "role": "Gathering",
+        "stats": "Legion Load Capacity +3% | Legion HP +3%",
+        "cooldown": "12h",
+        "image": "greenfinger_sickle.png"
     },
-    "Heartpiercer": {
-      "image": "Heartpiercer.png",
-      "rarity": "Epic",
-      "role": "Assault",
-      "buffs": "PvP",
-      "units": "Marksman",
-      "tier": "A"
+    "greymars_warhammer": {
+        "name": "Greymar's Warhammer",
+        "info": "Casts immediately. Deals Physical Skill damage once to up to 4 nearby enemy Legions in a circle (Damage Factor 1600, affected by Legion\u2019s Physical ATK). Each additional target reduces the damage dealt to each target by 15%. Legions damaged by the Skill will be Stunned for 2s. This effect can be triggered once every 10s.",
+        "tier": "S+",
+        "rarity": "Legendary",
+        "role": "Infantry",
+        "stats": "Infantry unit DEF+6%\nLegion DEF +2%",
+        "cooldown": "1m 30s",
+        "image": "greymars_warhammer.png"
     },
-    "Archery Master's Manual": {
-      "image": "Archery-Masters-Manual.png",
-      "rarity": "Epic",
-      "role": "Assault",
-      "buffs": "PvP",
-      "units": "Marksman",
-      "tier": "A"
+    "harlequin_mask": {
+        "name": "Harlequin Mask",
+        "info": "Casts on a target Legion (Darklings, Dark Creatures, and Behemoths only). Attracts the target Legion\u2019s hosility and forces it to attack the commanded Legion for 5s.",
+        "tier": "S",
+        "rarity": "Elite",
+        "role": "Infantry",
+        "stats": "Infantry unit DEF +2%",
+        "cooldown": "10s",
+        "image": "harlequin_mask.png"
     },
-    "Magic Bomb": {
-      "image": "Magic-Bomb.png",
-      "rarity": "Epic",
-      "role": "Assault",
-      "buffs": "PvP",
-      "units": "Magic",
-      "tier": "A"
+    "illusory_gold": {
+        "name": "Illusory Gold",
+        "info": "Casts immediately. Donate generously, and scatter your gold upon the earth.",
+        "tier": "C",
+        "rarity": "Advanced",
+        "role": "Gathering",
+        "stats": "Gather Speed",
+        "cooldown": "1m 30s",
+        "image": "illusory_gold.png"
     },
-    "Giant's Bone": {
-      "image": "Giants-Bone.png",
-      "rarity": "Epic",
-      "role": "Peacekeeping",
-      "buffs": "Peacekeeping",
-      "units": "Overall",
-      "tier": "A"
+    "joyous_fireworks": {
+        "name": "Joyous Fireworks",
+        "info": "Casts immediately. Sets off joyous fireworks.",
+        "tier": "B",
+        "rarity": "Advanced",
+        "role": "Building",
+        "stats": "Build Engineering +1%",
+        "cooldown": "1m 10s",
+        "image": "joyous_fireworks.png"
     },
-    "Staff of Spring": {
-      "image": "Staff-of-Spring.png",
-      "rarity": "Epic",
-      "role": "Support",
-      "buffs": "PvP",
-      "units": "Magic",
-      "tier": "A"
+    "kurratas_wrath": {
+        "name": "Kurrata's Wrath",
+        "info": "Casts on up to 10 friendly Legion(s) in a circle, increasing their damage to Darklings and Dark Creatures by 20% for 10s.",
+        "tier": "C",
+        "rarity": "Legendary",
+        "role": "Peacekeeping",
+        "stats": "Peacekeeping Damage +8%\nLegion ATK +2%",
+        "cooldown": "1m 30s",
+        "image": "kurratas_wrath.png"
     },
-    "Codex of Prophecy": {
-      "image": "Codex-of-Prophecy.png",
-      "rarity": "Epic",
-      "role": "Peacekeeping",
-      "buffs": "Peacekeeping",
-      "units": "Infantry",
-      "tier": "A"
+    "storm_arrows": {
+        "name": "Storm Arrows",
+        "info": "Immediately teleports Legions to an empty area (range 15) and grants them Rampage, increasing their damage dealt by 12% for 4s.",
+        "tier": "A",
+        "rarity": "Legendary",
+        "role": "Cavalry",
+        "stats": "Cavalry Unit ATK +6%\nLegion ATK +2%",
+        "cooldown": "1m 30s",
+        "image": "storm_arrows.png"
     },
-    "Amulet of Glory": {
-      "image": "Amulet-of-Glory.png",
-      "rarity": "Epic",
-      "role": "Peacekeeping",
-      "buffs": "Peacekeeping",
-      "units": "Overall",
-      "tier": "A"
+    "kingslayer": {
+        "name": "Kingslayer",
+        "info": "Deals Physical Skill damage once to up to 5 enemy Legions in a chosen arc (Damage Factor 1800, affected by Legion\u2019s Physical ATK). Each additional target reduces the damage dealt to each target by 15%. If the target Legion has less than 10% units remaining, it will be instantly defeated (effective only for other Lords\u2019 Legions).",
+        "tier": "S+",
+        "rarity": "Legendary",
+        "role": "Cavalry",
+        "stats": "Cavalry Unit ATK +6%\nLegion ATK +2%",
+        "cooldown": "1m 30s",
+        "image": "kingslayer.png"
     },
-    "Butcher's Blade": {
-      "image": "Butchers-Blade.png",
-      "rarity": "Epic",
-      "role": "Assault",
-      "buffs": "PvP",
-      "units": "Infantry",
-      "tier": "A"
+    "shadowblades": {
+        "name": "Shadowblades",
+        "info": "Deals Physical Skill damage to up to 5 enemy Legions in a chosen rectangle (Damage Factor 1800, affected by Legion\u2019s Physical ATK). Each additional target reduces the damage dealt to each target by 15%.",
+        "tier": "S+",
+        "rarity": "Legendary",
+        "role": "Marksman",
+        "stats": "Marksman Unit ATK + 6%\nLegion ATK + 2%",
+        "cooldown": "1m 30s",
+        "image": "shadowblades.png"
     },
-    "Centaur Bow": {
-      "image": "Centaur-Bow.png",
-      "rarity": "Epic",
-      "role": "Assault",
-      "buffs": "PvP",
-      "units": "Cavalry",
-      "tier": "A"
+    "phoenix_eye": {
+        "name": "Phoenix Eye",
+        "info": "Deals Magic Skill damage to up to 4 enemy Legions in a chosen circle (Damage Factor 2000, affected by Legion\u2019s Magic ATK). Each additional target reduces the damage dealt to each target by 15%, but to no lower than 50%.",
+        "tier": "S+",
+        "rarity": "Legendary",
+        "role": "Magic",
+        "stats": "Magic Unit ATK +6%\nLegion ATK +2%",
+        "cooldown": "1m 30s",
+        "image": "phoenix_eye.png"
     },
-    "Bomb Flinger": {
-      "image": "Bomb-Flinger.png",
-      "rarity": "Epic",
-      "role": "Peacekeeping",
-      "buffs": "Peacekeeping",
-      "units": "Marksman",
-      "tier": "A"
+    "potion_of_vigor": {
+        "name": "Potion of Vigor",
+        "info": "Casts immediately. Increases Legions\u2019 Engineering by 74% for 1800s",
+        "tier": "C",
+        "rarity": "Epic",
+        "role": "Building",
+        "stats": "Build Engineering +5%",
+        "cooldown": "6h",
+        "image": "potion_of_vigor.png"
     },
-    "Enchiridion of Advanced Incantations": {
-      "image": "Enchiridion-of-Advanced-Incantations.png",
-      "rarity": "Epic",
-      "role": "Peacekeeping",
-      "buffs": "Peacekeeping",
-      "units": "Magic",
-      "tier": "A"
+    "sorlands_blade": {
+        "name": "Sorland's Blade",
+        "info": "Deals Physical Skill damage once to up to 2 enemy Legions in a chosen arc (Damage Factor 1600, affected by Legion\u2019s Physical ATK). Each additional target reduces the damage dealt to each target by 25%. At the same time, the Hero\u2019s Legion gains Haste which increases March Speed by 20% for 10s.",
+        "tier": "S",
+        "rarity": "Legendary",
+        "role": "Cavalry",
+        "stats": "Cavalry Unit ATK +6%\nLegion March Speed +3%",
+        "cooldown": "1m 30s",
+        "image": "sorlands_blade.png"
     },
-    "Homecoming Blossom": {
-      "image": "Homecoming-Blossom.png",
-      "rarity": "Epic",
-      "role": "Support",
-      "buffs": "Mobility",
-      "units": "Overall",
-      "tier": "B"
+    "spirit_bangle": {
+        "name": "Spirit Bangle",
+        "info": "Casts immediately. Removes all debuffs and impairment effects from the Hero\u2019s Legion and surrounding friendly Legions. Dispel can still be cast while legions are suffering control effects.",
+        "tier": "C",
+        "rarity": "Epic",
+        "role": "Magic",
+        "stats": "Magic Unit HP +3%",
+        "cooldown": "9m",
+        "image": "spirit_bangle.png"
     },
-    "Kurrata's Wrath": {
-      "image": "Kurratas-Wrath.png",
-      "rarity": "Legendary",
-      "role": "Peacekeeping",
-      "buffs": "Peacekeeping",
-      "units": "Overall",
-      "tier": "B"
+    "spring_of_silence": {
+        "name": "Spring of Silence",
+        "info": "Deals Physical Skill damage once to up to 3 enemy Legions in a chosen arc (Damage Factor 1600, affected by Legion\u2019s Physical ATK). Each additional target reduces the damage dealt to each target by 15%. Also, inflicts Slow on the damaged Legions, reducing their March Speed by 20% for 10s.",
+        "tier": "S+",
+        "rarity": "Legendary",
+        "role": "Infantry",
+        "stats": "Infantry unit ATK +6%\nLegion ATK +2%",
+        "cooldown": "1m 30s",
+        "image": "spring_of_silence.png"
     },
-    "Wolf Woman of Haelor": {
-      "image": "Wolf-Woman-of-Haelor.png",
-      "rarity": "Legendary",
-      "role": "Peacekeeping",
-      "buffs": "Peacekeeping",
-      "units": "Overall",
-      "tier": "B"
+    "springbird_feather": {
+        "name": "Springbird Feather",
+        "info": "Casts immediately. Grants Haste to your Legion and up to 10 nearby friendly Legions. Increases your Legion\u2019s March speed by 24% and friendly Legion\u2019s March Speed by 16% for 10s.",
+        "tier": "A",
+        "rarity": "Legendary",
+        "role": "Mobility",
+        "stats": "Legion March Speed +8%\nLegion HP + 2%",
+        "cooldown": "1m 30s",
+        "image": "springbird_feather.png"
     },
-    "Staff of the Prophet": {
-      "image": "Staff-of-the-Prophet.png",
-      "rarity": "Legendary",
-      "role": "Support",
-      "buffs": "Mobility",
-      "units": "Magic",
-      "tier": "B"
+    "staff_of_spring": {
+        "name": "Staff of Spring",
+        "info": "Heals lightly wounded units in the target Legion (Healing Factor 1200).",
+        "tier": "B",
+        "rarity": "Epic",
+        "role": "Magic",
+        "stats": "Magic Unit HP +3%",
+        "cooldown": "1m 30s",
+        "image": "staff_of_spring.png"
     },
-    "Storm Arrows": {
-      "image": "Storm-Arrows.png",
-      "rarity": "Legendary",
-      "role": "Support",
-      "buffs": "Mobility",
-      "units": "Cavalry",
-      "tier": "B"
+    "storm_leaf": {
+        "name": "Storm Leaf",
+        "info": "Casts immediately. Let them suffer the storm\u2019s wrath\u2026 well, displeasure.",
+        "tier": "C",
+        "rarity": "Advanced",
+        "role": "Gathering",
+        "stats": "Legion Load Capacity +1%",
+        "cooldown": "1m 10s",
+        "image": "storm_leaf.png"
     },
-    "Cloak of Stealth": {
-      "image": "Cloak-of-Stealth.png",
-      "rarity": "Epic",
-      "role": "Support",
-      "buffs": "Mobility",
-      "units": "Cavalry",
-      "tier": "B"
+    "heartpiercer": {
+        "name": "Heartpiercer",
+        "info": "Deals Physical Artifact Skill damage to the target Legion (Damage Factor 1,000, scales with Physical ATK), and has a 40% chance to inflict Physical DEF Break, reducing their Physical DEF by for 3s.",
+        "tier": "B",
+        "rarity": "Epic",
+        "role": "Marksman",
+        "stats": "Marksman Unit ATK +3%",
+        "cooldown": "1m 30s",
+        "image": "heartpiercer.png"
     },
-    "Spirit Bangle": {
-      "image": "Cloak-of-Stealth.png",
-      "rarity": "Epic",
-      "role": "Support",
-      "buffs": "PvP",
-      "units": "Magic",
-      "tier": "B"
+    "archery_masters_manual": {
+        "name": "Archery Masters Manual",
+        "info": "Casts immediately. Your Legion gains Normal Attack Focus, increasing the Crit Rate of their normal attacks by 10% for 20s.",
+        "tier": "B",
+        "rarity": "Epic",
+        "role": "Marksman",
+        "stats": "Marksman Unit Def+3%",
+        "cooldown": "1m 30s",
+        "image": "archery_masters_manual.png"
     },
-    "Freezing Ring": {
-      "image": "Freezing-Ring.png",
-      "rarity": "Epic",
-      "role": "Tank",
-      "buffs": "PvP",
-      "units": "Magic",
-      "tier": "B"
+    "magic_bomb": {
+        "name": "Magic Bomb",
+        "info": "Throws a Magic Bomb at the target Legion. After 8s, the Magic Bomb explodes, dealing Magic Skill damage to up to 3 enemy Legions nearby (Damage Factor 900, scales with Magic ATK). Each additional target reduces damage dealt to each target by 15%.",
+        "tier": "S",
+        "rarity": "Epic",
+        "role": "Magic",
+        "stats": "Magic Unit ATK +3%",
+        "cooldown": "1m 30s",
+        "image": "magic_bomb.png"
     },
-    "Blade of Reproach": {
-      "image": "Blade-of-Reproach.png",
-      "rarity": "Epic",
-      "role": "Peacekeeping",
-      "buffs": "Peacekeeping",
-      "units": "Cavalry",
-      "tier": "B"
+    "homecoming_blossom": {
+        "name": "Homecoming Blossom",
+        "info": "Casts immediately. After a short charge-up, teleports Legions back to near your City. Moving, being attacked, or receiving control effects can interrupt charging.",
+        "tier": "B",
+        "rarity": "Epic",
+        "role": "Mobility",
+        "stats": "Legion March Speed +5%",
+        "cooldown": "1m 30s",
+        "image": "homecoming_blossom.png"
     },
-    "Rapid Crossbow": {
-      "image": "Rapid-Crossbow.png",
-      "rarity": "Elite",
-      "role": "Assault",
-      "buffs": "PvP",
-      "units": "Marksman",
-      "tier": "B"
+    "butchers_blade": {
+        "name": "Butcher's Blade",
+        "info": "Casts immediately, dealing Physical Skill damage twice to up to 3 enemy Legions in a forward arc (Damage Factor 450 each time, scales with Physical ATK). Each additional target reduces damage dealt to each target by 15%.",
+        "tier": "B",
+        "rarity": "Epic",
+        "role": "Infantry",
+        "stats": "Cavalry Unit ATK +3%",
+        "cooldown": "1m 30s",
+        "image": "butchers_blade.png"
     },
-    "Crown of the Berserker": {
-      "image": "Crown-of-the-Berserker.png",
-      "rarity": "Elite",
-      "role": "Assault",
-      "buffs": "PvP",
-      "units": "Cavalry",
-      "tier": "B"
+    "rapid_crossbow": {
+        "name": "Rapid Crossbow",
+        "info": "Deals Physical Skill damage to the target Legion 2 times in succession (Damage Factor 250, scales with Physical ATK).",
+        "tier": "D",
+        "rarity": "Elite",
+        "role": "Marksman",
+        "stats": "Marksman Unit HP +2%",
+        "cooldown": "1m 30s",
+        "image": "rapid_crossbow.png"
     },
-    "Harlequin Mask": {
-      "image": "Harlequin-Mask.png",
-      "rarity": "Elite",
-      "role": "Peacekeeping",
-      "buffs": "Peacekeeping",
-      "units": "Infantry",
-      "tier": "B"
+    "bone_cleaver": {
+        "name": "Bone Cleaver",
+        "info": "Deals Physical Skill damage to the target Legion (Damage Factor 400, scales with Physical ATK). Damage Factor is increased to 600 when the attacking Legion\u2019s Unit Count is above 50%.",
+        "tier": "D",
+        "rarity": "Elite",
+        "role": "Cavalry",
+        "stats": "Cavalry Unit ATK +6%",
+        "cooldown": "1m 30s",
+        "image": "bone_cleaver.png"
     },
-    "Potion of Vigor": {
-      "image": "Potion-of-Vigor.png",
-      "rarity": "Epic",
-      "role": "Engineering",
-      "buffs": "Engineering",
-      "units": "Infantry",
-      "tier": "N/A"
+    "ever_ice": {
+        "name": "Ever Ice",
+        "info": "Casts on a designated circle. After a short charge-up, deals Magic Skill damage to 2 enemy Legion(s) (Damage Factor 300, scales with Magic ATK) and inflicts Freeze, reducing their March Speed by 5% for 5s.",
+        "tier": "D",
+        "rarity": "Elite",
+        "role": "Magic",
+        "stats": "Magic Unit Def+2%",
+        "cooldown": "1m 30s",
+        "image": "ever_ice.png"
     },
-    "Bone Cleaver": {
-      "image": "Bone-Cleaver.png",
-      "rarity": "Elite",
-      "role": "Assault",
-      "buffs": "PvP",
-      "units": "Cavalry",
-      "tier": "C"
+    "veterans_diary": {
+        "name": "Veterans Diary",
+        "info": "Casts immediately. Your Legion gains Onslaught, increasing normal attack damage dealt by 30% for I0S.",
+        "tier": "C",
+        "rarity": "Elite",
+        "role": "Infantry",
+        "stats": "Infantry unit ATK +2%",
+        "cooldown": "1m 30s",
+        "image": "veterans_diary.png"
     },
-    "Ever-Ice": {
-      "image": "Ever-Ice.png",
-      "rarity": "Elite",
-      "role": "Assault",
-      "buffs": "PvP",
-      "units": "Magic",
-      "tier": "C"
+    "lucias_horn": {
+        "name": "Lucia's Horn",
+        "info": "Casts immediately. After a short charge-up, a random Resource Point located in Alliance territory near your Legion is refreshed (minimum level 4, maximum level 5). Charging cannot be interrupted.",
+        "tier": "C",
+        "rarity": "Legendary",
+        "role": "Gathering",
+        "stats": "Gather Speed +8%\nLegion DEF + 2%",
+        "cooldown": "2h",
+        "image": "lucias_horn.png"
     },
-    "Boots of Swiftness": {
-      "image": "Boots-of-Swiftness.png",
-      "rarity": "Elite",
-      "role": "Support",
-      "buffs": "Mobility",
-      "units": "Overall",
-      "tier": "C"
+    "tear_of_arbon": {
+        "name": "Tear of Arbon",
+        "info": "Casts on up to 8 lightly wounded friendly Legion(s) in a circle, granting a healing effect every 2s for the next 10s (Healing Factor 400).",
+        "tier": "S",
+        "rarity": "Legendary",
+        "role": "Magic",
+        "stats": "Magic Unit HP +6%\nLegion DEF +2%",
+        "cooldown": "1m 30s",
+        "image": "tear_of_arbon.png"
     },
-    "Veteran's Diary": {
-      "image": "Veterans-Diary.png",
-      "rarity": "Elite",
-      "role": "Assault",
-      "buffs": "PvP",
-      "units": "Infantry",
-      "tier": "C"
+    "fang_of_ashkari": {
+        "name": "Fang of Ashkari",
+        "info": "Casts immediately, dealing Magic Skill damage every second to up to 4 Legions in a circle surrounding the caster for 8s (Damage Factor 500, scales with Magic ATK). Each additional target reduces damage dealt to each target by 15%.",
+        "tier": "S",
+        "rarity": "Legendary",
+        "role": "Magic",
+        "stats": "Magic Unit DEF +6%\nLegion DEF +2%",
+        "cooldown": "1m 30s",
+        "image": "fang_of_ashkari.png"
     },
-    "Joyous Fireworks": {
-      "image": "Joyous-Fireworks.png",
-      "rarity": "Advanced",
-      "role": "Engineering",
-      "buffs": "Engineering",
-      "units": "Overall",
-      "tier": "C"
+    "breath_of_the_forest": {
+        "name": "Breath of the Forest",
+        "info": "Takes effect while serving as Garrison Captain. When garrisoning a City or Stronghold, your Legion randomly gains one of the following effects every 30s Ode (heals once every 2s for IOS, Healing Factor 300); Hymn (grants Vigor, increasing HP by 15% for 10s); or Aria (removes one debuff effect).",
+        "tier": "A",
+        "rarity": "Legendary",
+        "role": "Garrison",
+        "stats": "Garrisoned Army ATK +6%\nLegion DEF +2%",
+        "cooldown": "None",
+        "image": "breath_of_the_forest.png"
     },
-    "Lucia's Horn": {
-      "image": "Lucias-Horn.png",
-      "rarity": "Legendary",
-      "role": "Gathering",
-      "buffs": "Gathering",
-      "units": "Overall",
-      "tier": "N/A"
+    "bloodblade_banner": {
+        "name": "Bloodblade Banner",
+        "info": "Once your Rallied Army enters battle, it deals Physical Skill damage once every 30s (Damage Factor 650, scales with Physical ATK), and your Legion gains Physical Keen, increasing their Physical ATK by 5% for 10s.",
+        "tier": "S",
+        "rarity": "Legendary",
+        "role": "Rally",
+        "stats": "Rallied Army ATK +6%\nLegion DEF +2%",
+        "cooldown": "None",
+        "image": "bloodblade_banner.png"
     },
-    "Ancient Tree Roots": {
-      "image": "Ancient-Tree-Roots.png",
-      "rarity": "Legendary",
-      "role": "Gathering",
-      "buffs": "Gathering",
-      "units": "Overall",
-      "tier": "N/A"
+    "hearth_of_kamasi": {
+        "name": "Hearth of Kamasi",
+        "info": "Casts immediately. 3 friendly Legions (including the caster) gain Physical Keen and Onslaught for 10s, increasing their Physical ATK by 15% and increasing normal attack damage dealt by 15%. Only takes effect when a Legion is composed entirely of Marksman units.",
+        "tier": "S",
+        "rarity": "Legendary",
+        "role": "Marksman",
+        "stats": "Marksman Unit DEF +6%\nLegion DEF +2%",
+        "cooldown": "1m 30s",
+        "image": "hearth_of_kamasi.png"
     },
-    "Greenfinger Sickle": {
-      "image": "Greenfinger-Sickle.png",
-      "rarity": "Epic",
-      "role": "Gathering",
-      "buffs": "Gathering",
-      "units": "Overall",
-      "tier": "N/A"
+    "staff_of_the_prophet": {
+        "name": "Staff of the Prophet",
+        "info": "Casts on a selected friendly Legion within the current Region and within Alliance territory. After a 15s charge-up, 2 surrounding friendly Legions (including the target) are teleported to that Legion\u2019s location. Teleportation will prioritize your Legions.",
+        "tier": "A",
+        "rarity": "Legendary",
+        "role": "Magic",
+        "stats": "Magic Unit HP +4%\nLegion HP+2%",
+        "cooldown": "8h",
+        "image": "staff_of_the_prophet.png"
     },
-    "Illusory Gems": {
-      "image": "Illusory-Gems.png",
-      "rarity": "Elite",
-      "role": "Gathering",
-      "buffs": "Gathering",
-      "units": "Overall",
-      "tier": "N/A"
+    "centaur_bow": {
+        "name": "Centaur Bow",
+        "info": "Deals Physical Skill damage to up to 3 enemy Legions in a chosen circle (Damage Factor 750, scales with Physical ATK). Each additional target reduces damage dealt to each target by 15%.",
+        "tier": "B",
+        "rarity": "Epic",
+        "role": "Cavalry",
+        "stats": "Cavalry Unit DEF +3%",
+        "cooldown": "1m 30s",
+        "image": "centaur_bow.png"
     },
-    "Enchanted Coins": {
-      "image": "Enchanted-Coins.png",
-      "rarity": "Advanced",
-      "role": "Gathering",
-      "buffs": "Gathering",
-      "units": "Overall",
-      "tier": "N/A"
+    "violas_bow": {
+        "name": "Viola's Bow",
+        "info": "Deals Physical Skill damage to up to 5 enemy Legions in a chosen rectangle (Damage Factor 1600, affected by Legion\u2019s Physical ATK). Each additional target reduces the damage dealt to each target by 15%. Also, inflicts Seal on damaged Legions, rendering them unable to cast Artifact Skills for the next 10s.",
+        "tier": "S+",
+        "rarity": "Legendary",
+        "role": "Marksman",
+        "stats": "Magic Unit HP +4%\nLegion HP+2%",
+        "cooldown": "1m 30s",
+        "image": "violas_bow.png"
     },
-    "Storm Leaf": {
-      "image": "Storm-Leaf.png",
-      "rarity": "Advanced",
-      "role": "Gathering",
-      "buffs": "Gathering",
-      "units": "Overall",
-      "tier": "N/A"
+    "acid_breath": {
+        "name": "Acid Breath",
+        "info": "",
+        "tier": "A",
+        "rarity": "Legendary",
+        "role": "Magic",
+        "stats": "/",
+        "cooldown": "1m 30s",
+        "image": "acid_breath.png"
+    },
+    "bomb_flinger": {
+        "name": "Bomb Flinger",
+        "info": "",
+        "tier": "A",
+        "rarity": "Epic",
+        "role": "Marksman",
+        "stats": "Marksman Unit ATK +3%\nLegion ATK +3%",
+        "cooldown": "1m 30s",
+        "image": "bomb_flinger.png"
+    },
+    "enchiridion_of_advanced_incantations": {
+        "name": "Enchiridion of Advanced Incantations",
+        "info": "",
+        "tier": "B",
+        "rarity": "Epic",
+        "role": "Magic",
+        "stats": "Magic Unit ATK +3% \nLegion ATK +3%",
+        "cooldown": "1m 30s",
+        "image": "enchiridion_of_advanced_incantations.png"
+    },
+    "infernal_flame": {
+        "name": "Infernal Flame",
+        "info": "",
+        "tier": "S+",
+        "rarity": "Legendary",
+        "role": "Magic",
+        "stats": "Magic Unti ATK +5% \nLegion ATK +5%",
+        "cooldown": "1m 30s",
+        "image": "infernal_flame.png"
+    },
+    "dragonrift": {
+        "name": "Dragonrift",
+        "info": "",
+        "tier": "S",
+        "rarity": "Legendary",
+        "role": "Infantry",
+        "stats": "Infantry unit ATK +5%\nLegion ATK +5%",
+        "cooldown": "1m 30s",
+        "image": "dragonrift.png"
+    },
+    "visage_of_the_sanctus": {
+        "name": "Visage of the Sanctus",
+        "info": "",
+        "tier": "S",
+        "rarity": "Legendary",
+        "role": "Flying",
+        "stats": "Flying unit DEF +5%\nLegion ATK +4%",
+        "cooldown": "1m 30s",
+        "image": "visage_of_the_sanctus.png"
+    },
+    "wolf_woman_of_haelor": {
+        "name": "Wolf Woman of Haelor",
+        "info": "",
+        "tier": "A",
+        "rarity": "Legendary",
+        "role": "Cavalry",
+        "stats": "Cavalry Unit HP +3%\nLegion Unit HP +3%",
+        "cooldown": "1m 30s",
+        "image": "wolf_woman_of_haelor.png"
     }
 }
