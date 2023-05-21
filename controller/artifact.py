@@ -34,17 +34,17 @@ async def present_all_artifacts(ctx):
 
 async def present_artifact(ctx, id):
     artifact = model.get_artifact(id)
+    if artifact:  
+        fields = []
+        
+        fields.append(es.Field("Info", artifact['info'], False))
+        fields.append(es.Field("Tier", artifact['tier'], False))
+        fields.append(es.Field("Rarity", artifact['rarity'], False))
+        fields.append(es.Field("Role", artifact['role'], False))
+        fields.append(es.Field("Stats", artifact['stats'], False))
+        fields.append(es.Field("Cooldown", artifact['cooldown'], False))
 
-    fields = []
-    
-    fields.append(es.Field("Info", artifact['info'], False))
-    fields.append(es.Field("Tier", artifact['tier'], False))
-    fields.append(es.Field("Rarity", artifact['rarity'], False))
-    fields.append(es.Field("Role", artifact['role'], False))
-    fields.append(es.Field("Stats", artifact['stats'], False))
-    fields.append(es.Field("Cooldown", artifact['cooldown'], False))
-
-    await send_base_embed(ctx, es.EStruct(artifact['name'], '', es.Attach(ARTIFACTS_ASSETS, artifact['image']), fields))
+        await send_base_embed(ctx, es.EStruct(artifact['name'], '', es.Attach(ARTIFACTS_ASSETS, artifact['image']), fields))
 
         
 

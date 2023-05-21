@@ -17,6 +17,7 @@ def get_behemoth(name):
     normalized_name = normalize_key(name)
     if not normalized_name in behemoths_data:
         return None
+    
     return behemoths_data[normalized_name]
 
 load_behemoths_json()

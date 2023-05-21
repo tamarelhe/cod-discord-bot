@@ -1,5 +1,6 @@
 {
-    "Ordo": {
+    "ordo": {
+        "name": "Ordo",
         "images": {
             "main": "ordo.png",
             "talent_trees": [
@@ -84,7 +85,8 @@
             }
         ]
     },
-    "Kella": {
+    "kella": {
+        "name": "Kella",
         "images": {
             "main": "kella.png",
             "talent_trees": [
@@ -156,7 +158,8 @@
             }
         ]
     },
-    "Chakcha": {
+    "chakcha": {
+        "name": "Chakcha",
         "images": {
             "main": "chakcha.png",
             "talent_trees": [
@@ -228,7 +231,8 @@
             }
         ]
     },
-    "Eliana": {
+    "eliana": {
+        "name": "Eliana",
         "images": {
             "main": "eliana.png",
             "talent_trees": [
@@ -308,7 +312,8 @@
             }
         ]
     },
-    "Alistair": {
+    "alistair": {
+        "name": "Alistair",
         "images": {
             "main": "alistair.png",
             "talent_trees": [
@@ -422,7 +427,8 @@
             }
         ]
     },
-    "Nika": {
+    "nika": {
+        "name": "Nika",
         "images": {
             "main": "nika.png",
             "talent_trees": [
@@ -531,7 +537,8 @@
             }
         ]
     },
-    "Liliya": {
+    "liliya": {
+        "name": "Liliya",
         "images": {
             "main": "liliya.png",
             "talent_trees": [
@@ -665,7 +672,8 @@
             }
         ]
     },
-    "Garwood": {
+    "garwood": {
+        "name": "Garwood",
         "images": {
             "main": "garwood.png",
             "talent_trees": [
@@ -750,7 +758,8 @@
             }
         ]
     },
-    "Hosk": {
+    "hosk": {
+        "name": "Hosk",
         "images": {
             "main": "hosk.png",
             "talent_trees": []
@@ -795,7 +804,8 @@
         ],
         "artifacts": []
     },
-    "Emrys": {
+    "emrys": {
+        "name": "Emrys",
         "images": {
             "main": "emrys.png",
             "talent_trees": [
@@ -904,7 +914,8 @@
             }
         ]
     },
-    "Madeline": {
+    "madeline": {
+        "name": "Madeline",
         "images": {
             "main": "madeline.png",
             "talent_trees": [
@@ -983,7 +994,8 @@
             }
         ]
     },
-    "Alwyn": {
+    "alwyn": {
+        "name": "Alwyn",
         "images": {
             "main": "alwyn.png",
             "talent_trees": [
@@ -1092,7 +1104,8 @@
             }
         ]
     },
-    "Bakhar": {
+    "bakhar": {
+        "name": "Bakhar",
         "images": {
             "main": "bakhar.png",
             "talent_trees": [
@@ -1178,7 +1191,8 @@
             }
         ]
     },
-    "Kregg": {
+    "kregg": {
+        "name": "Kregg",
         "images": {
             "main": "kregg.png",
             "talent_trees": [
@@ -1276,7 +1290,8 @@
             }
         ]
     },
-    "Waldyr": {
+    "waldyr": {
+        "name": "Waldyr",
         "images": {
             "main": "waldyr.png",
             "talent_trees": [
@@ -1386,7 +1401,8 @@
             }
         ]
     },
-    "Atheus": {
+    "atheus": {
+        "name": "Atheus",
         "images": {
             "main": "atheus.png",
             "talent_trees": [
@@ -1495,7 +1511,8 @@
             }
         ]
     },
-    "Gwanwyn": {
+    "gwanwyn": {
+        "name": "Gwanwyn",
         "images": {
             "main": "gwanwyn.png",
             "talent_trees": [
@@ -1612,7 +1629,8 @@
             }
         ]
     },
-    "Nico": {
+    "nico": {
+        "name": "Nico",
         "images": {
             "main": "nico.png",
             "talent_trees": [
@@ -1711,7 +1729,8 @@
             }
         ]
     },
-    "Theia": {
+    "theia": {
+        "name": "Theia",
         "images": {
             "main": "theia.png",
             "talent_trees": [
@@ -1821,7 +1840,8 @@
             }
         ]
     },
-    "Pan": {
+    "pan": {
+        "name": "Pan",
         "images": {
             "main": "pan.png",
             "talent_trees": [
@@ -1899,7 +1919,8 @@
             }
         ]
     },
-    "Kinnara": {
+    "kinnara": {
+        "name": "Kinnara",
         "images": {
             "main": "kinnara.png",
             "talent_trees": [
@@ -1948,7 +1969,8 @@
         ],
         "artifacts": []
     },
-    "Velyn": {
+    "velyn": {
+        "name": "Velyn",
         "images": {
             "main": "velyn.png",
             "talent_trees": [
@@ -1997,7 +2019,8 @@
         ],
         "artifacts": []
     },
-    "Bakshi": {
+    "bakshi": {
+        "name": "Bakshi",
         "images": {
             "main": "bakshi.png",
             "talent_trees": [
@@ -2119,7 +2142,8 @@
             }
         ]
     },
-    "Indis": {
+    "indis": {
+        "name": "Indis",
         "images": {
             "main": "indis.png",
             "talent_trees": [
