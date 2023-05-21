@@ -10,8 +10,8 @@ BEHEMOTHS_ASSETS = 'assets/behemoth/'
 GUIDE_ASSETS = 'assets/guide/'
 ARTIFACTS_ASSETS = 'assets/artifact/'
 
-TITLE_FRAME_L = '====== '
-TITLE_FRAME_R = ' ======'
+TITLE_FRAME_L = '=======> '
+TITLE_FRAME_R = ' <======='
 
 # Strings
 FOOTER = 'COD BOT Copyright © Try0n 2023'
