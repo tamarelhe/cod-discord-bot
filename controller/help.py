@@ -1,4 +1,3 @@
-import discord
 from constants import *
 from view.embed import send_base_embed
 import view.embed_struct as es
@@ -23,6 +22,8 @@ async def present_help(ctx):
     fields.append(es.Field(BOT_PREFIX+'hero <hero_name>', 'For retrieve hero information', False))
     fields.append(es.Field(BOT_PREFIX+'hero <hero_name> talent_trees', 'For retrieve hero talent trees', False))
     fields.append(es.Field(BOT_PREFIX+'hero <hero_name> artifacts', 'For retrieve hero artifacts', False))
+    fields.append(es.Field(BOT_PREFIX+'hero role <role_name>', 'For retrieve heroes by role', False))
+    fields.append(es.Field(BOT_PREFIX+'hero unit <unit_type>', 'For retrieve heroes by unit type', False))
 
     fields.append(es.Field(TITLE_FRAME_L+"Behemoth", '', False))
     fields.append(es.Field(BOT_PREFIX+'behemoth list', 'For retrieve behemoth list', False))

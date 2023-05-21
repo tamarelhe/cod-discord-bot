@@ -1,4 +1,3 @@
-import discord
 from constants import *
 from view.embed import send_base_embed
 import view.embed_struct as es

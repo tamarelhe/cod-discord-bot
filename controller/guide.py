@@ -1,4 +1,3 @@
-import discord
 from constants import *
 import model.guide as model
 from view.embed import send_base_embed

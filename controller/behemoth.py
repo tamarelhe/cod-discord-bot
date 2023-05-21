@@ -1,4 +1,3 @@
-import discord
 import model.behemoth as model
 from constants import *
 from view.embed import send_base_embed, send_multiple_embeds

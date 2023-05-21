@@ -14,10 +14,15 @@ async def send_base_embed(ctx, embed_struct):
 
     embed=discord.Embed(title=title, description=embed_struct.description, color=E_COLOR) 
 
-    if embed_struct.attach:
-        f = discord.File(embed_struct.attach.path+embed_struct.attach.filename, filename=embed_struct.attach.filename)
-        embed.set_image(url="attachment://"+embed_struct.attach.filename)  
+    f = None
 
+    if embed_struct.attach:
+        try:
+            f = discord.File(embed_struct.attach.path+embed_struct.attach.filename, filename=embed_struct.attach.filename)
+            embed.set_image(url="attachment://"+embed_struct.attach.filename)  
+        except:
+            print("Cannot load file: ", embed_struct.attach.path+embed_struct.attach.filename)
+        
     
     for field in embed_struct.fields:
         embed.add_field(name=field.key, value=field.value, inline=field.inline)
@@ -25,7 +30,7 @@ async def send_base_embed(ctx, embed_struct):
 
     embed.set_footer(text=FOOTER)
     
-    if embed_struct.attach:
+    if embed_struct.attach and not f is None:
         await ctx.send(embed=embed, file=f)
     else:
         await ctx.send(embed=embed)

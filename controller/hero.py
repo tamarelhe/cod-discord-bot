@@ -1,4 +1,3 @@
-import discord
 import model.hero as model
 import model.artifact as model_a
 from constants import *
@@ -23,24 +22,57 @@ async def execute_hero_command(ctx, *args):
                 await present_hero(ctx, args[0])
 
     if len(args) == 2:
-        check = model.get_hero(args[0])
-        if check is None:
-            await ctx.send('Hero '+args[0]+' does not exists.')
-            return
+        if args[0] in ['role','unit']:
+            match args[0]:
+                case 'role':
+                    await present_heroes_by_role(ctx, args[1])
+                case 'unit':
+                    await present_heroes_by_units(ctx, args[1])
 
-        match args[1]:
-            case 'talent_trees':
-                await present_hero_talent_trees(ctx, args[0])
-            case 'artifacts':
-                await present_hero_artifacts(ctx, args[0])
-            case _:
-                await ctx.send(args[1]+': Invalid command option.')
+        if args[0] not in ['role','unit']:
+            check = model.get_hero(args[0])
+            if check is None:
+                await ctx.send('Hero '+args[0]+' does not exists.')
                 return
 
-   
+            match args[1]:
+                case 'talent_trees':
+                    await present_hero_talent_trees(ctx, args[0])
+                case 'artifacts':
+                    await present_hero_artifacts(ctx, args[0])
+                case _:
+                    await ctx.send(args[1]+': Invalid command option.')
+                    return
+
 
 async def present_all_heroes(ctx):
     heroes = model.list_all_heroes()
+    
+    fields = []
+
+    for i, name in enumerate(heroes):
+        hero = model.get_hero(name)
+
+        fields.append(es.Field(name+' ['+hero['rarity']+']', hero['role']+' | '+hero['buffs']+' | '+hero['units'], True))
+
+    await send_multiple_embeds(ctx, es.EStruct('Heroes List', '', None, fields), 14)
+
+
+async def present_heroes_by_role(ctx, role):
+    heroes = model.list_heroes_by_role(role)
+    
+    fields = []
+
+    for i, name in enumerate(heroes):
+        hero = model.get_hero(name)
+
+        fields.append(es.Field(name+' ['+hero['rarity']+']', hero['role']+' | '+hero['buffs']+' | '+hero['units'], True))
+
+    await send_multiple_embeds(ctx, es.EStruct('Heroes List', '', None, fields), 14)
+
+
+async def present_heroes_by_units(ctx, unit):
+    heroes = model.list_heroes_by_units(unit)
     
     fields = []
 

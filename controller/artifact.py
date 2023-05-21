@@ -1,7 +1,5 @@
-import discord
 import model.artifact as model
 from constants import *
-from disputils import BotEmbedPaginator
 from view.embed import send_base_embed, send_multiple_embeds
 import view.embed_struct as es
         
@@ -29,7 +27,7 @@ async def present_all_artifacts(ctx):
 
     for i, id in enumerate(artifacts):
         artifact = model.get_artifact(id)
-        fields.append(es.Field('Name', artifact['name'], True))
+        fields.append(es.Field(artifact['name'], id, True))
 
     await send_multiple_embeds(ctx, es.EStruct('Artifacts List', '', None, fields), 14)
 
