@@ -14,11 +14,8 @@ activity = discord.Game(name=BOT_PREFIX+"help")
 client = commands.Bot(command_prefix = BOT_PREFIX, activity=activity, intents=discord.Intents.all())
 client.remove_command('help')
 
-heroes_data = None
-
 @client.event
 async def on_ready():
-    global heroes_data
     print("COD Bot is up and running!")
     print('--------------------------')
 
