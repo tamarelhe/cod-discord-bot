@@ -1,7 +1,8 @@
 import discord
 from constants import *
 import model.guide as model
-from disputils import BotEmbedPaginator
+from view.embed import send_base_embed
+import view.embed_struct as es
         
 async def execute_guide_command(ctx, *args):
     if len(args) != 1:
@@ -19,25 +20,18 @@ async def execute_guide_command(ctx, *args):
                 return
 
 async def present_city_hall_requirements(ctx):    
-    f = discord.File(GUIDE_ASSETS+'city_hall_requirements.jpg', filename='city_hall_requirements.jpg')
-    embed=discord.Embed(title=TITLE_FRAME_L+"City Hall"+TITLE_FRAME_R, description="\u200B", color=0xFF5733) 
-    embed.set_image(url="attachment://"+'city_hall_requirements.jpg') 
-    embed.set_footer(text=FOOTER)
-    await ctx.send(embed=embed, file=f)
+    fields = []   
+    await send_base_embed(ctx, es.EStruct('City Hall', '', es.Attach(GUIDE_ASSETS, 'city_hall_requirements.jpg'), fields))
+
+
 
 async def present_cod_media(ctx):
     medias = model.list_all_media()
-    
-    list = '\n' 
 
-    for i, category in enumerate(medias):
+    fields = []   
+    for category in medias:
         media = model.get_media_by_category(category) 
-
-        list = list + '\n**'+category+'**\n\n'
-
         for m in media:
-            list = list + "["+m['description']+"]("+m['URL']+")\n"
+            fields.append(es.Field(m['description'], m['URL'], True))
 
-    embed=discord.Embed(title=TITLE_FRAME_L+"Media List"+TITLE_FRAME_R, description=list, color=0xFF5733)
-    embed.set_footer(text=FOOTER)
-    await ctx.send(embed=embed)
+    await send_base_embed(ctx, es.EStruct('Media', '', None, fields))

@@ -1,5 +1,7 @@
 import discord
 from constants import *
+from view.embed import send_base_embed
+import view.embed_struct as es
         
 async def execute_credits_command(ctx, *args):
     if len(args) > 0:
@@ -9,18 +11,14 @@ async def execute_credits_command(ctx, *args):
     await present_credits(ctx)
 
 async def present_credits(ctx):
-    
-    f = discord.File(BOT_ASSETS+'cod.jpg', filename='cod.jpg')
-    embed=discord.Embed(title=TITLE_FRAME_L+"Credits"+TITLE_FRAME_R, description="All the content of this bot was taken from the following sources\u200B", color=0xFF5733) 
-    embed.set_image(url="attachment://"+'cod.jpg') 
 
-    embed.add_field(name=TITLE_FRAME_L+"Youtubers", value='', inline=False)
-    embed.add_field(name='Chisgule Gaming', value='[Youtube](https://www.youtube.com/@HulksdenGaming)', inline=False)
-    embed.add_field(name='Hulksden Gaming', value='[Youtube](https://www.youtube.com/@Chisgule)', inline=False)
+    fields = []   
+    fields.append(es.Field(TITLE_FRAME_L+"Youtubers", '', False))
+    fields.append(es.Field('Chisgule Gaming', '[Youtube](https://www.youtube.com/@HulksdenGaming)', True))
+    fields.append(es.Field('Hulksden Gaming', '[Youtube](https://www.youtube.com/@Chisgule)', True))
 
-    embed.add_field(name=TITLE_FRAME_L+"Websites", value='', inline=False)
-    embed.add_field(name='Call of Dragons Guides', value='[Call of Dragons Guides](https://callofdragonsguides.com/)', inline=False)
-    embed.add_field(name='COD.guide', value='[COD.guide](https://cod.guide/)', inline=False)
+    fields.append(es.Field(TITLE_FRAME_L+"Websites", '', False))
+    fields.append(es.Field('Call of Dragons Guides', '[Call of Dragons Guides](https://callofdragonsguides.com/)', True))
+    fields.append(es.Field('COD.guide', '[COD.guide](https://cod.guide/)', True))
 
-    embed.set_footer(text=FOOTER)
-    await ctx.send(embed=embed, file=f)
+    await send_base_embed(ctx, es.EStruct('Credits', 'All the content of this bot was taken from the following sources', es.Attach(BOT_ASSETS, 'cod.jpg'), fields))

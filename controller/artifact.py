@@ -2,6 +2,8 @@ import discord
 import model.artifact as model
 from constants import *
 from disputils import BotEmbedPaginator
+from view.embed import send_base_embed, send_multiple_embeds
+import view.embed_struct as es
         
 async def execute_artifact_command(ctx, *args):
     if len(args) != 1:
@@ -22,43 +24,29 @@ async def execute_artifact_command(ctx, *args):
 
 async def present_all_artifacts(ctx):
     artifacts = model.list_all_artifacts()
-    
-    embeds = []
-    embed=discord.Embed(title=TITLE_FRAME_L+"Artifacts List"+TITLE_FRAME_R, description="\u200B", color=0xFF5733) 
+
+    fields = []
+
     for i, id in enumerate(artifacts):
-        artifact = model.get_artifact(id)        
-        embed.add_field(name='Name', value=artifact['name'], inline=True)
-        if (i+1)%2 == 0:
-            embed.add_field(name="\u200B", value="\u200B")
+        artifact = model.get_artifact(id)
+        fields.append(es.Field('Name', artifact['name'], True))
 
-        if (i+1)%14 == 0:
-            embed.add_field(name="\u200B", value="\u200B", inline=True)
-            embed.set_footer(text=FOOTER)
-            embeds.append(embed)
-            embed=discord.Embed(title=TITLE_FRAME_L+"Artifacts List"+TITLE_FRAME_R, description="\u200B", color=0xFF5733)
-    embed.add_field(name="\u200B", value="\u200B", inline=False)
-    embed.set_footer(text=FOOTER)
-    embeds.append(embed)
-
-    paginator = BotEmbedPaginator(ctx, embeds)
-    await paginator.run()    
+    await send_multiple_embeds(ctx, es.EStruct('Artifacts List', '', None, fields), 14)
 
 
 async def present_artifact(ctx, id):
     artifact = model.get_artifact(id)
+
+    fields = []
     
-    f = discord.File(ARTIFACTS_ASSETS+artifact['image'], filename=artifact['image'])
-    embed=discord.Embed(title=TITLE_FRAME_L+artifact['name']+TITLE_FRAME_R, description="", color=0xFF5733)    
-    embed.set_image(url="attachment://"+artifact['image'])  
-    embed.add_field(name="Info", value=artifact['info'], inline=False)
-    embed.add_field(name="Tier", value=artifact['tier'], inline=True)
-    embed.add_field(name="\u200B", value="\u200B", inline=True)
-    embed.add_field(name="Rarity", value=artifact['rarity'], inline=True)
-    embed.add_field(name="Role", value=artifact['role'], inline=True)
-    embed.add_field(name="\u200B", value="\u200B", inline=True)
-    embed.add_field(name="Stats", value=artifact['stats'], inline=True)
-    embed.add_field(name="Cooldown", value=artifact['cooldown'], inline=True)
-    embed.set_footer(text=FOOTER)
-    await ctx.send(embed=embed, file=f)
+    fields.append(es.Field("Info", artifact['info'], False))
+    fields.append(es.Field("Tier", artifact['tier'], False))
+    fields.append(es.Field("Rarity", artifact['rarity'], False))
+    fields.append(es.Field("Role", artifact['role'], False))
+    fields.append(es.Field("Stats", artifact['stats'], False))
+    fields.append(es.Field("Cooldown", artifact['cooldown'], False))
+
+    await send_base_embed(ctx, es.EStruct(artifact['name'], '', es.Attach(ARTIFACTS_ASSETS, artifact['image']), fields))
+
         
 

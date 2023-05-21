@@ -2,8 +2,9 @@ import discord
 import model.hero as model
 import model.artifact as model_a
 from constants import *
-from disputils import BotEmbedPaginator
 import controller.artifact as arti
+from view.embed import send_base_embed, send_multiple_embeds
+import view.embed_struct as es
         
 async def execute_hero_command(ctx, *args):
     if len(args) == 0 or len(args) > 2:
@@ -36,67 +37,48 @@ async def execute_hero_command(ctx, *args):
                 await ctx.send(args[1]+': Invalid command option.')
                 return
 
-
-
+   
 
 async def present_all_heroes(ctx):
     heroes = model.list_all_heroes()
     
-    embeds = []
-    embed=discord.Embed(title=TITLE_FRAME_L+"Heroes List"+TITLE_FRAME_R, description="\u200B", color=0xFF5733) 
+    fields = []
+
     for i, name in enumerate(heroes):
         hero = model.get_hero(name)
-        n = name+' ['+hero['rarity']+']'
-        v = hero['role']+' | '+hero['buffs']+' | '+hero['units']
-        embed.add_field(name=n, value=v, inline=True)
-        if (i+1)%2 == 0:
-            embed.add_field(name="\u200B", value="\u200B")
 
-        if (i+1)%14 == 0:
-            embed.add_field(name="\u200B", value="\u200B", inline=True)
-            embed.set_footer(text=FOOTER)
-            embeds.append(embed)
-            embed=discord.Embed(title=TITLE_FRAME_L+"Heroes List"+TITLE_FRAME_R, description="\u200B", color=0xFF5733)
-    embed.add_field(name="\u200B", value="\u200B", inline=False)
-    embed.set_footer(text=FOOTER)
-    embeds.append(embed)
+        fields.append(es.Field(name+' ['+hero['rarity']+']', hero['role']+' | '+hero['buffs']+' | '+hero['units'], True))
 
-    paginator = BotEmbedPaginator(ctx, embeds)
-    await paginator.run()    
+    await send_multiple_embeds(ctx, es.EStruct('Heroes List', '', None, fields), 14)
 
 
 async def present_hero(ctx, name):
     hero = model.get_hero(name)
-    
-    f = discord.File(HERO_ASSETS+hero['images']['main'], filename=hero['images']['main'])
-    embed=discord.Embed(title=TITLE_FRAME_L+name+TITLE_FRAME_R, description="", color=0xFF5733)    
-    embed.set_image(url="attachment://"+hero['images']['main'])  
-    embed.add_field(name="Rarity", value=hero['rarity'], inline=True)
-    embed.add_field(name="Role", value=hero['role'], inline=True)
-    embed.add_field(name="\u200B", value="\u200B", inline=True)
-    embed.add_field(name="Buffs", value=hero['buffs'], inline=True)
-    embed.add_field(name="Units", value=hero['units'], inline=True)
-    embed.add_field(name="\u200B", value="\u200B", inline=True)
-    embed.add_field(name="Pairings", value=hero['pairings'], inline=True)
-    embed.add_field(name="Tier", value=hero['tier'], inline=True)
-    embed.add_field(name="\u200B", value="\u200B", inline=True)
-    for skill in hero['skills']:
-        embed.add_field(name="\u200B", value="\u200B", inline=True)
-        embed.add_field(name=skill['name']+' ['+skill['type']+']', value=skill['description']+'\n'+skill['upgrade_desc'], inline=False)
-    embed.add_field(name="\u200B", value="\u200B", inline=False)
-    embed.set_footer(text=FOOTER)
-    await ctx.send(embed=embed, file=f)
 
+    fields = []
+    
+    fields.append(es.Field("Rarity", hero['rarity'], True))
+    fields.append(es.Field("Role", hero['role'], True))
+    fields.append(es.Field("\u200B", "\u200B", True))
+    fields.append(es.Field("Buffs", hero['buffs'], True))
+    fields.append(es.Field("Units", hero['units'], True))
+    fields.append(es.Field("\u200B", "\u200B", True))
+    fields.append(es.Field("Pairings", hero['pairings'], True))
+    fields.append(es.Field("Tier", hero['tier'], True))
+    fields.append(es.Field("\u200B", "\u200B", True))
+    for skill in hero['skills']:
+        fields.append(es.Field("\u200B", "\u200B", True))
+        fields.append(es.Field(skill['name']+' ['+skill['type']+']', skill['description']+'\n'+skill['upgrade_desc'], False))
+    fields.append(es.Field("\u200B", "\u200B", False))
+
+    await send_base_embed(ctx, es.EStruct(name, '', es.Attach(HERO_ASSETS, hero['images']['main']), fields))
 
 
 async def present_hero_talent_trees(ctx, name):
     talent_trees = model.get_hero_talent_trees(name)
 
     for talent_tree in talent_trees:
-        f = discord.File(TALENT_TREES_ASSETS+talent_tree, filename=talent_tree)
-        embed=discord.Embed(title='', description='', color=0xFF5733)
-        embed.set_image(url="attachment://"+talent_tree)
-        await ctx.send(embed=embed, file=f)
+        await send_base_embed(ctx, es.EStruct('', '', es.Attach(TALENT_TREES_ASSETS, talent_tree), []))
 
 
 async def present_hero_artifacts(ctx, name):
