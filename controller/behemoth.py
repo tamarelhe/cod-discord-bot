@@ -50,7 +50,7 @@ async def present_behemoth(ctx, name):
     fields.append(es.Field("Battle Duration", behemoth['battle_duration'], True))
     fields.append(es.Field("\u200B", "\u200B", True))
     for i, url in enumerate(behemoth['urls']):
-        fields.append(es.Field('', "["+name+" Guide "+str(i+1)+"]("+url+")", True))
+        fields.append(es.Field('', "GUIDE "+str(i+1)+" "+behemoth['name']+" => [Youtube]("+url+")", True))
 
     await send_base_embed(ctx, es.EStruct(behemoth['name'], '', es.Attach(BEHEMOTHS_ASSETS, behemoth['image']), fields))
 
