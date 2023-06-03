@@ -9,7 +9,10 @@
         "movement_speed": "Very Fast",
         "battle_duration": "300s",
         "urls": [
-            "https://www.youtube.com/watch?v=bDUTisht5p0"
+            {
+                "title": "ultimate GIANT BEAR guide for BEGINNERS",
+                "url": "https://www.youtube.com/watch?v=bDUTisht5p0"
+            }
         ]
     },
     "giant": {
@@ -22,7 +25,10 @@
         "movement_speed": "Very Fast",
         "battle_duration": "300s",
         "urls": [
-            "https://www.youtube.com/watch?v=EfjwEXxdfJI"
+            {
+                "title": "GIANT behemoth GUIDE | tips & tricks",
+                "url": "https://www.youtube.com/watch?v=EfjwEXxdfJI"
+            }
         ]
     },
     "thunderroc": {
@@ -35,7 +41,10 @@
         "movement_speed": "Very Fast",
         "battle_duration": "300s",
         "urls": [
-            "https://www.youtube.com/watch?v=mEYf6MwBElg"
+            {
+                "title": "how to defeat Thunder roc | Ultimate guide",
+                "url": "https://www.youtube.com/watch?v=mEYf6MwBElg"
+            }
         ]
     },
     "hydra": {
@@ -48,7 +57,10 @@
         "movement_speed": "Very Fast",
         "battle_duration": "300s",
         "urls": [
-            "https://www.youtube.com/watch?v=gllTPoNL5hg"
+            {
+                "title": "HOW TO DEFEAT HYDRA | ultimate guide",
+                "url": "https://www.youtube.com/watch?v=gllTPoNL5hg"
+            }
         ]
     },
     "direbear": {
@@ -61,7 +73,10 @@
         "movement_speed": "Very Fast",
         "battle_duration": "300s",
         "urls": [
-            "https://www.youtube.com/watch?v=1EYRfUPl0ZA"
+            {
+                "title": "HOW to DEFEAT DIREBEAR | tips and tricks | ultimate Guide",
+                "url": "https://www.youtube.com/watch?v=1EYRfUPl0ZA"
+            }
         ]
     },
     "necrogiant": {
@@ -74,8 +89,14 @@
         "movement_speed": "Very Fast",
         "battle_duration": "300s",
         "urls": [
-            "https://www.youtube.com/watch?v=AsxTDsTsa74",
-            "https://www.youtube.com/watch?v=ix36y_5EuTs"
+            {
+                "title": "ULTIMATE GUIDE to defeat NECROGIANT",
+                "url": "https://www.youtube.com/watch?v=AsxTDsTsa74"
+            },
+            {
+                "title": "necrogiant TIPS & TRICKS tutorial | Ultimate guide",
+                "url": "https://www.youtube.com/watch?v=ix36y_5EuTs"
+            }
         ]
     },
     "magma": {
@@ -88,7 +109,10 @@
         "movement_speed": "Very Fast",
         "battle_duration": "300s",
         "urls": [
-            "https://www.youtube.com/watch?v=--j5njc6Fb4"
+            {
+                "title": "magma guide for low power alliances",
+                "url": "https://www.youtube.com/watch?v=--j5njc6Fb4"
+            }
         ]
     },
     "flamedragon": {
@@ -101,7 +125,10 @@
         "movement_speed": "Very Fast",
         "battle_duration": "300s",
         "urls": [
-            "https://www.youtube.com/watch?v=fCJjivo0sNU"
+            {
+                "title": "how to beat flame dragon | ultimate guide",
+                "url": "https://www.youtube.com/watch?v=fCJjivo0sNU"
+            }
         ]
     }
 }
